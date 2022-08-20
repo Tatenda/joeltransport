@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <!-- about -->
-<div class="about">
+<section class="about">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -25,21 +25,21 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <div class="about_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_danger_600px.jpg" alt="" />
+                <div class="moves_img">
+                    <img src="./img/Thumbnail_danger_600px.jpg" alt="" />
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 <!-- leadership -->
-<div class="leadership">
+<section class="leadership">
     <div class="container">
         <h3>leadership</h3>
         <div class="row">
             <div class="col-md-4">
                 <div class="leadership_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/sphiwe.svg" alt="" />
+                    <img src="./img/sphiwe.svg" alt="" />
                 </div>
                 <h5>Sphiwe</h5>
                 <p>
@@ -51,7 +51,7 @@
             </div>
             <div class="col-md-4">
                 <div class="leadership_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Peter_400px x 400px .JPG" alt="" />
+                    <img src="./img/Peter_400px x 400px .JPG" alt="" />
                 </div>
                 <h5>Peter</h5>
                 <p>
@@ -63,7 +63,7 @@
             </div>
             <div class="col-md-4">
                 <div class="leadership_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/JT Daniel Directors image B_400px x 400px .JPG" alt="" />
+                    <img src="./img/JT Daniel Directors image B_400px x 400px .JPG" alt="" />
                 </div>
                 <h5>Daniel</h5>
                 <p>
@@ -75,15 +75,16 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 <!-- team -->
-<div class="team">
+<section class="team">
     <div class="container">
+        <h3>team</h3>
         <div class="team_box">
             <div class="row">
                 <div class="col-md-8 m-auto">
-                    <div class="team_img">
-                        <img src="<?php bloginfo('template_directory') ?>/img/Team_1200px_x_600px.jpg" alt="" />
+                    <div class="moves_img">
+                        <img src="./img/Packing 3_600px _ 400px.jpg" alt="" />
                     </div>
                     <p>
                         We are committed to work environment where everyone is treated
@@ -93,7 +94,84 @@
             </div>
         </div>
     </div>
-</div>
+</section>
+<!-- community -->
+<section class="community">
+    <div class="container">
+        <h3>community</h3>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, magni?
+            Accusamus nihil maxime ducimus quam animi vel natus error obcaecati,
+            adipisci non omnis quos nostrum facilis, iusto ad ipsam eveniet?
+        </p>
+        <br />
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem culpa
+            libero consectetur, est ullam architecto deserunt explicabo eaque fuga
+            assumenda unde tenetur molestiae mollitia saepe, maxime voluptates
+            facere error ad.
+        </p>
+    </div>
+</section>
+<!-- careers -->
+<section class="careers">
+    <div class="container">
+        <h3>careers</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet
+            quibusdam ipsam, vitae praesentium suscipit vel. Quaerat nemo quod
+            porro, ratione molestias soluta. Odio veniam sed id doloremque autem
+            quas.
+        </p>
+    </div>
+    <div class="jobs">
+        <div class="container">
+            <h5>Job openings</h5>
+            <p>There are currently no jobs available</p>
+        </div>
+    </div>
+</section>
+
+<!-- /membership -->
+<section class="membership">
+    <div class="container">
+        <div class="membership_title">
+            <h3>accreditation & membership</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="member_item card_box">
+                    <img src="./img/saima-1.png" alt="" />
+                    <p>South African International Movers Association</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="member_item card_box">
+                    <img src="./img/National_Bargarning.svg" alt="" />
+                    <p>
+                        National Bargaining Council For The Road Freight and Logistics
+                        Industry
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="member_item card_box">
+                    <img src="./img/The-Road-Freight-1.svg" alt="" />
+                    <p>National Road Freight Association</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer -->
 <!-- membership -->
 <!-- plugin goes here -->
 <!-- /membership -->
