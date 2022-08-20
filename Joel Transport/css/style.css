@@ -16,7 +16,8 @@ footer color #162643
 }
 @font-face {
   font-family: Futura;
-  src: url(../fonts/Futura.ttc);
+  src: url(../fonts/Futura\ Light\ font.ttf);
+  font-size: 20px;
 }
 body {
   font-family: Futura;
