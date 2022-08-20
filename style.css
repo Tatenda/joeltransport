@@ -38,6 +38,14 @@ h6 {
   font-family: MajoraArca3;
 }
 
+:root {
+  --color-primary: #57C5CC;
+  --color-secondary: #17479E;
+  --color-accent: #ED2325;
+  --font-futura: Futura;
+  --color-white: #fff;
+}
+
 .social-nav {
   background: #17479e;
   color: #fff;
@@ -46,20 +54,30 @@ h6 {
   display: flex;
   flex-direction: row;
 }
-.nav_contact {
-  display: flex;
+/* Navigation */
+.navigation {
+  background-color: var(--color-white);
+  padding: .5em 0;
 }
 
-.nav-style {
-  background: #fff;
-  box-shadow: 0px 0px 15px;
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-a {
-  font-size: 15px;
+
+.navigation ul li a {
+  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
 }
-.nav-style a {
-  color: #17479e;
+
+.navigation ul li:last-child {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
+
 .showcase .overlay-hero {
   position: absolute;
   top: 0;
