@@ -1,38 +1,7 @@
-<?php get_header() ?>
-    <section class="showcase">
-        <!-- carousel slider -->
-        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="./img/People/showcase1.jpg" alt="First slide" />
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="./img/People/showcase4.jpg" alt="Second slide" />
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="./img/People/showcase2.jpg" alt="Third slide" />
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div> -->
-        <div class="showcase_title">
-            <h1 class="showcase_title">
-                We have +50 years moving, storage and happy customer experience - you can also ENJOY THE MOVE
-            </h1>
-        </div>
-    </section>
+<?php
+    get_header();
+    echo do_shortcode( '[jt_slides]' );
+?>
     <!-- boxes -->
     <section class="boxes">
         <div class="container">
@@ -446,9 +415,6 @@
 
     </section>
     <?php wp_footer(); ?>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
 </body>
 
 </html>

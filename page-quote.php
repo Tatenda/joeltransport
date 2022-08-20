@@ -1,3 +1,3 @@
 <?php get_header(); ?>
-<h1>Quote</h1>
+<?php echo do_shortcode( '[jt_survey]' ); ?>
 <?php wp_footer(); ?>
