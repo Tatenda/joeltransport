@@ -8,8 +8,199 @@ card hover bg - #17479E
 footer bg -#F4F4F4
 footer color #162643
 */
+
+@font-face {
+  font-family: MajoraArca3;
+  src: url(../fonts/ArcaMajora3-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Futura;
+  src: url(../fonts/Futura.ttc);
+}
 body {
+  font-family: Futura;
   color: gray;
+  font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: MajoraArca3;
+}
+
+.social-nav {
+  background: #17479e;
+  color: #fff;
+}
+.nav_item {
+  display: flex;
+  flex-direction: row;
+}
+.nav_contact {
+  display: flex;
+}
+
+.nav-style {
+  background: #fff;
+  box-shadow: 0px 0px 15px;
+}
+a {
+  font-size: 15px;
+}
+.nav-style a {
+  color: #17479e;
+}
+.showcase .overlay-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.7;
+  height: 80%;
+}
+.showcase_title {
+  position: absolute;
+  z-index: 15;
+  top: 30%;
+  /* margin: 0 100px; */
+  width: 100%;
+}
+.showcase_title h1 {
+  font-family: Futura, medium;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 400;
+}
+.box .card_title {
+  font-family: MajoraArca3 bold;
+  font-size: 32px;
+  text-align: left;
+  color: #17479e;
+}
+.box .overlay_text h4 {
+  font-family: Arca Majora 3 bold;
+  font-size: 32px;
+  text-align: left;
+  color: #fff;
+}
+.box p {
+  font-family: Futura, medium;
+  font-size: 20px;
+}
+.box span {
+  font-family: Futura, medium;
+  font-size: 18px;
+  color: #999999;
+}
+.box .btn_view {
+  color: #17479e;
+  background: #fff;
+  border: 1px solid #17479e;
+  text-align: center;
+  border-radius: 24px;
+}
+.box .btn_view:hover {
+  background-color: #89d6db;
+  color: #2b3a54;
+  font-size: 12px;
+  padding: 10px 15px;
+  text-align: center;
+}
+.history h6 {
+  font-family: Futura, medium;
+}
+.history p {
+  text-align: left;
+  font-size: 15px;
+}
+.history a {
+  text-align: right;
+  color: #000000;
+}
+.owner_img {
+  box-shadow: 0px 0px 12px #00000029;
+}
+.reviews h3 {
+  font-family: Arca Majora bold;
+  font-size: 48px;
+  text-align: left;
+  letter-spacing: -0.77px;
+  color: #162643;
+}
+.reviews_title a {
+  font-family: Futura medium;
+  font-size: 32px;
+  text-align: right;
+  color: #0000008a;
+}
+.review_section {
+  margin: 30px 0;
+}
+.reviews_section img {
+  width: 80px;
+  border-radius: 50px;
+}
+.review {
+  padding: 15px;
+  width: 200px;
+  margin: auto;
+}
+.review img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+.rating.fa-star {
+  color: #17479e;
+}
+.review p {
+  color: #949494;
+  font-size: 14px;
+  text-align: left;
+}
+.services {
+  padding: 30px 0;
+  background: #fbfbfb;
+}
+.services_item {
+  margin: 15px;
+}
+.services_item img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.services_item p {
+  text-align: center;
+  color: #fff;
+  letter-spacing: -0.28px;
+}
+.item_title {
+  background: #162643;
+  color: #fff;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+}
+.item_title:hover {
+  background: #17479e;
+  color: #fff;
+  border-radius: 0px 0px 10px 10px;
+}
+.membersip {
+  margin: 80px 0;
+}
+.member_item {
+  width: 250px;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+.member_item img {
+  width: 200px;
 }
 
 /* on click */
@@ -69,13 +260,15 @@ body {
   transition: 0.5s ease;
   background-color: #162643;
   border-radius: 20px;
+  color: #fff;
 }
 
 .card_box:hover .overlay {
   opacity: 1;
 }
 .card_box {
-  box-shadow: darkgrey 1px 4px 4px;
+  box-shadow: 0px 0px 12px #00000029;
+  border-radius: 24px;
 }
 .overlay_text {
   color: white;
@@ -191,13 +384,11 @@ body {
 .reviews h3 {
   color: #162643;
 }
-.reviews p {
-  font-size: 11px;
-}
+
 .reviews_title {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .box_reviews {
 }
@@ -260,6 +451,7 @@ body {
 .footer {
   padding: 80px 0 0;
   background: #f4f4f4;
+  font-size: 15px;
 }
 .footer_icon img {
   vertical-align: middle;
