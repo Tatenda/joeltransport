@@ -179,4 +179,4 @@
 <!-- plugin goes here -->
 <!-- /membership -->
 
-<?php wp_footer(); ?>
+<?php get_footer(); ?>

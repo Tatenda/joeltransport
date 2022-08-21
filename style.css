@@ -13,18 +13,45 @@ Text Domain: joeltransport
  * Globals
  */
 
-@font-face {
-  font-family: MajoraArca3;
-  src: url(./fonts/ArcaMajora3-Bold.otf);
-  font-weight: bold;
+ @font-face {
+  font-family: 'futuralight';
+  src: url('./fonts/futura_light_font-webfont.woff2') format('woff2'),
+       url('./fonts/futura_light_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-  font-family: Futura;
-  src: url(./fonts/Futura\ Light\ font.ttf);
-  font-size: 20px;
+  font-family: 'futuralight_condensed';
+  src: url('./fonts/futura-condensedlight-webfont.woff2') format('woff2'),
+       url('./fonts/futura-condensedlight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'arca_majora_3bold';
+  src: url('./fonts/arcamajora3-bold-webfont.woff2') format('woff2'),
+       url('./fonts/arcamajora3-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'arca_majora_3heavy';
+  src: url('./fonts/arcamajora3-heavy-webfont.woff2') format('woff2'),
+       url('./fonts/arcamajora3-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Futura;
+  font-family: 'futuralight';
   color: gray;
   font-size: 20px;
 }
@@ -34,14 +61,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: MajoraArca3;
+  font-family: 'arca_majora_3bold';
+
 }
 
 :root {
   --color-primary: #57c5cc;
   --color-secondary: #17479e;
   --color-accent: #ed2325;
-  --font-futura: Futura;
+  --font-futura: 'futuralight';
+  --font-majora-arca3: 'arca_majora_3bold';
   --color-white: #fff;
 }
 
@@ -93,6 +122,7 @@ h6 {
   top: 30%;
   width: 100%;
 }
+
 .showcase_title h1 {
   font-family: Futura, medium;
   font-size: 32px;
@@ -106,7 +136,8 @@ h6 {
   color: #17479e;
 }
 .box .overlay_text h4 {
-  font-family: Arca Majora 3 bold;
+  font-family: var(--font-majora-arca3);
+  font-weight: bold;
   text-align: left;
   color: #fff;
 }
