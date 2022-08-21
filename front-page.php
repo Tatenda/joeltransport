@@ -1,7 +1,47 @@
 <?php
 get_header();
-echo do_shortcode('[jt_slides]');
 ?>
+<div class="slider">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-2_2500px-x-800px.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-3_2500px-x-800px.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero_image_1_2500px_x_800px.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
 <!-- boxes -->
 <section class="boxes">
     <div class="container">
@@ -210,11 +250,9 @@ echo do_shortcode('[jt_slides]');
     </div>
 </section>
 <!-- transport history -->
-
 <section class="history">
     <div class="container">
         <div class="row">
-
             <div class="col-md-6">
                 <h6>Joel Transport history...</h6>
                 <p>
@@ -229,48 +267,24 @@ echo do_shortcode('[jt_slides]');
                     <a name="" id="" class="btn_history" href="#" role="button">read more</a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="owner_img color">
-                    <div class="img_card card_box">
-                        <img src="<?php bloginfo('template_directory') ?>/img/JT History Image B 480px by 480px old effect.jpg" alt="owner_img" />
+                    <div class="history_img card_box">
+                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg" style="width: 360px;height:400px; position:absolute; margin-top:-120px; border-radius:24px;" alt="owner_img" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="mobile_history">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="owner_img color">
-                        <div class="img_card card_box">
-                            <img src="<?php bloginfo('template_directory') ?>/img/JT History Image B 480px by 480px old effect.jpg" alt="owner_img" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h6>Joel Transport history...</h6>
-                    <p>
-                        Joel Transport has been moving families and offices since 1965
-                        and remained consistent in the delivery of excellent services
-                        daily. We make your move smooth and hassle-free from packing to
-                        transport and storage. Our passion for our customer satisfaction
-                        is what inspires us to do better every day. We will be with you
-                        every step of the way.
-                    </p>
-                    <div class="button text-right">
-                        <a name="" id="" class="btn_history" href="#" role="button">read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
 </section>
+
 <!-- reviews -->
 <section class="reviews">
     <div class="container">
         <div class="reviews_title">
-            <h3>customer reviews</h3>
+            <h4>customer reviews</h4>
             <a href="">view on Google Reviews</a>
         </div>
         <div class="reviews_section">
@@ -347,7 +361,7 @@ echo do_shortcode('[jt_slides]');
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Domestic_move.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Home-move-320.jpg" alt="" />
 
                     <div class="item_title">
                         <p>Domestic move</p>
@@ -356,7 +370,7 @@ echo do_shortcode('[jt_slides]');
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_International_320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_International_320px-x-320px.jpg" alt="" />
 
                     <div class="item_title">
                         <p>International move</p>
@@ -365,7 +379,7 @@ echo do_shortcode('[jt_slides]');
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Packing 1_320px by 320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnaill_home_and_office_320px_x_320px.jpg" alt="" />
 
                     <div class="item_title">
                         <p>Home move</p>
@@ -374,7 +388,7 @@ echo do_shortcode('[jt_slides]');
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_4_Office_320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Office-move-320.jpg" alt="" />
 
                     <div class="item_title">
                         <p>Office move</p>
@@ -385,7 +399,7 @@ echo do_shortcode('[jt_slides]');
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_danger_320.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px.jpg" alt="" />
                     <div class="item_title">
                         <p>Specialized services</p>
                     </div>
@@ -393,7 +407,7 @@ echo do_shortcode('[jt_slides]');
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_storage_600px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_storage_320px-_-320px.jpg" alt="" />
                     <div class="item_title">
                         <p>Storage move</p>
                     </div>
@@ -401,7 +415,7 @@ echo do_shortcode('[jt_slides]');
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Packing_2_320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-2_320px-by-320px.jpg" alt="" />
                     <div class="item_title">
                         <p>Packing services</p>
                     </div>
@@ -409,7 +423,7 @@ echo do_shortcode('[jt_slides]');
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Packing 1_320px by 320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-material-320.jpg" alt="" />
                     <div class="item_title">
                         <p>Packing material</p>
                     </div>
@@ -429,13 +443,13 @@ echo do_shortcode('[jt_slides]');
         <div class="row">
             <div class="col-sm-4">
                 <div class="member_item card_box">
-                    <img src="<?php bloginfo('template_directory') ?>/img/saima-1.png" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/siama.jpg" alt="" />
                     <p>South African International Movers Association</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="member_item card_box">
-                    <img src="<?php bloginfo('template_directory') ?>/img/National_Bargarning.svg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/nbcrfli.jpg" alt="" />
                     <p>
                         National Bargaining Council For The Road Freight and Logistics
                         Industry
@@ -444,7 +458,7 @@ echo do_shortcode('[jt_slides]');
             </div>
             <div class="col-sm-4">
                 <div class="member_item card_box">
-                    <img src="<?php bloginfo('template_directory') ?>/img/The-Road-Freight-1.svg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/rfa.jpg" alt="" />
                     <p>National Road Freight Association</p>
                 </div>
             </div>
@@ -452,5 +466,4 @@ echo do_shortcode('[jt_slides]');
     </div>
 </section>
 
-<!--  -->
-<?php wp_footer(); ?>
+<?php get_footer(); ?>

@@ -133,7 +133,7 @@
         </nav>
         <div class="footer_bottom d-flex">
             <div class="copyright text-center">
-                <p>Copyright. 2022 Joel Transport. All Rights Reserved</p>
+                <p>Copyright&copy; <?php echo Date('Y'); ?> - <?php bloginfo('name'); ?> Joel Transport. All Rights Reserved</p>
             </div>
             <div class="social_icons">
                 <ul class="d-flex">
@@ -153,14 +153,11 @@
             </div>
         </div>
     </section>
-    <p>&copy; <?php echo Date('Y'); ?> - <?php bloginfo('name'); ?></p>
-    <p>
-        <a href="#">Back to top</a>
-    </p>
+
 </footer>
 <?php wp_footer(); ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
 </body>
 

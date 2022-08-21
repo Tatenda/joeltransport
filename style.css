@@ -14,17 +14,51 @@ Text Domain: joeltransport
  */
 
 @font-face {
-  font-family: MajoraArca3;
-  src: url(../fonts/ArcaMajora3-Bold.otf);
-  font-weight: bold;
+  font-family: "futuralight";
+  src: url("./fonts/futura_light_font-webfont.woff2") format("woff2"),
+    url("./fonts/futura_light_font-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-  font-family: Futura;
-  src: url(../fonts/Futura-Medium.ttf);
-  font-size: 20px;
+  font-family: "futuralight_condensed";
+  src: url("./fonts/futura-condensedlight-webfont.woff2") format("woff2"),
+    url("./fonts/futura-condensedlight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "arca_majora_3bold";
+  src: url("./fonts/arcamajora3-bold-webfont.woff2") format("woff2"),
+    url("./fonts/arcamajora3-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "arca_majora_3heavy";
+  src: url("./fonts/arcamajora3-heavy-webfont.woff2") format("woff2"),
+    url("./fonts/arcamajora3-heavy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "futuramedium";
+  src: url("./fonts/futura-medium-webfont.woff2") format("woff2"),
+    url("./fonts.futura-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Futura;
+  font-family: "futuramedium";
   color: gray;
   font-size: 20px;
 }
@@ -34,14 +68,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: MajoraArca3;
+  font-family: "arca_majora_3bold";
 }
 
 :root {
   --color-primary: #57c5cc;
   --color-secondary: #17479e;
   --color-accent: #ed2325;
-  --font-futura: Futura;
+  --font-family-futura: "futuramedium";
+  --font-majora-arca3: "arca_majora_3bold";
   --color-white: #fff;
 }
 
@@ -64,6 +99,7 @@ h6 {
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: space-around;
 }
 
 .navigation ul li a {
@@ -93,8 +129,9 @@ h6 {
   top: 30%;
   width: 100%;
 }
+
 .showcase_title h1 {
-  font-family: Futura, medium;
+  font-family: var(--font-family-futura);
   font-size: 32px;
   color: #fff;
   font-weight: 400;
@@ -106,19 +143,21 @@ h6 {
   color: #17479e;
 }
 .box .overlay_text h4 {
-  font-family: Arca Majora 3 bold;
+  font-family: var(--font-majora-arca3);
+  font-weight: bold;
   text-align: left;
   color: #fff;
 }
 .overlay ul {
   padding: 0;
+  font-family: "futuramedium";
 }
 .box p {
-  font-family: Futura, medium;
+  font-family: var(--font-family-futura);
   font-size: 20px;
 }
 .box span {
-  font-family: Futura, medium;
+  font-family: var(--font-family-futura);
   font-size: 18px;
   color: #999999;
 }
@@ -137,7 +176,13 @@ h6 {
   text-align: center;
 }
 .history h6 {
-  font-family: Futura, medium;
+  font-family: futuramedium;
+}
+.history_img {
+  width: 400px;
+  position: absolute;
+  margin-top: -120px;
+  border-radius: 24px;
 }
 .history p {
   text-align: left;
@@ -158,7 +203,7 @@ h6 {
   color: #162643;
 }
 .reviews_title a {
-  font-family: Futura medium;
+  font-family: futuramedium;
   font-size: 32px;
   text-align: right;
   color: #0000008a;
@@ -309,8 +354,8 @@ h6 {
   border-radius: 20px;
 }
 /* nav
-      ------
-       */
+        ------
+         */
 .navbar-brand img {
   vertical-align: middle;
   border-style: none;
@@ -395,13 +440,7 @@ h6 {
 .history h6 {
   color: #000;
 }
-.img_card {
-  position: absolute;
-  top: -50%;
-  width: 360px;
-  height: 400px;
-  box-shadow: darkgrey 1px 4px 4px;
-}
+
 .img_card img {
   border-radius: 20px;
   height: 400px;
@@ -529,22 +568,55 @@ h6 {
   display: none;
 }
 
-/* 
+/*
   
-  /* resources */
+    /* resources */
 
 .resource_nav {
   justify-content: center;
 }
 
 /*  mobile
-      ----------------
-      
-      --------------*/
+        ----------------
+  
+        --------------*/
 
-/* 
-      reviws cards
-      */
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+/*
+        reviws cards
+        */
 
 .review_card {
   margin: 5px;
@@ -624,9 +696,9 @@ h6 {
   margin: 10px;
 }
 
-/* 
-      accreditation and membership
-  */
+/*
+        accreditation and membership
+    */
 
 /* about */
 
@@ -862,14 +934,7 @@ label {
   .mobile_off {
     display: none;
   }
-  .mobile_history {
-    flex-direction: row-reverse;
-  }
-  .img_card {
-    width: 360px;
-    height: 400px;
-    box-shadow: darkgrey 1px 4px 4px;
-  }
+
   .mobile_footer {
     background: #f4f4f4;
     padding: 30px 0;
