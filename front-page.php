@@ -443,7 +443,7 @@ get_header();
         <div class="row">
             <div class="col-sm-4">
                 <div class="member_item card_box">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/siama.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/siama.jpg" alt="update" />
                     <p>South African International Movers Association</p>
                 </div>
             </div>
