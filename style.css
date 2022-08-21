@@ -35,7 +35,6 @@ Text Domain: joeltransport
        url('./fonts/arcamajora3-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
@@ -46,12 +45,22 @@ Text Domain: joeltransport
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'futuramedium';
+  src: url('./fonts/futura-medium-webfont.woff2') format('woff2'),
+       url('./fonts/futura-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'futuralight';
+  font-family: 'futuramedium';
   color: gray;
   font-size: 20px;
 }
@@ -69,7 +78,7 @@ h6 {
   --color-primary: #57c5cc;
   --color-secondary: #17479e;
   --color-accent: #ed2325;
-  --font-futura: 'futuralight';
+  --font-family-futura: 'futuramedium';
   --font-majora-arca3: 'arca_majora_3bold';
   --color-white: #fff;
 }
@@ -124,7 +133,7 @@ h6 {
 }
 
 .showcase_title h1 {
-  font-family: Futura, medium;
+  font-family: var(--font-family-futura);
   font-size: 32px;
   color: #fff;
   font-weight: 400;
@@ -145,11 +154,11 @@ h6 {
   padding: 0;
 }
 .box p {
-  font-family: Futura, medium;
+  font-family: var(--font-family-futura);
   font-size: 20px;
 }
 .box span {
-  font-family: Futura, medium;
+  font-family: var(--font-family-futura);
   font-size: 18px;
   color: #999999;
 }
