@@ -15,12 +15,12 @@ Text Domain: joeltransport
 
 @font-face {
   font-family: MajoraArca3;
-  src: url(../fonts/ArcaMajora3-Bold.otf);
+  src: url(./fonts/ArcaMajora3-Bold.otf);
   font-weight: bold;
 }
 @font-face {
   font-family: Futura;
-  src: url(../fonts/Futura\ Light\ font.ttf);
+  src: url(./fonts/Futura\ Light\ font.ttf);
   font-size: 20px;
 }
 body {
@@ -524,8 +524,8 @@ h6 {
   display: none;
 }
 
-/* 
-  
+/*
+
   /* resources */
 
 .resource_nav {
@@ -534,7 +534,7 @@ h6 {
 
 /*  mobile
       ----------------
-      
+
       --------------*/
 
 @media (max-width: 768px) {
@@ -570,7 +570,7 @@ h6 {
   transform: translateX(0);
 }
 
-/* 
+/*
       reviws cards
       */
 
@@ -652,7 +652,7 @@ h6 {
   margin: 10px;
 }
 
-/* 
+/*
       accreditation and membership
   */
 
