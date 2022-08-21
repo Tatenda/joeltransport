@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <!-- about -->
 <section class="about">
     <div class="container">
@@ -171,6 +172,8 @@
         </div>
     </div>
 </section>
+<!-- footer -->
+
 <!-- footer -->
 <!-- membership -->
 <!-- plugin goes here -->
