@@ -10,14 +10,19 @@
 
     <?php wp_head(); ?>
 
-<style>
-        .blog-nav {
+    <style>
+        .top-menu {
             display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-content: center;
-            justify-content: center;
+            background: #17479E;
+            color: #fff;
+            list-style: none;
         }
+
+        .navigation {
+            display: flex;
+            align-items: center;
+        }
+
 
         .showcase {
             background: url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url') . '/img/Hero_image_1_2500px_x_800px.jpg'); ?>) no-repeat center center;
@@ -27,28 +32,32 @@
 
 <body>
     <header class="fixed-top">
-            <div class="top-menu">
-                <div class="container">
-                    <?php
-                        wp_nav_menu(array(
-                            "menu" => "top-menu",
-                            "container" => "",
-                            "theme_location" => "top-menu",
-                            'items_wrap' => '<ul id="" class="top-menu">%3$s</ul>'
-                        ));
-                    ?>
-                </div>
+        <div class="top-menu">
+
+            <div class="container">
+                <?php
+                wp_nav_menu(array(
+                    "menu" => "top-menu",
+                    "container" => "",
+                    "theme_location" => "top-menu",
+                    'items_wrap' => '<ul id="" class="top-menu">%3$s</ul>'
+                ));
+                ?>
+
             </div>
-            <div class="navigation">
-                <div class="container">
-                    <?php
-                        wp_nav_menu(array(
-                            "menu" => "primary",
-                            "container" => "",
-                            "theme_location" => "primary",
-                            'items_wrap' => '<ul id="" class="navbar">%3$s</ul>'
-                        ));
-                    ?>
-                </div>
+        </div>
+        <div class="navigation">
+            <a class="navbar-brand text-uppercase" href=""><img src="https://joeltransport.co.za/wp-content/uploads/2020/07/LOGO-01.png" alt="footer logo" /></a>
+            <div class="container">
+
+                <?php
+                wp_nav_menu(array(
+                    "menu" => "primary",
+                    "container" => "",
+                    "theme_location" => "primary",
+                    'items_wrap' => '<ul id="" class="navbar">%3$s</ul>'
+                ));
+                ?>
             </div>
+        </div>
     </header>

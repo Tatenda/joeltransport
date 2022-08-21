@@ -26,7 +26,7 @@
           </div>
           <div class="col-md-5">
             <div class="moves_img">
-              <img src="<?php bloginfo('template_directory') ?>./img/Thumbnail_danger_600px.jpg" alt="" />
+              <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-home-and-office-600.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="leadership_img">
-              <img src="<?php bloginfo('template_directory') ?>./img/sphiwe.svg" alt="" />
+              <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Sphiwe-JT-Directors-400.jpg" alt="" />
             </div>
             <h5>Sphiwe</h5>
             <p>
@@ -51,7 +51,7 @@
           </div>
           <div class="col-md-4">
             <div class="leadership_img">
-              <img src="<?php bloginfo('template_directory') ?>./img/Peter_400px x 400px .JPG" alt="" />
+              <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT-Peter-Directors.jpg" alt="" />
             </div>
             <h5>Peter</h5>
             <p>
@@ -64,7 +64,7 @@
           <div class="col-md-4">
             <div class="leadership_img">
               <img
-                src="<?php bloginfo('template_directory') ?>./img/JT Daniel Directors image B_400px x 400px .JPG"
+                src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT-Daniel-Directors.jpg"
                 alt=""
               />
             </div>
@@ -87,7 +87,7 @@
           <div class="row">
             <div class="col-md-8 m-auto">
               <div class="moves_img">
-                <img src="<?php bloginfo('template_directory') ?>./img/Packing 3_600px _ 400px.jpg" alt="" />
+                <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Team_1200px-x-600px.jpg" alt="" />
               </div>
               <p>
                 We are committed to work environment where everyone is treated
@@ -152,13 +152,13 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="member_item card_box">
-              <img src="<?php bloginfo('template_directory') ?>./img/saima-1.png" alt="" />
+              <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/siama.jpg" alt="" />
               <p>South African International Movers Association</p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="member_item card_box">
-              <img src="<?php bloginfo('template_directory') ?>./img/National_Bargarning.svg" alt="" />
+              <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/nbcrfli.jpg" alt="" />
               <p>
                 National Bargaining Council For The Road Freight and Logistics
                 Industry
@@ -167,7 +167,7 @@
           </div>
           <div class="col-sm-4">
             <div class="member_item card_box">
-              <img src="<?php bloginfo('template_directory') ?>./img/The-Road-Freight-1.svg" alt="" />
+              <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/rfa.jpg" alt="" />
               <p>National Road Freight Association</p>
             </div>
           </div>
