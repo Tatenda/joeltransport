@@ -155,10 +155,11 @@
     </section>
 
 </footer>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
 <?php wp_footer(); ?>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
+
 </body>
 
 </html>

@@ -22,7 +22,6 @@ Text Domain: joeltransport
 }
 
 @font-face {
-
   font-family: 'futuralight_condensed';
   src: url('./fonts/futura-condensedlight-webfont.woff2') format('woff2'),
        url('./fonts/futura-condensedlight-webfont.woff') format('woff');

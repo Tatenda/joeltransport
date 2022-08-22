@@ -1,46 +1,4 @@
 <?php
-<<<<<<< HEAD
-    get_header();
-?>
-<div class="slider">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-2_2500px-x-800px.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-        </div>
-        </div>
-        <div class="carousel-item">
-        <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-3_2500px-x-800px.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-        </div>
-        </div>
-        <div class="carousel-item">
-        <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero_image_1_2500px_x_800px.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-        </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-=======
 get_header();
 ?>
 <div class="slider">
@@ -81,7 +39,6 @@ get_header();
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
->>>>>>> a2e2df93c82a37266a5b17a81edbba9de26b8250
     </div>
 </div>
 
@@ -328,72 +285,11 @@ get_header();
     <div class="container">
         <div class="reviews_title">
             <h4>customer reviews</h4>
-            <a href="">view on Google Reviews</a>
+            <a target="_blank" href="https://www.google.com/search?q=joel+transport&rlz=1C5CHFA_enZA944ZA944&oq=Joel+&aqs=chrome.0.69i59j69i57j69i60l4j69i65j69i60.4430j0j1&sourceid=chrome&ie=UTF-8#lrd=0x1e957b55d7aab057:0x63bf0effcca467a6,1,,,">view on Google Reviews</a>
         </div>
         <div class="reviews_section">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="review card_box">
-                            <img src="<?php bloginfo('template_directory') ?>/img/JT Daniel Directors image B_400px x 400px .JPG" alt="" />
-                            <div class="ratings">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Voluptas nulla aliquid vero blanditiis similique.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="review card_box">
-                            <img src="<?php bloginfo('template_directory') ?>/img/JT Daniel Directors image B_400px x 400px .JPG" alt="" />
-                            <div class="ratings">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Voluptas nulla aliquid vero blanditiis similique.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="review card_box">
-                            <img src="<?php bloginfo('template_directory') ?>/img/JT Daniel Directors image B_400px x 400px .JPG" alt="" />
-                            <div class="ratings">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Voluptas nulla aliquid vero blanditiis similique.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mobile_off">
-                        <div class="review card_box">
-                            <img src="<?php bloginfo('template_directory') ?>/img/JT Daniel Directors image B_400px x 400px .JPG" alt="" />
-                            <div class="ratings">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Voluptas nulla aliquid vero blanditiis similique.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <?php echo do_shortcode('[trustindex no-registration=google]'); ?>
             </div>
         </div>
     </div>
@@ -509,8 +405,4 @@ get_header();
     </div>
 </section>
 
-<<<<<<< HEAD
 <?php get_footer(); ?>
-=======
-<?php get_footer(); ?>
->>>>>>> a2e2df93c82a37266a5b17a81edbba9de26b8250
