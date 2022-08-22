@@ -10,24 +10,6 @@
 
     <?php wp_head(); ?>
 
-    <style>
-        .top-menu {
-            display: flex;
-            background: #17479E;
-            color: #fff;
-            list-style: none;
-        }
-
-        .navigation {
-            display: flex;
-            align-items: center;
-        }
-
-
-        .showcase {
-            background: url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url') . '/img/Hero_image_1_2500px_x_800px.jpg'); ?>) no-repeat center center;
-        }
-    </style>
 </head>
 
 <body>
@@ -47,17 +29,25 @@
             </div>
         </div>
         <div class="navigation">
-            <a class="navbar-brand text-uppercase" href=""><img src="https://joeltransport.co.za/wp-content/uploads/2020/07/LOGO-01.png" alt="footer logo" /></a>
             <div class="container">
-
-                <?php
-                wp_nav_menu(array(
-                    "menu" => "primary",
-                    "container" => "",
-                    "theme_location" => "primary",
-                    'items_wrap' => '<ul id="" class="navbar">%3$s</ul>'
-                ));
-                ?>
+                <div class="row">
+                    <div class="col-1">
+                        <a class="navbar-brand text-uppercase" href="/">
+                            <img src="https://joeltransport.co.za/wp-content/uploads/2020/07/LOGO-01.png" alt="footer logo" />
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <?php
+                            wp_nav_menu(array(
+                                "menu" => "primary",
+                                "container" => "div",
+                                "container_class" => "navigation-inner",
+                                "theme_location" => "primary",
+                                'items_wrap' => '<ul id="" class="navbar">%3$s</ul>'
+                            ));
+                        ?>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

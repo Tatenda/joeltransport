@@ -92,7 +92,7 @@ background-color: #89d6db;
     padding: 18px 20px;
     font-size: 18px;
   }
-  
+
   #get-quote-button:hover {
     background: #57c5cc;
     color: #162643;
@@ -174,11 +174,7 @@ background-color: #89d6db;
       padding-top: 12px;
   }
   /* updates end */
-  
-  
-  
-  
-  
+
   @font-face {
     font-family: 'futuralight';
     src: url('./fonts/futura_light_font-webfont.woff2') format('woff2'),
@@ -186,7 +182,7 @@ background-color: #89d6db;
     font-weight: normal;
     font-style: normal;
   }
-  
+
   @font-face {
     font-family: 'futuralight_condensed';
     src: url('./fonts/futura-condensedlight-webfont.woff2') format('woff2'),
@@ -194,7 +190,7 @@ background-color: #89d6db;
     font-weight: normal;
     font-style: normal;
   }
-  
+
   @font-face {
     font-family: 'futuramedium';
     src: url('./fonts/futura-medium-webfont.woff2') format('woff2'),
@@ -202,7 +198,7 @@ background-color: #89d6db;
     font-weight: normal;
     font-style: normal;
   }
-  
+
   @font-face {
     font-family: 'arca_majora_3heavy';
     src: url('./fonts/arcamajora3-heavy-webfont.woff2') format('woff2'),
@@ -210,7 +206,7 @@ background-color: #89d6db;
     font-weight: normal;
     font-style: normal;
   }
-  
+
   @font-face {
     font-family: "arca_majora_3bold";
     src: url("./fonts/arcamajora3-bold-webfont.woff2") format("woff2"),
@@ -218,18 +214,18 @@ background-color: #89d6db;
     font-weight: normal;
     font-style: normal;
   }
-  
-  
+
+
   * {
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: "futuramedium";
     color: gray;
     font-size: 20px;
   }
-  
+
   h1,
   h2,
   h3,
@@ -238,7 +234,7 @@ background-color: #89d6db;
   h6 {
     font-family: 'arca_majora_3bold';
   }
-  
+
   :root {
     --color-primary: #57c5cc;
     --color-secondary: #17479e;
@@ -247,7 +243,7 @@ background-color: #89d6db;
     --font-majora-arca3: "arca_majora_3bold";
     --color-white: #fff;
   }
-  
+
   /* updates */
   #menu-item-43 {
     font-size: 16;
@@ -318,7 +314,7 @@ background-color: #89d6db;
     padding: 18px 20px;
     font-size: 18px;
   }
-  
+
   #get-quote-button:hover {
     background: #57c5cc;
     color: #162643;
@@ -393,7 +389,7 @@ background-color: #89d6db;
     padding-top: 12px;
   }
   /* updates end */
-  
+
   .social-nav {
     background: #17479e;
     color: #fff;
@@ -407,7 +403,7 @@ background-color: #89d6db;
     background-color: var(--color-white);
     padding: 0.5em 0;
   }
-  
+
   .navigation ul {
       display: flex;
       list-style: none;
@@ -417,7 +413,7 @@ background-color: #89d6db;
       color: #162643;
       justify-content: space-around;
   }
-  
+
   .navigation ul li a {
       text-decoration: none;
       font-size: 16px;
@@ -426,12 +422,12 @@ background-color: #89d6db;
   .navigation ul li a:hover{
       color:#17479E;
   }
-  
+
   .navigation ul li:last-child {
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
   }
-  
+
   .showcase .overlay-hero {
     position: absolute;
     top: 0;
@@ -448,7 +444,7 @@ background-color: #89d6db;
     top: 30%;
     width: 100%;
   }
-  
+
   .showcase_title h1 {
     font-family: var(--font-family-futura);
     font-size: 32px;
@@ -503,7 +499,7 @@ background-color: #89d6db;
   .history_img {
     width: 400px;
     position: absolute;
-    margin-top: -120px;
+    margin-top: -80px;
     border-radius: 24px;
   }
   .history p {
@@ -597,7 +593,7 @@ background-color: #89d6db;
     width: 200px;
     height: 100px;
   }
-  
+
   /* on click */
   .dropdown-menu.show {
     display: block;
@@ -605,12 +601,12 @@ background-color: #89d6db;
     background-color: #787878;
     color: #fff;
   }
-  
+
   .dropdown-item {
     color: #fff !important;
   }
   /* hover  */
-  
+
   .btn_quote {
     background-color: #89d6db;
     color: #2b3a54;
@@ -659,7 +655,7 @@ background-color: #89d6db;
     border-radius: 20px;
     color: #fff;
   }
-  
+
   .card_box:hover .overlay {
     opacity: 1;
   }
@@ -767,7 +763,7 @@ background-color: #89d6db;
   .history h6 {
     color: #000;
   }
-  
+
   .img_card img {
     border-radius: 20px;
     height: 400px;
@@ -778,7 +774,7 @@ background-color: #89d6db;
   .reviews h3 {
     color: #162643;
   }
-  
+
   .reviews_title {
     display: flex;
     justify-content: space-between;
@@ -802,7 +798,7 @@ background-color: #89d6db;
   }
   .reviews_comment {
   }
-  
+
   .highlights {
     background: #fbfbfb;
     padding: 80px;
@@ -844,7 +840,7 @@ background-color: #89d6db;
   .card_mem p {
     font-size: 12px;
   }
-  
+
   .footer {
     padding: 80px 0 0;
     background: #f4f4f4;
@@ -888,7 +884,7 @@ background-color: #89d6db;
     margin: 0;
     color: #fff;
   }
-  
+
   .social_icons ul {
     margin: 0;
   }
@@ -898,13 +894,13 @@ background-color: #89d6db;
   .mobile_footer {
     display: none;
   }
-  
+
     /* resources */
-  
+
   .resource_nav {
     justify-content: center;
   }
-  
+
   /*  mobile */
   @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
@@ -914,33 +910,33 @@ background-color: #89d6db;
       display: block;
     }
   }
-  
+
   .carousel-inner .carousel-item.active,
   .carousel-inner .carousel-item-next,
   .carousel-inner .carousel-item-prev {
     display: flex;
   }
-  
+
   /* display 3 */
   @media (min-width: 768px) {
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
       transform: translateX(33.333%);
     }
-  
+
     .carousel-inner .carousel-item-left.active,
     .carousel-inner .carousel-item-prev {
       transform: translateX(-33.333%);
     }
   }
-  
+
   .carousel-inner .carousel-item-right,
   .carousel-inner .carousel-item-left {
     transform: translateX(0);
   }
-  
+
   /* reviws cards */
-  
+
   .review_card {
     margin: 5px;
     box-shadow: darkgrey 1px 4px 4px;
@@ -970,18 +966,18 @@ background-color: #89d6db;
     -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
     box-shadow: 0px 0px 5px 0px #888888;
   }
-  
+
   .review_card .card .card-body {
     padding: 1rem 1rem;
   }
 
-  
+
   .review_card p {
     font-size: 0.875rem;
     margin-bottom: 0.5rem;
     line-height: 1.5rem;
   }
-  
+
   .review_card h4 {
     line-height: 0.2 !important;
   }
@@ -989,19 +985,19 @@ background-color: #89d6db;
     margin-top: 16px;
     margin-left: 11px;
   }
-  
+
   .profile-pic {
     width: 58px;
   }
-  
+
   .cust-name {
     font-size: 18px;
   }
-  
+
   .cust-profession {
     font-size: 10px;
   }
-  
+
   .items {
     width: 100%;
     margin: 0px auto;
@@ -1010,16 +1006,16 @@ background-color: #89d6db;
     flex-wrap: nowrap;
     justify-content: space-around;
   }
-  
+
   .slick-slide {
     margin: 10px;
   }
-  
-  
+
+
   /* accreditation and membership */
-  
+
   /* about */
-  
+
   .about {
     margin-top: 60px;
     padding: 80px 0;
@@ -1047,7 +1043,7 @@ background-color: #89d6db;
     color: #162643;
     text-align: center;
   }
-  
+
   .leadership p {
     text-align: center;
     font-size: 14px;
@@ -1074,7 +1070,7 @@ background-color: #89d6db;
     font-size: 14px;
     padding: 30px 0;
   }
-  
+
   .team_img {
     margin-bottom: 30px;
   }
@@ -1129,7 +1125,7 @@ background-color: #89d6db;
     color: #000;
     border-radius: 24px;
   }
-  
+
   .right_titles {
     text-align: right;
   }
@@ -1175,9 +1171,9 @@ background-color: #89d6db;
     padding: 60px 0;
     font-size: 14px;
   }
-  
+
   /* quote */
-  
+
   .quote {
     margin-top: 150px;
     padding-bottom: 80px;
@@ -1204,7 +1200,7 @@ background-color: #89d6db;
   .survey h6 {
     margin-bottom: 20px;
   }
-  
+
   /* contact */
   .contact {
     margin-top: 150px;
@@ -1242,7 +1238,7 @@ background-color: #89d6db;
   .btn_attach {
     margin-right: 10px;
   }
-  
+
   @media (max-width: 425px) {
     .showcase {
       text-align: center;
@@ -1252,13 +1248,13 @@ background-color: #89d6db;
     .mobile_off {
       display: none;
     }
-  
+
     .mobile_footer {
       background: #f4f4f4;
       padding: 30px 0;
       color: #162643;
     }
-  
+
     .footer_icon img {
       vertical-align: middle;
       border-style: none;
@@ -1304,4 +1300,3 @@ background-color: #89d6db;
       /* margin: auto; */
     }
   }
-  

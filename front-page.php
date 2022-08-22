@@ -325,7 +325,7 @@ get_header();
     <div class="container">
         <div class="reviews_title">
             <h4 id="#section-heading">customer reviews</h4>
-            <a href="">view on Google Reviews</a>
+            <a href="https://www.google.com/search?q=joel+transport&rlz=1C5CHFA_enZA944ZA944&oq=Joel+Tra&aqs=chrome.0.69i59j46i175i199i512j69i57j0i512l2j69i60l3.2406j0j4&sourceid=chrome&ie=UTF-8#lrd=0x1e957b55d7aab057:0x63bf0effcca467a6,1,,,">view on Google Reviews</a>
         </div>
         <div class="reviews_section">
             <div class="container">
