@@ -15,70 +15,88 @@
     color: rgba(0, 0, 0, 0.54);
 }
 
-
 .top-menu {
-    display: flex;
+    width: 100%;
     background: #17479e;
     color: #fff;
     list-style: none;
+    margin-bottom: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    display: flex;
+}
+
+.top-menu>:last-child {
+    display: flex;
+}
+
+.top-menu>:last-child>a {
+    margin-right: 15px;
+    display: grid;
+    place-items: center;
 }
 
 .top-menu a {
     display: flex;
     background: #17479e;
     color: #fff;
+    text-decoration: none;
     list-style: none;
 }
 
-  /* Navigation */
-  .navigation {
+
+/* Navigation */
+
+.navigation {
     background-color: var(--color-white);
     padding: 0.5em 0;
-  }
+}
 
-  .navigation ul {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      font-size: 16px;
-      color: #162643;
-      justify-content: space-around;
-  }
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #162643;
+    justify-content: space-around;
+}
 
-  .navigation ul li a {
-      text-decoration: none;
-      font-size: 16px;
-      color: #162643;
-  }
-  .navigation ul li a:hover{
-      color:#17479E;
-  }
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #162643;
+}
 
-  .navigation ul li:last-child {
+.navigation ul li a:hover {
+    color: #17479E;
+}
+
+.navigation ul li:last-child {
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
-  }
+}
 
 .navigaion {
     background-color: green !important;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0px 0px 12px #00000029;
-  }
+}
 
 .navigation-inner {
     margin-top: 12px;
 }
 
-
 .social-nav {
     background: #17479e;
     color: #fff;
-  }
-  .nav_item {
+}
+
+.nav_item {
     display: flex;
     flex-direction: row;
     font-size: 1em;
-  }
+}
