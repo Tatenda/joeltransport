@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <!-- home-moves -->
 <!-- home-moves -->
-
+<!-- 1:15am -->
 <!-- home-moves -->
 <div class="home-moves section">
     <div class="container">
@@ -14,9 +14,9 @@
                         <h5>Domestic</h5>
                     </div>
                     <div class="moves_prices right_titles">
-                        <p class="right_titles">Starting at</p>
+                        <p class="moves_price">Starting at</p>
                         <span>R 1,850.00</span>
-                        <p class="right_titles">excl. VAT</p>
+                        <p class="moves_vat">excl. VAT</p>
                     </div>
                 </div>
                 <p>
@@ -33,11 +33,13 @@
                     mind, insurance of your goods is available through our brokers for
                     safety and protection of your goods.
                 </p>
-                <a name="" id="" class="btn btn_home right_titles" href="#" role="button">Get a qoute</a>
+              <div class="moves_btn">
+				    <a name="" id="" class="btn btn_quote" href="#" role="button">Get a qoute</a>
+				</div>
             </div>
             <div class="col-md-6 d_align">
                 <div class="moves_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Packing 3_600px _ 400px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Home-move-320.jpg" alt="" />
                 </div>
             </div>
         </div>
@@ -49,7 +51,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="moves_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_international_600px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-2-International_600px-x-400px.jpg" alt="" />
                 </div>
             </div>
             <div class="col-md-6">
@@ -108,7 +110,7 @@
             </div>
             <div class="col-md-6">
                 <div class="moves_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_international_600px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail__storage_600px_400px.jpg" alt="" />
                 </div>
             </div>
         </div>
@@ -120,12 +122,9 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="moves_details">
-                    <h5>Call to action</h5>
+
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                        nisi sint omnis eum non, adipisci hic beatae fugiat? Quasi,
-                        aliquam sed! Dolore asperiores eligendi necessitatibus harum,
-                        quaerat deserunt atque dolor.
+                        Our friendly and efficient crew is here to help you and make your move to new beginning a breeze.
                     </p>
                 </div>
             </div>
@@ -133,7 +132,7 @@
                 <div class="cta_buttons">
                     <div class="cta_buttons">
                         <a name="" id="" class="btn btn_view" href="#" role="button">Get a qoute</a>
-                        <a name="" id="" class="btn btn_view" href="#" role="button">Schedule a survey</a>
+                        <a name="" id="" class="btn btn_view" href="#" role="button">Contact us</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +146,7 @@
             <div class="col-md-6 d_align">
                 <div class="moves_details">
                     <div class="moves_img">
-                        <img src="<?php bloginfo('template_directory') ?>/img/Packing 4_600px _ 400px.jpg" alt="" />
+                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-service-600.jpg" alt="" />
                     </div>
                 </div>
             </div>
@@ -182,7 +181,7 @@
             </div>
             <div class="col-md-6">
                 <div class="moves_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail-insurance_600px _ 400px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-insurance-600.jpg" alt="" />
                 </div>
             </div>
         </div>
@@ -194,7 +193,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="moves_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Packing 3_600px _ 400px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-material-600.jpg" alt="" />
                 </div>
             </div>
             <div class="col-md-6 d_align">
@@ -215,17 +214,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h5>Call to action</h5>
+          
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                    nisi sint omnis eum non, adipisci hic beatae fugiat? Quasi,
-                    aliquam sed! Dolore asperiores eligendi necessitatibus harum,
-                    quaerat deserunt atque dolor.
+                    Our friendly and efficient crew is here to help you and make your move to new beginning a breeze.
                 </p>
             </div>
             <div class="col-md-6 d_align">
                 <a name="" id="" class="btn btn_view" href="#" role="button">Get a qoute</a>
-                <a name="" id="" class="btn btn_view" href="#" role="button">Schedule a survey</a>
+                <a name="" id="" class="btn btn_view" href="#" role="button">Contact us</a>
             </div>
         </div>
     </div>
@@ -237,13 +233,13 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnails_pets_320px_x_320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px.jpg" alt="" />
 
                     <div class="item_title">
                         <p>Pets</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
                     For many people, their pets are considered members of the family,
                     and rate among the most precious items to move. Joel Transport
                     provides a specialised pet moving service that will leave the
@@ -256,12 +252,12 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_vehicle_320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-vehicle_320px-x-320px.jpg" alt="" />
                     <div class="item_title">
                         <p>Vehicle transporttation</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
 
                     Need to have help to move your cars – Let Joel Transport take care
                     of this for you – We have a Depot to Depot service, moving cars
@@ -272,12 +268,12 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_fine art_320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-9-fine-art_320px-x-320px.jpg" alt="" />
                     <div class="item_title">
                         <p>Fine art</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
                     We offer state of the art packing and transportation your valuable
                     art or antique collection. Our team of trained experts know how to
                     keep the most delicate piece of art protected during the moving
@@ -286,13 +282,13 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Thumbnail_danger_320.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-danger-320-1.jpg" alt="" />
 
                     <div class="item_title">
                         <p>Dangerous goods</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                     nostrum officiis in cupiditate. Sequi repellendus repellat rerum
                     eaque. Expedita maxime corrupti pariatur, fugiat placeat non? Rem

@@ -1,6 +1,5 @@
-<?php
-get_header();
-?>
+<?php get_header(); ?>
+<!-- 1:15am  -->
 <div class="slider">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
@@ -52,6 +51,9 @@ get_header();
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
                             <div class="overlay_text">
+                                <p class="terms_conditions">
+                                    Ts & Cs Apply
+                                </p>
                                 <div class="card_title">
                                     <h4>Standard 1 bed move</h4>
                                 </div>
@@ -60,11 +62,11 @@ get_header();
                                         <li>1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bathroom</li>
                                         <li>Est. contents volume: 1,000-1500 cubic feet</li>
                                         <li>Est. number of boxes/items: 15 Boxes/40 items</li>
-                                        <li>Ts & Cs Apply</li>
+
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
                                 </div>
 
 
@@ -82,7 +84,7 @@ get_header();
                                 <p id="#card-vat-price">excl. VAT</p>
                             </div>
                             <div class="card_button  text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -94,6 +96,9 @@ get_header();
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
                             <div class="overlay_text">
+                                <p class="terms_conditions">
+                                    Ts & Cs Apply
+                                </p>
                                 <div class="card_title">
                                     <h4>Standard 2 Bed move</h4>
                                 </div>
@@ -106,11 +111,8 @@ get_header();
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
                                 </div>
-
-
-
                             </div>
                         </div>
                         <div class="card_body">
@@ -125,7 +127,7 @@ get_header();
                                 <p>excl. VAT</p>
                             </div>
                             <div class="card_button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -137,19 +139,22 @@ get_header();
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
                             <div class="overlay_text">
+                                <p class="terms_conditions">
+                                    Ts & Cs Apply
+                                </p>
                                 <div class="card_title">
                                     <h4>Standard 3 bed move</h4>
                                 </div>
                                 <div class="card_text">
                                     <ul>
-                                        <li>3 Bedrooms, 1 Lounge, 1 Kitchen, 2.5 Bathroom​</li>
+                                        <li>3 Bedrooms, 1 Lounge, 1 Kitchen, 2.5 Bath​</li>
                                         <li>1 Extra Room (Large) and Double Garage​</li>
                                         <li>Est. contents volume: 3,500 - 5,000 cubic feet​</li>
                                         <li>Est. number of boxes/Items: 40 Boxes/90 items</li>
                                     </ul>
                                 </div>
                                 <div class="card_button ">
-                                    <a name="" id="#card-back-button" class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class=" btn btn_front" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
                                 </div>
 
 
@@ -165,20 +170,23 @@ get_header();
                                 </p>
                             </div>
                             <div class="card_text">
-                                <span>Request a survey</span>
+                                <span>R4,500.00</span>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill" href="#" role="button">contact us</a>
+                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- 1st box -->
+            <!-- 4th card -->
             <div class="col-md-4 mobile_off">
                 <div class="box m-2">
                     <div class="card shadow card_box">
                         <div class="overlay">
+                            <p class="terms_conditions">
+                                Ts & Cs Apply
+                            </p>
                             <div class="overlay_text">
                                 <div class="card_title">
                                     <h4>Office move</h4>
@@ -192,7 +200,7 @@ get_header();
                                     </p>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn btn_view rounded-pill" href="#" role="button">Get a q</a>
+                                    <a name="" id="#card-back-button" class="btn btn_front" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
                                 </div>
 
                             </div>
@@ -210,18 +218,20 @@ get_header();
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">contact
-                                    us</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- 2nd box -->
+            <!-- 5th box -->
             <div class="col-md-4 mobile_off">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
+                            <p class="terms_conditions">
+                                Ts & Cs Apply
+                            </p>
                             <div class="overlay_text">
                                 <div class="card_title">
                                     <h4>Specialized move</h4>
@@ -231,6 +241,9 @@ get_header();
                                     complement our home and office moving services to include
                                     the moving of Pets, Fine Art, Vehicles and selected
                                     dangerous goods locally or internationally.
+                                </div>
+                                <div class="card_button">
+                                    <a name="" id="#card-back-button" class="btn btn_front" href="https://joeltransport.mmogomedia.com/contact/" role="button">contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -247,8 +260,7 @@ get_header();
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">contact
-                                    us</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/office-removals/" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -259,6 +271,9 @@ get_header();
                 <div id="main-card" class="box m-2">
                     <div class="card shadow card_box">
                         <div class="overlay">
+                            <p class="terms_conditions">
+                                Ts & Cs Apply
+                            </p>
                             <div class="overlay_text">
                                 <h4>Storage</h4>
                             </div>
@@ -270,6 +285,9 @@ get_header();
                                     We offer storage for transit, short & long term periods
                                 </p>
                             </div>
+                            <div class="card_button">
+                                <a name="" id="#card-back-button" class="btn btn_front" href="https://joeltransport.mmogomedia.com/contact/" role="button">contact us</a>
+                            </div>
                             <div class="card_text">
                                 <p>starting from</p>
                             </div>
@@ -280,7 +298,7 @@ get_header();
                                 <p>excl. VAT</p>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -309,8 +327,8 @@ get_header();
             </div>
             <div class="col-md-4">
                 <div class="owner_img color">
-                    <div class="history_img card_box">
-                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg" style="width: 360px;height:400px; position:absolute; margin-top:-120px; border-radius:24px;" alt="owner_img" />
+                    <div class="history_img">
+                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg" alt="owner_img" />
                     </div>
                 </div>
             </div>
@@ -340,7 +358,7 @@ get_header();
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Home-move-320.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Picture-272.jpg" alt="" />
 
                     <div class="item_title">
                         <p>Domestic move</p>
@@ -420,13 +438,13 @@ get_header();
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/siama.jpg" alt="update" />
                     <p>South African International Movers Association</p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/nbcrfli.jpg" alt="" />
                     <p>
@@ -435,10 +453,16 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/rfa.jpg" alt="" />
                     <p>National Road Freight Association</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="member_item card_box">
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2020/09/AMOSA-LOGO.jpg" alt="" />
+                    <p>Accredited Movers Of South Africa</p>
                 </div>
             </div>
         </div>

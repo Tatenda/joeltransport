@@ -15,17 +15,16 @@
 <body>
     <header class="fixed-top">
         <div class="top-menu">
-
-            <div class="container">
-                <?php
-                wp_nav_menu(array(
-                    "menu" => "top-menu",
-                    "container" => "",
-                    "theme_location" => "top-menu",
-                    'items_wrap' => '<ul id="" class="top-menu">%3$s</ul>'
-                ));
-                ?>
-
+         <div class="container">
+                <ul id="" class="top-menu row">
+                    <li  class="col-2 "><a href="tel://0731946286">+27 12 666 9055</a></li>
+                    <li class="col-3 "><a>sales@joeltransport.co.za</a></li>
+                    <li class=" col-2 offset-5">
+                        <a href="https://www.twitter.com/joeltransport"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/joeltransport"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/joeltransport"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="navigation">

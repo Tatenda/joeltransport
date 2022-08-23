@@ -1,28 +1,17 @@
 <?php get_header(); ?>
+<!-- 1:21am -->
 <!-- home-moves -->
 <div class="home-moves section">
     <div class="container">
-        <h3 class="">Home moves</h3>
+        <h3 class="">Office removals</h3>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 ">
                 <div class="home_box">
                     <div class="moves_title">
-                        <h5>Domestic</h5>
+                        <h5>Domestic moves</h5>
                     </div>
-                    <div class="moves_prices ">
 
-                        <div class="price">
-                            <p class="">Starting at</p>
-                        </div>
-                        <div class="price_amt">
-                            <span>R 1,850.00</span>
-                        </div>
-                        <div class="vat">
-                            <p class="">excl. VAT</p>
-                        </div>
-
-                    </div>
                 </div>
                 <div class="moves">
                     <p>
@@ -41,12 +30,12 @@
                     </p>
                 </div>
                 <div class="moves_btn">
-                    <a name="" id="" class="btn btn_home " href="#" role="button">Get a qoute</a>
+                    <a name="" id="" class="btn btn_quote " href="#" role="button">Get a qoute</a>
                 </div>
             </div>
             <div class="col-md-6 d_align">
-                <div class="moves_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Packing 3_600px _ 400px.jpg" alt="" />
+                <div class="domestic_moves_img">
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/local.png" alt="" />
                 </div>
             </div>
         </div>
@@ -57,13 +46,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="moves_img">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-2-International_600px-x-400px.jpg" alt="" />
+                <div class="international_moves_img">
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/international.png" alt="" />
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_details">
-                    <h5>International</h5>
+                    <h5>International moves</h5>
                     <div class="moves">
                         <p>
                             Joel Transport offers full range of international moving
@@ -90,26 +79,9 @@
 <div class="storage section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="home_box">
-                    <div class="moves_details">
-                        <div class="moves_title">
-                            <h5>Storage</h5>
-                        </div>
-                        <div class="moves_prices ">
-                            <div class="price_left">
-                                <p class="">Starting at</p>
-                            </div>
-                            <div class="price_amt_left">
-                                <span>R 1,850.00</span>
-                            </div>
-                            <div class="vat_left">
-                                <p class="">excl. VAT</p>
-                            </div>
 
-
-                        </div>
-                    </div>
                 </div>
                 <div class="moves">
                     <p>
@@ -127,7 +99,7 @@
                 </div>
                 <div class="button"></div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-storage_600px-_-400px.jpg" alt="" />
                 </div>
@@ -139,15 +111,12 @@
 <div class="cta">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_details">
-                    <h5>Call to action</h5>
+
                     <div class="moves">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                            nisi sint omnis eum non, adipisci hic beatae fugiat? Quasi,
-                            aliquam sed! Dolore asperiores eligendi necessitatibus harum,
-                            quaerat deserunt atque dolor.
+                            At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal work interruption during your office move. We ensure that packing of all documents is done as labelled and furniture is moved with great care.
                         </p>
                     </div>
                 </div>
@@ -207,7 +176,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-insurance-600-1.jpg" alt="" />
                 </div>
@@ -219,7 +188,7 @@
 <div class="materials section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-material-600-1.jpg" alt="" />
                 </div>
@@ -243,13 +212,10 @@
 <div class="cta">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h5>Call to action</h5>
+            <div class="col-md-6 d_align">
+
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                    nisi sint omnis eum non, adipisci hic beatae fugiat? Quasi,
-                    aliquam sed! Dolore asperiores eligendi necessitatibus harum,
-                    quaerat deserunt atque dolor.
+                    At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal work interruption during your office move. We ensure that packing of all documents is done as labelled and furniture is moved with great care.
                 </p>
             </div>
             <div class="col-md-6 d_align">
@@ -272,7 +238,7 @@
                         <p>Pets</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
                     For many people, their pets are considered members of the family,
                     and rate among the most precious items to move. Joel Transport
                     provides a specialised pet moving service that will leave the
@@ -290,7 +256,7 @@
                         <p>Vehicle transporttation</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
 
                     Need to have help to move your cars – Let Joel Transport take care
                     of this for you – We have a Depot to Depot service, moving cars
@@ -306,7 +272,7 @@
                         <p>Fine art</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
                     We offer state of the art packing and transportation your valuable
                     art or antique collection. Our team of trained experts know how to
                     keep the most delicate piece of art protected during the moving
@@ -321,7 +287,7 @@
                         <p>Dangerous goods</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                     nostrum officiis in cupiditate. Sequi repellendus repellat rerum
                     eaque. Expedita maxime corrupti pariatur, fugiat placeat non? Rem

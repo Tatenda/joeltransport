@@ -20,40 +20,40 @@
                     <br />
                     <ul>
                         <li>
-                            <a href="">Local Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Local Moves</a>
                         </li>
                         <li>
-                            <a href="">International Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">International Moves</a>
                         </li>
                         <li>
-                            <a href="">Home Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Home Moves</a>
                         </li>
                         <li>
-                            <a href="">Office Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/office-removals">Office Moves</a>
                         </li>
                         <li>
-                            <a href="">Storage</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Storage</a>
                         </li>
                         <li>
-                            <a href="">Insurance</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Insurance</a>
                         </li>
                         <li>
-                            <a class="text-uppercase" href="">Specialized services</a>
+                            <a class="text-uppercase" href="https://joeltransport.mmogomedia.com/home-moves">Specialized services</a>
                         </li>
                         <li>
-                            <a href="">Pets</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Pets</a>
                         </li>
                         <li>
-                            <a href="">Pianos</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Pianos</a>
                         </li>
                         <li>
-                            <a href="">Fine art</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Fine art</a>
                         </li>
                         <li>
-                            <a href="">Vehicle transport</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Vehicle transport</a>
                         </li>
                         <li>
-                            <a href="">Dangerous goods</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Dangerous goods</a>
                         </li>
                     </ul>
                 </div>
@@ -63,16 +63,16 @@
                     <br />
                     <ul>
                         <li>
-                            <a href="">FAQs</a>
+                            <a href="https://joeltransport.mmogomedia.com/resources">FAQs</a>
                         </li>
                         <li>
-                            <a href="">Moving tips</a>
+                            <a href="https://joeltransport.mmogomedia.com/resources">Moving tips</a>
                         </li>
                         <li>
-                            <a href="">Home moves checklist</a>
+                            <a href="https://joeltransport.mmogomedia.com/resources">Home moves checklist</a>
                         </li>
                         <li>
-                            <a href="">Office moves checklist</a>
+                            <a href="https://joeltransport.mmogomedia.com/resources">Office moves checklist</a>
                         </li>
                     </ul>
                 </div>
@@ -110,25 +110,25 @@
         </div>
         <nav class="nav justify-content-center footer_nav pb-3">
             <li class="nav-item">
-                <a class="nav_link active" href="#">About</a>
+                <a class="nav_link active" href="https://joeltransport.mmogomedia.com/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Community</a>
+                <a class="nav_link" href="https://joeltransport.mmogomedia.com/about">Community</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Careers</a>
+                <a class="nav_link" href="https://joeltransport.mmogomedia.com/about">Careers</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Contact</a>
+                <a class="nav_link" href="https://joeltransport.mmogomedia.com/contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Removal Policy</a>
+                <a class="nav_link" href="https://joeltransport.mmogomedia.com/policies">Removal Policy</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Privacy Policy</a>
+                <a class="nav_link" href="https://joeltransport.mmogomedia.com/policies">Privacy Policy</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Terms & conditions</a>
+                <a class="nav_link" href="https://joeltransport.mmogomedia.com/resources">Terms & conditions</a>
             </li>
         </nav>
         <div class="footer_bottom d-flex">
@@ -138,17 +138,15 @@
             <div class="social_icons">
                 <ul class="d-flex">
                     <li class="footer_icons">
-                        <a class="icon_link" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a class="icon_link" href="https://twitter.com/JoelsTransport"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
                     <li class="footer_icons">
-                        <a class="icon_link" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a class="icon_link" href="https://www.instagram.com/ptyltd.joeltransport/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </li>
                     <li class="footer_icons">
-                        <a class="icon_link" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a class="icon_link" href="https://www.facebook.com/Joel.Transport1965/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
-                    <li class="footer_icons">
-                        <a class="icon_link" href=""><i class="fa fa-twitch" aria-hidden="true"></i></a>
-                    </li>
+                  
                 </ul>
             </div>
         </div>
