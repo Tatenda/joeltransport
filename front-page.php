@@ -4,38 +4,58 @@ get_header();
 <div class="slider">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active indic"
+                aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
+                class="indic">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
+                class="indic">
+            </button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-2_2500px-x-800px.jpg" class="d-block w-100" alt="...">
+                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-2_2500px-x-800px.jpg"
+                    class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <p class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
+                        <br />Its truly
+                        stress-free and fun
+                        with us.<br /> Enjoy the move! ​​
+                    </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-3_2500px-x-800px.jpg" class="d-block w-100" alt="...">
+                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-3_2500px-x-800px.jpg"
+                    class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <p class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
+                        <br />Its truly
+                        stress-free and fun
+                        with us.<br /> Enjoy the move! ​​
+                    </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero_image_1_2500px_x_800px.jpg" class="d-block w-100" alt="...">
+                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero_image_1_2500px_x_800px.jpg"
+                    class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <p class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
+                        <br />Its truly
+                        stress-free and fun
+                        with us.<br /> Enjoy the move! ​​
+                    </p>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -64,7 +84,9 @@ get_header();
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button"
+                                        class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a
+                                        quote</a>
                                 </div>
 
 
@@ -82,7 +104,8 @@ get_header();
                                 <p id="#card-vat-price">excl. VAT</p>
                             </div>
                             <div class="card_button  text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
+                                    role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -106,7 +129,9 @@ get_header();
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button"
+                                        class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a
+                                        quote</a>
                                 </div>
 
 
@@ -125,7 +150,8 @@ get_header();
                                 <p>excl. VAT</p>
                             </div>
                             <div class="card_button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
+                                    role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +175,9 @@ get_header();
                                     </ul>
                                 </div>
                                 <div class="card_button ">
-                                    <a name="" id="#card-back-button" class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button"
+                                        class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a
+                                        quote</a>
                                 </div>
 
 
@@ -168,7 +196,8 @@ get_header();
                                 <span>Request a survey</span>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill" href="#" role="button">contact us</a>
+                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill"
+                                    href="#" role="button">contact us</a>
                             </div>
                         </div>
                     </div>
@@ -192,7 +221,8 @@ get_header();
                                     </p>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn btn_view rounded-pill" href="#" role="button">Get a q</a>
+                                    <a name="" id="#card-back-button" class="btn btn_view rounded-pill" href="#"
+                                        role="button">Get a q</a>
                                 </div>
 
                             </div>
@@ -210,7 +240,8 @@ get_header();
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">contact
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
+                                    role="button">contact
                                     us</a>
                             </div>
                         </div>
@@ -247,7 +278,8 @@ get_header();
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">contact
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
+                                    role="button">contact
                                     us</a>
                             </div>
                         </div>
@@ -280,7 +312,8 @@ get_header();
                                 <p>excl. VAT</p>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
+                                    role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -310,7 +343,9 @@ get_header();
             <div class="col-md-4">
                 <div class="owner_img color">
                     <div class="history_img card_box">
-                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg" style="width: 360px;height:400px; position:absolute; margin-top:-120px; border-radius:24px;" alt="owner_img" />
+                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg"
+                            style="width: 360px;height:400px; position:absolute; margin-top:-120px; border-radius:24px;"
+                            alt="owner_img" />
                     </div>
                 </div>
             </div>
@@ -325,7 +360,9 @@ get_header();
     <div class="container">
         <div class="reviews_title">
             <h4 id="#section-heading">customer reviews</h4>
-            <a href="https://www.google.com/search?q=joel+transport&rlz=1C5CHFA_enZA944ZA944&oq=Joel+Tra&aqs=chrome.0.69i59j46i175i199i512j69i57j0i512l2j69i60l3.2406j0j4&sourceid=chrome&ie=UTF-8#lrd=0x1e957b55d7aab057:0x63bf0effcca467a6,1,,,">view on Google Reviews</a>
+            <a
+                href="https://www.google.com/search?q=joel+transport&rlz=1C5CHFA_enZA944ZA944&oq=Joel+Tra&aqs=chrome.0.69i59j46i175i199i512j69i57j0i512l2j69i60l3.2406j0j4&sourceid=chrome&ie=UTF-8#lrd=0x1e957b55d7aab057:0x63bf0effcca467a6,1,,,">view
+                on Google Reviews</a>
         </div>
         <div class="reviews_section">
             <div class="container">
@@ -340,7 +377,8 @@ get_header();
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Home-move-320.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Home-move-320.jpg"
+                        alt="" />
 
                     <div class="item_title">
                         <p>Domestic move</p>
@@ -349,7 +387,8 @@ get_header();
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_International_320px-x-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_International_320px-x-320px.jpg"
+                        alt="" />
 
                     <div class="item_title">
                         <p>International move</p>
@@ -358,7 +397,8 @@ get_header();
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnaill_home_and_office_320px_x_320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnaill_home_and_office_320px_x_320px.jpg"
+                        alt="" />
 
                     <div class="item_title">
                         <p>Home move</p>
@@ -367,7 +407,8 @@ get_header();
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Office-move-320.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Office-move-320.jpg"
+                        alt="" />
 
                     <div class="item_title">
                         <p>Office removal</p>
@@ -378,7 +419,8 @@ get_header();
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Specialized services</p>
                     </div>
@@ -386,7 +428,8 @@ get_header();
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_storage_320px-_-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_storage_320px-_-320px.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Storage move</p>
                     </div>
@@ -394,7 +437,8 @@ get_header();
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-2_320px-by-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-2_320px-by-320px.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Packing services</p>
                     </div>

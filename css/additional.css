@@ -15,6 +15,20 @@
     color: rgba(0, 0, 0, 0.54);
 }
 
+.carousel-caption {
+    top: 200px;
+}
+
+.carousel-indicators {
+    top: 70% !important;
+}
+
+.carousel-indicators .active {
+    background-color: #17479e;
+    height: 5px;
+    border-radius: 2px;
+}
+
 .top-menu {
     width: 100%;
     background: #17479e;
@@ -29,6 +43,11 @@
 
 .top-menu>:last-child {
     display: flex;
+    justify-content: flex-end;
+}
+
+.top-menu>:first-child {
+    font-size: 16px;
 }
 
 .top-menu>:last-child>a {
@@ -99,4 +118,34 @@
     display: flex;
     flex-direction: row;
     font-size: 1em;
+}
+
+.boldText {
+    margin-bottom: 20px;
+    color: black;
+    display: block;
+}
+
+p .compliments {
+    display: block;
+}
+
+.compliments>.happy-moving {
+    color: black;
+}
+
+ul.faq_list>li>p {
+    font-size: 18px;
+    margin-top: 30px !important;
+}
+
+ul.faq_list>li>p>span {
+    font-size: 22px;
+    display: block;
+}
+
+.hero_text {
+    text-shadow: 2px 2px 3px #00000085;
+    font-family: futuramedium;
+    font-size: 2rem;
 }

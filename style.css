@@ -631,17 +631,28 @@ h6 {
 .btn_history {
     color: #000;
 }
- :hover {}
 .nav-item {
     padding: 0.5rem 1rem;
 }
 .nav-item a {
-    color: #17479e !important;
+    color: #17479e;
+}
+.nav-item a .active {
+    color: white !important;
+    background-color: #17479e;
 }
 .nav_link a {
     color: #162643 !important;
 }
- :hover {}
+.nav-pills>li>a {
+    /* border-radius: 5% !important; */
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #17479e;
+}
 .overlay {
     position: absolute;
     top: 0;
