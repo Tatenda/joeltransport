@@ -1,0 +1,151 @@
+.reviews_title a {
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: var(--font-family-futura);
+    align-self: center;
+}
+
+.ti-review-item {
+    padding: 0 24px !important;
+}
+
+.ti-review-content {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.carousel-caption {
+    top: 200px;
+}
+
+.carousel-indicators {
+    top: 70% !important;
+}
+
+.carousel-indicators .active {
+    background-color: #17479e;
+    height: 5px;
+    border-radius: 2px;
+}
+
+.top-menu {
+    width: 100%;
+    background: #17479e;
+    color: #fff;
+    list-style: none;
+    margin-bottom: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    display: flex;
+}
+
+.top-menu>:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-menu>:first-child {
+    font-size: 16px;
+}
+
+.top-menu>:last-child>a {
+    margin-right: 15px;
+    display: grid;
+    place-items: center;
+}
+
+.top-menu a {
+    display: flex;
+    background: #17479e;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* Navigation */
+
+.navigation {
+    background-color: var(--color-white);
+    padding: 0.5em 0;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #162643;
+    justify-content: space-around;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #162643;
+}
+
+.navigation ul li a:hover {
+    color: #17479E;
+}
+
+.navigation ul li:last-child {
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.navigaion {
+    background-color: green !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px #00000029;
+}
+
+.navigation-inner {
+    margin-top: 12px;
+}
+
+.social-nav {
+    background: #17479e;
+    color: #fff;
+}
+
+.nav_item {
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+}
+
+.boldText {
+    margin-bottom: 20px;
+    color: black;
+    display: block;
+}
+
+p .compliments {
+    display: block;
+}
+
+.compliments>.happy-moving {
+    color: black;
+}
+
+ul.faq_list>li>p {
+    font-size: 18px;
+    margin-top: 30px !important;
+}
+
+ul.faq_list>li>p>span {
+    font-size: 22px;
+    display: block;
+}
+
+.hero_text {
+    text-shadow: 2px 2px 3px #00000085;
+    font-family: futuramedium;
+    font-size: 2rem;
+}
