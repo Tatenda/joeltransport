@@ -58,8 +58,8 @@
 
 .top-menu a {
     display: flex;
-    background: #17479e;
-    color: #fff;
+    background: var(--color-secondary);
+    color: var(--color-white);
     text-decoration: none;
     list-style: none;
 }
@@ -68,41 +68,28 @@
 /* Navigation */
 
 .navigation {
+    box-shadow: 0px 0px 12px #00000029;
     background-color: var(--color-white);
     padding: 0.5em 0;
 }
 
 .navigation ul {
-    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
     font-size: 16px;
-    color: #162643;
+    color: var(--color-dark-blue);
     justify-content: space-around;
 }
 
 .navigation ul li a {
     text-decoration: none;
     font-size: 16px;
-    color: #162643;
+    color: var(--color-dark-blue);
 }
 
 .navigation ul li a:hover {
-    color: #17479E;
-}
-
-.navigation ul li:last-child {
-    background-color: var(--color-primary);
-    border: 1px solid var(--color-primary);
-}
-
-.navigaion {
-    background-color: green !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 12px #00000029;
+    color: var(--color-secondary);
 }
 
 .navigation-inner {
@@ -110,8 +97,8 @@
 }
 
 .social-nav {
-    background: #17479e;
-    color: #fff;
+    background: var(--color-dark-blue);
+    color: var(--color-white);
 }
 
 .nav_item {
@@ -146,6 +133,6 @@ ul.faq_list>li>p>span {
 
 .hero_text {
     text-shadow: 2px 2px 3px #00000085;
-    font-family: futuramedium;
+    font-family: var(--font-family-futura);
     font-size: 2rem;
 }

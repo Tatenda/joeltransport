@@ -3,9 +3,10 @@
 <!-- contact -->
 <section class="contact">
     <div class="container">
+		    <h1 class="page_title">Contact</h1>
         <div class="row">
             <div class="col-md-6">
-                <h5>Contact</h5>
+
                 <br />
                 <ul>
                     <li>Monday - Friday</li>
@@ -14,23 +15,23 @@
                 <br />
                 <!-- address -->
                 <p>
-                    10 Von tonder street
+                    10 Von Tonder Street
                     <br />
                     Sunderland Ridge
                     <br />
-                    centurion, 0157
+                    Centurion, 0157
                     <br />
                     South Africa
                 </p>
                 <!-- email -->
                 <ul>
                     <li>Email</li>
-                    <li>joeltransport.co.za</li>
+                    <li><a class="contact-email" href="mailto:joeltransport.co.za">joeltransport.co.za</a></li>
                 </ul>
                 <!-- phone -->
                 <ul>
                     <li>Phone</li>
-                    <li>+27 67 777 8821</li>
+                    <li><a class="contact-tel" href="tel:+27 67 777 8821">+27 67 777 8821</a></li>
                 </ul>
                 <ul>
                     <li>Fax</li>
@@ -45,7 +46,7 @@
                             <div class="contraint">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="">contact person</label>
+                                        <label for="">contact reason</label>
                                         <select class="form-control" name="" id="" aria-placeholder="Sales enquiry">
                                             <option>Sales enquiry</option>
                                             <option></option>
@@ -60,7 +61,7 @@
                     <div class="form-group">
                         <label for="">service options</label>
                         <div class="options">
-                            <div class="form-check form-check-inline">
+                            <div class="service_options form-check form-check-inline">
 
                                 <label class="form-check-label">
                                     <input class="form-check-input" type="radio" name="" id="" value="checkedValue">
@@ -81,7 +82,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-check">
+                    <div class="call_me_back form-check">
                         <label class="form-check-label">
                             <input type="radio" class="form-check-input" name="" id="" value="checkedValue" checked>
                             Please call me back
@@ -91,28 +92,27 @@
                         <form>
                             <div class="form-group row">
                                 <div class="col-md-6">
-                                    <div class="form_box">
+                                    <div class="input_name form_box">
                                         <input type="text" class="form-control" name="inputName" id="inputName" placeholder="First Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form_box">
+                                    <div class="input_name lastform_box">
                                         <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Last Name">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="input_name col-md-6">
                                     <div class="form_box">
                                         <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form_box">
+                                    <div class="input_name form_box">
                                         <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Phone">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <a name="" id="" class="btn btn_home btn_attach" href="#" role="button">Attach
-                                        document</a> Attached file name here <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <input name="" id="" class="btn btn_home btn_attach" href="#" role="button" placeholder="upload adttachment">
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -121,9 +121,9 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="">contact person</label>
+                                    <label for="">referral</label>
                                     <select class="form-control" name="" id="" aria-placeholder="Sales enquiry">
-                                        <option>Sales enquiry</option>
+                                        <option>How did you find out about us</option>
                                         <option></option>
                                         <option></option>
                                     </select>
@@ -132,7 +132,7 @@
 
                             <div class="form-group row">
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn btn_home">Action</button>
+                                    <button type="submit" class="btn btn_home">Send message</button>
                                 </div>
                             </div>
                         </form>

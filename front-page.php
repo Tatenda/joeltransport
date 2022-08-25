@@ -1,92 +1,35 @@
 <?php
-get_header();
+    get_header();
+    include 'hero.php';
 ?>
-<div class="slider">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active indic"
-                aria-current="true" aria-label="Slide 1">
-            </button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
-                class="indic">
-            </button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
-                class="indic">
-            </button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-2_2500px-x-800px.jpg"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
-                        <br />Its truly
-                        stress-free and fun
-                        with us.<br /> Enjoy the move! ​​
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero-image-3_2500px-x-800px.jpg"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
-                        <br />Its truly
-                        stress-free and fun
-                        with us.<br /> Enjoy the move! ​​
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="http://joeltransport.mmogomedia.com/wp-content/uploads/2022/08/Hero_image_1_2500px_x_800px.jpg"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
-                        <br />Its truly
-                        stress-free and fun
-                        with us.<br /> Enjoy the move! ​​
-                    </p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-
 <!-- boxes -->
+
 <section class="boxes">
     <div class="container">
         <div class="row">
             <!-- 1st box -->
-            <div class="col-md-4">
+            <div class="col-md-4 mobile_off">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
                             <div class="overlay_text">
+                                <p class="terms_conditions">
+                                    <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+
+                                </p>
                                 <div class="card_title">
                                     <h4>Standard 1 bed move</h4>
                                 </div>
                                 <div class="card_text">
                                     <ul>
                                         <li>1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bathroom</li>
-                                        <li>Est. contents volume: 1,000-1500 cubic feet</li>
-                                        <li>Est. number of boxes/items: 15 Boxes/40 items</li>
-                                        <li>Ts & Cs Apply</li>
+                                        <li>Est. contents volume: 1,000-1500 cubic feet/40 items</li>
+                                        <li>Move within 50km radius of Centurion</li>
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button"
-                                        class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a
-                                        quote</a>
+
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get a quote</a>
                                 </div>
 
 
@@ -94,29 +37,32 @@ get_header();
                         </div>
                         <div class="card_body">
                             <h4 class="card-title">Standard 1 bed move</h4>
-                            <div class="card_text">
-                                <p id="#card-start-price">starting from</p>
+                            <div class="card_text_price">
+                                <p>starting from</p>
                             </div>
                             <div class="card_text">
                                 <span>R 1,850.00</span>
                             </div>
-                            <div class="card_text">
-                                <p id="#card-vat-price">excl. VAT</p>
+                            <div class="card_text_vat">
+                                <p>excl. VAT</p>
                             </div>
                             <div class="card_button  text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
-                                    role="button">view</a>
+
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves/" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 2nd box -->
-            <div class="col-md-4">
+            <div class="col-md-4 mobile_off">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
                             <div class="overlay_text">
+                                <p class="terms_conditions">
+                                    <a href="/terms">T&Cs</a>
+                                </p>
                                 <div class="card_title">
                                     <h4>Standard 2 Bed move</h4>
                                 </div>
@@ -124,115 +70,110 @@ get_header();
                                     <ul>
                                         <li>2 Bedrooms, 1 Lounge, 1 Kitchen, 2 Bathrooms​</li>
                                         <li>1 Extra Room (Small) or Single Garage (Small)​</li>
-                                        <li>Est. contents volume: 2,000-3,000 cubic feet​</li>
-                                        <li>Est. number of boxes/Items: 25 Boxes/60 items​</li>
+                                        <li>Est. contents volume: 2,000 cubic feet/items</li>
+                                        <li>Move within 50km radius of Centurion</li>
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button"
-                                        class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a
-                                        quote</a>
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote" role="button">Get a quote</a>
                                 </div>
-
-
-
                             </div>
                         </div>
                         <div class="card_body">
                             <h4 class="card-title">Standard 2 Bed move</h4>
-                            <div class="card_text">
-                                <p id="#card-start-price">starting from</p>
+                            <div class="card_text_price">
+                                <p>starting from</p>
                             </div>
                             <div class="card_text">
                                 <span>R 3,500.00</span>
                             </div>
-                            <div class="card_text">
+                            <div class="card_text_vat">
                                 <p>excl. VAT</p>
                             </div>
                             <div class="card_button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
-                                    role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 3rd box -->
-            <div class="col-md-4 mobile_off">
+            <div class="col-md-4 ">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
                             <div class="overlay_text">
+                                <p class="terms_conditions">
+                                    <a href="/terms">T&Cs</a>
+                                </p>
                                 <div class="card_title">
                                     <h4>Standard 3 bed move</h4>
                                 </div>
                                 <div class="card_text">
                                     <ul>
-                                        <li>3 Bedrooms, 1 Lounge, 1 Kitchen, 2.5 Bathroom​</li>
+                                        <li>3 Bedrooms, 1 Lounge, 1 Kitchen, 2.5 Bath​</li>
                                         <li>1 Extra Room (Large) and Double Garage​</li>
-                                        <li>Est. contents volume: 3,500 - 5,000 cubic feet​</li>
-                                        <li>Est. number of boxes/Items: 40 Boxes/90 items</li>
+                                        <li> Est. contents volume: 3,500 cubic feet / 70 items</li>
+                                        <li>Move within 50km radius of Centurion</li>
                                     </ul>
                                 </div>
                                 <div class="card_button ">
-                                    <a name="" id="#card-back-button"
-                                        class="#card-back-button btn btn_view rounded-pill" href="#" role="button">Get a
-                                        quote</a>
+                                    <a name="" id="#card-back-button" class=" btn btn_front" href="/quote" role="button">Get a quote</a>
                                 </div>
-
-
-
                             </div>
                         </div>
                         <div class="card_body">
                             <h4 class="card-title">3+ bed move</h4>
-                            <div class="card_text">
-                                <p>
-                                    Schedule a survey with us to get an accurate quote for
-                                    your move.
-                                </p>
+                            <div class="card_text_price">
+                                <p>starting from</p>
                             </div>
                             <div class="card_text">
-                                <span>Request a survey</span>
+                                <span>R 3,500.00</span>
+                            </div>
+                            <div class="card_text_vat">
+                                <p>excl. VAT</p>
+                            </div>
+                            <div class="card_button text-right">
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill"
-                                    href="#" role="button">contact us</a>
+                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- 1st box -->
-            <div class="col-md-4 mobile_off">
+            <!-- 4th card -->
+            <div class="col-md-4">
                 <div class="box m-2">
                     <div class="card shadow card_box">
                         <div class="overlay">
+                            <p class="terms_conditions">
+                                <a href="/terms">T&Cs</a>
+                            </p>
                             <div class="overlay_text">
                                 <div class="card_title">
                                     <h4>Office move</h4>
                                 </div>
                                 <div class="card_text">
                                     <p>
-                                        We have decades of experience in moving SMEs, medium-sized
-                                        and corporates and public institutions. Our office moving
-                                        services include our scheduling, insurance, and full
-                                        packing services.
+                                        We have decades of experience in moving SMEs,
+                                        medium-sized and corporates and public institutions.
+                                        Our office moving services include our scheduling,
+                                        insurance, and full packing services
                                     </p>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn btn_view rounded-pill" href="#"
-                                        role="button">Get a q</a>
+                                    <a name="" id="#card-back-button" class="btn btn-quote" href="/quote" role="button">Get a quote</a>
                                 </div>
 
                             </div>
                         </div>
                         <div class="card_body">
-                            <h4 class="card-title">Office removal</h4>
+                            <h4 class="card-title">Office move</h4>
                             <div class="card_text">
-                                <p>
-                                    We can help with large or small office moves, across the
-                                    country
+                                <p>We undertake large or small office moves, across South
+                                    Africa, or internationall
                                 </p>
                             </div>
                             <div class="card_text">
@@ -240,28 +181,32 @@ get_header();
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
-                                    role="button">contact
-                                    us</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- 2nd box -->
+            <!-- 5th box -->
             <div class="col-md-4 mobile_off">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
+                            <p class="terms_conditions">
+                                <a href="/terms">T&Cs</a>
+                            </p>
                             <div class="overlay_text">
                                 <div class="card_title">
                                     <h4>Specialized move</h4>
                                 </div>
                                 <div class="card_text">
-                                    Over the years we have built our moving capabilities to
-                                    complement our home and office moving services to include
-                                    the moving of Pets, Fine Art, Vehicles and selected
-                                    dangerous goods locally or internationally.
+                                    We safely store customer furniture and belongings in
+                                    crates at our Gauteng facilities, for transit, short and
+                                    long-term periods. Customers may also request us to
+                                    pack, collect and deliver to our storage facility.
+                                </div>
+                                <div class="card_button">
+                                    <a name="" id="#card-back-button" class="btn btn_front" href="/contact" role="button">contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -269,8 +214,8 @@ get_header();
                             <h4 class="card-title">Specialized move</h4>
                             <div class="card_text">
                                 <p>
-                                    Our Specialized move include pets, fine art, vehicle
-                                    transport, dangerous good, etc.
+                                    Our specialised services includes moving Pets, Fine
+                                    Art, Vehicles and selected dangerous goods.
                                 </p>
                             </div>
                             <div class="card_text">
@@ -278,9 +223,7 @@ get_header();
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
-                                    role="button">contact
-                                    us</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/office-removals" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -291,8 +234,14 @@ get_header();
                 <div id="main-card" class="box m-2">
                     <div class="card shadow card_box">
                         <div class="overlay">
+                            <p class="terms_conditions">
+                                <a href="/policies/">T&Cs</a>
+                            </p>
                             <div class="overlay_text">
                                 <h4>Storage</h4>
+                            </div>
+                            <div class="card_button">
+                                <a name="" id="#card-back-button" class="btn btn_front" href="/contact/" role="button">contact us</a>
                             </div>
                         </div>
                         <div class="card_body">
@@ -312,8 +261,7 @@ get_header();
                                 <p>excl. VAT</p>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="#"
-                                    role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -342,10 +290,9 @@ get_header();
             </div>
             <div class="col-md-4">
                 <div class="owner_img color">
-                    <div class="history_img card_box">
-                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg"
-                            style="width: 360px;height:400px; position:absolute; margin-top:-120px; border-radius:24px;"
-                            alt="owner_img" />
+                    <div class="history_img">
+                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg" alt="owner_img" />
+
                     </div>
                 </div>
             </div>
@@ -366,7 +313,7 @@ get_header();
         </div>
         <div class="reviews_section">
             <div class="container">
-                <?php echo do_shortcode('[trustindex no-registration=google]') ?>
+                <?php echo do_shortcode('[trustindex data-widget-id=7ae3bf1884412453e254c10cf3]') ?>
             </div>
         </div>
     </div>
@@ -377,9 +324,7 @@ get_header();
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Home-move-320.jpg"
-                        alt="" />
-
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Picture-272.jpg" alt="" />
                     <div class="item_title">
                         <p>Domestic move</p>
                     </div>
@@ -464,13 +409,13 @@ get_header();
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/siama.jpg" alt="update" />
                     <p>South African International Movers Association</p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/nbcrfli.jpg" alt="" />
                     <p>
@@ -479,10 +424,16 @@ get_header();
                     </p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/rfa.jpg" alt="" />
                     <p>National Road Freight Association</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="member_item card_box">
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2020/09/AMOSA-LOGO.jpg" alt="" />
+                    <p>Accredited Movers Of South Africa</p>
                 </div>
             </div>
         </div>

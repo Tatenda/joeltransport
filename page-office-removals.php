@@ -1,27 +1,25 @@
 <?php get_header(); ?>
+<!-- 1:21am -->
 <!-- home-moves -->
-<div class="home-moves section">
+<div id="office_removals" class="home-moves">
     <div class="container">
-        <h3 class="">Home moves</h3>
-
+        <h1 class="page_title">Office removals</h1>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 ">
                 <div class="home_box">
-                    <div class="moves_title">
-                        <h5>Domestic</h5>
+                    <div class="moves_details">
+                        <h2 class="page_sub_title">Domestic moves</h2>
                     </div>
-                    <div class="moves_prices ">
-
-                        <div class="price">
-                            <p class="">Starting at</p>
+                    <div class="domestic_price">
+                        <div class="card_text_price">
+                            <p>Starting at</p>
                         </div>
-                        <div class="price_amt">
+                        <div class="card_text">
                             <span>R 1,850.00</span>
                         </div>
-                        <div class="vat">
-                            <p class="">excl. VAT</p>
+                        <div class="card_text_vat">
+                            <p>excl. VAT</p>
                         </div>
-
                     </div>
                 </div>
                 <div class="moves">
@@ -31,7 +29,10 @@
                         peace of mind. Go anywhere with Joel Transport, we offer a full
                         range of removal services for local moves in South Africa, from
                         packing and loading to transportation and unloading. Start now get
-                        your non-binding quotation. No matter what type of move you’re
+                        your non-binding quotation.
+                        <br>
+                        <br>
+                        No matter what type of move you’re
                         making Joel Transport is here for you, our services are tailored
                         according to your needs.  There is access restrictions for big
                         trucks in your complex or estate? Do not worry, Joel Transport has
@@ -41,29 +42,29 @@
                     </p>
                 </div>
                 <div class="moves_btn">
-                    <a name="" id="" class="btn btn_home " href="#" role="button">Get a qoute</a>
+                    <a class="btn btn-quote " href="/quote" role="button">Get a qoute</a>
                 </div>
             </div>
             <div class="col-md-6 d_align">
-                <div class="moves_img">
-                    <img src="<?php bloginfo('template_directory') ?>/img/Packing 3_600px _ 400px.jpg" alt="" />
+                <div class="domestic_moves_img">
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/local.png" alt="" />
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- international moves -->
-<div class="international section">
+<div id="office_international" class="international section">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="moves_img">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-2-International_600px-x-400px.jpg" alt="" />
+                <div class="international_moves_img">
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/international.png" alt="" />
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_details">
-                    <h5>International</h5>
+                    <h2 class="page_sub_title">International moves</h2>
                     <div class="moves">
                         <p>
                             Joel Transport offers full range of international moving
@@ -87,27 +88,23 @@
     </div>
 </div>
 <!-- storage -->
-<div class="storage section">
+<div id="office_storage" class="storage section">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="home_box">
-                    <div class="moves_details">
-                        <div class="moves_title">
-                            <h5>Storage</h5>
+                <div class="storage_price">
+                    <h2 class="page_sub_title">
+                        Storage
+                    </h2>
+                    <div class="moves_prices">
+                        <div class="card_text_price">
+                            <p>Starting at</p>
                         </div>
-                        <div class="moves_prices ">
-                            <div class="price_left">
-                                <p class="">Starting at</p>
-                            </div>
-                            <div class="price_amt_left">
-                                <span>R 1,850.00</span>
-                            </div>
-                            <div class="vat_left">
-                                <p class="">excl. VAT</p>
-                            </div>
-
-
+                        <div class="card_text">
+                            <span>R 1,850.00</span>
+                        </div>
+                        <div class="card_text_vat">
+                            <p>excl. VAT</p>
                         </div>
                     </div>
                 </div>
@@ -127,7 +124,7 @@
                 </div>
                 <div class="button"></div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-storage_600px-_-400px.jpg" alt="" />
                 </div>
@@ -139,15 +136,12 @@
 <div class="cta">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_details">
-                    <h5>Call to action</h5>
+
                     <div class="moves">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                            nisi sint omnis eum non, adipisci hic beatae fugiat? Quasi,
-                            aliquam sed! Dolore asperiores eligendi necessitatibus harum,
-                            quaerat deserunt atque dolor.
+                            At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal work interruption during your office move. We ensure that packing of all documents is done as labelled and furniture is moved with great care.
                         </p>
                     </div>
                 </div>
@@ -155,8 +149,8 @@
             <div class="col-md-6 d_align">
                 <div class="cta_buttons">
                     <div class="cta_buttons">
-                        <a name="" id="" class="btn btn_view" href="#" role="button">Get a qoute</a>
-                        <a name="" id="" class="btn btn_view" href="#" role="button">Schedule a survey</a>
+                        <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
+                        <a class="btn btn_view" href="/contact" role="button">Contact us</a>
                     </div>
                 </div>
             </div>
@@ -164,7 +158,7 @@
     </div>
 </div>
 <!-- packaging -->
-<div class="packaging section">
+<div id="office_packing" class="packaging section">
     <div class="container">
         <div class="row">
             <div class="col-md-6 d_align">
@@ -176,7 +170,7 @@
             </div>
             <div class="col-md-6 d_align">
                 <div class="moves_details">
-                    <h5>packing services</h5>
+                    <h2 class="page_sub_title">Packing services</h2>
                     <div class="moves">
                         <p>
                             We offer a full packing and packaging service; Our expert
@@ -192,12 +186,12 @@
     </div>
 </div>
 <!-- insurance -->
-<div class="insurance section">
+<div id="office_insurance" class="insurance section">
     <div class="container">
         <div class="row">
             <div class="col-md-6 d_align">
                 <div class="moves_details">
-                    <h5>Insurance</h5>
+                    <h2 class="page_sub_title">Insurance</h2>
                     <div class="moves">
                         <p>
                             For peace mind, the all-risk insurance cover is available and
@@ -207,7 +201,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-insurance-600-1.jpg" alt="" />
                 </div>
@@ -216,17 +210,17 @@
     </div>
 </div>
 <!-- materials -->
-<div class="materials section">
+<div id="office_material" class="materials section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 d_align">
                 <div class="moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-material-600-1.jpg" alt="" />
                 </div>
             </div>
             <div class="col-md-6 d_align">
-                <div class="move_details">
-                    <h5>Packaging material & crates</h5>
+                <div class="moves_details">
+                    <h2 class="page_sub_title">Packaging material & crates</h2>
                     <div class="moves">
                         <p>
                             We provide professional packing and unpacking from trained
@@ -243,26 +237,25 @@
 <div class="cta">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h5>Call to action</h5>
+            <div class="col-md-6 d_align">
+
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                    nisi sint omnis eum non, adipisci hic beatae fugiat? Quasi,
-                    aliquam sed! Dolore asperiores eligendi necessitatibus harum,
-                    quaerat deserunt atque dolor.
+                    At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal work interruption during your office move. We ensure that packing of all documents is done as labelled and furniture is moved with great care.
                 </p>
             </div>
             <div class="col-md-6 d_align">
-                <a name="" id="" class="btn btn_view" href="#" role="button">Get a qoute</a>
-                <a name="" id="" class="btn btn_view" href="#" role="button">Schedule a survey</a>
+                <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
+                <a class="btn btn_view" href="/contact" role="button">Contact us</a>
             </div>
         </div>
     </div>
 </div>
 <!-- specialize -->
-<div class="specialized section">
+<div id="specialized" class="specialized section">
     <div class="container">
-        <h5>Specialized</h5>
+        <div class="moves_details">
+            <h2 class="page_sub_title">Specialized</h2>
+        </div>
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
@@ -272,7 +265,7 @@
                         <p>Pets</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
                     For many people, their pets are considered members of the family,
                     and rate among the most precious items to move. Joel Transport
                     provides a specialised pet moving service that will leave the
@@ -290,7 +283,7 @@
                         <p>Vehicle transporttation</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
 
                     Need to have help to move your cars – Let Joel Transport take care
                     of this for you – We have a Depot to Depot service, moving cars
@@ -306,7 +299,7 @@
                         <p>Fine art</p>
                     </div>
                 </div>
-                <p>
+                <p class="specialized_info">
                     We offer state of the art packing and transportation your valuable
                     art or antique collection. Our team of trained experts know how to
                     keep the most delicate piece of art protected during the moving
@@ -321,16 +314,13 @@
                         <p>Dangerous goods</p>
                     </div>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                    nostrum officiis in cupiditate. Sequi repellendus repellat rerum
-                    eaque. Expedita maxime corrupti pariatur, fugiat placeat non? Rem
-                    quidem cupiditate ratione recusandae!
+                <p class="specialized_info">
+                    Dangerous goods are categorised as flammable and chemicals, we have fleet and drivers who are fully compliant
+                    and trained to move dangerous goods.
                 </p>
             </div>
         </div>
     </div>
 </div>
-<!--  -->
-<!--  -->
-<?php wp_footer(); ?>
+
+<?php get_footer(); ?>

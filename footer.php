@@ -1,6 +1,3 @@
-<?php if (!is_front_page()) : ?>
-
-<?php endif; ?>
 </div><!-- /.row -->
 
 </div><!-- /.container -->
@@ -20,40 +17,40 @@
                     <br />
                     <ul>
                         <li>
-                            <a href="">Local Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Local Moves</a>
                         </li>
                         <li>
-                            <a href="">International Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#international_move">International Moves</a>
                         </li>
                         <li>
-                            <a href="">Home Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#domestic_moves">Home Moves</a>
                         </li>
                         <li>
-                            <a href="">Office Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/office-removals">Office Moves</a>
                         </li>
                         <li>
-                            <a href="">Storage</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#office_storage">Storage</a>
                         </li>
                         <li>
-                            <a href="">Insurance</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#insurance">Insurance</a>
                         </li>
                         <li>
-                            <a class="text-uppercase" href="">Specialized services</a>
+                            <a class="text-uppercase" href="https://joeltransport.mmogomedia.com/home-moves#specialized">Specialized services</a>
                         </li>
                         <li>
-                            <a href="">Pets</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#specialized">Pets</a>
                         </li>
                         <li>
-                            <a href="">Pianos</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#specialized">Pianos</a>
                         </li>
                         <li>
-                            <a href="">Fine art</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#specialized">Fine art</a>
                         </li>
                         <li>
-                            <a href="">Vehicle transport</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#specialized">Vehicle transport</a>
                         </li>
                         <li>
-                            <a href="">Dangerous goods</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves#specialized">Dangerous goods</a>
                         </li>
                     </ul>
                 </div>
@@ -63,16 +60,16 @@
                     <br />
                     <ul>
                         <li>
-                            <a href="">FAQs</a>
+                            <a href="/resources#faqs">FAQs</a>
                         </li>
                         <li>
-                            <a href="">Moving tips</a>
+                            <a href="/resources#moving_tips">Moving tips</a>
                         </li>
                         <li>
-                            <a href="">Home moves checklist</a>
+                            <a href="/resources#home_checklist">Home moves checklist</a>
                         </li>
                         <li>
-                            <a href="">Office moves checklist</a>
+                            <a href="/resources#office_checklist">Office moves checklist</a>
                         </li>
                     </ul>
                 </div>
@@ -87,67 +84,64 @@
                     <br />
                     <!-- address -->
                     <p>
-                        10 Von tonder street
+                        10 Von Tonder Street
                         <br />
                         Sunderland Ridge
                         <br />
-                        centurion, 0157
+                        Centurion, 0157
                         <br />
                         South Africa
                     </p>
                     <!-- email -->
                     <ul>
-                        <li>Email</li>
-                        <li>joeltransport.co.za</li>
+                        <li class="text-bold">Email</li>
+                        <li><a href="mailto:joeltransport.co.za">joeltransport.co.za</a></li>
                     </ul>
                     <!-- phone -->
                     <ul>
-                        <li>Phone</li>
-                        <li>+27 67 777 8821</li>
+                        <li class="text-bold">Phone</li>
+                        <li><a href="tel:27677778821">+27 67 777 8821</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <nav class="nav justify-content-center footer_nav pb-3">
             <li class="nav-item">
-                <a class="nav_link active" href="#">About</a>
+                <a class="nav_link" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Community</a>
+                <a class="nav_link" href="/about#community">Community</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Careers</a>
+                <a class="nav_link" href="/about#careers">Careers</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Contact</a>
+                <a class="nav_link" href="/contact#contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Removal Policy</a>
+                <a class="nav_link" href="/policies#removal_policy">Removal Policy</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Privacy Policy</a>
+                <a class="nav_link" href="/policies#privacy_policy">Privacy Policy</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="#">Terms & conditions</a>
+                <a class="nav_link" href="/resources#terms">Terms & conditions</a>
             </li>
         </nav>
         <div class="footer_bottom d-flex">
             <div class="copyright text-center">
-                <p>Copyright&copy; <?php echo Date('Y'); ?> - <?php bloginfo('name'); ?> Joel Transport. All Rights Reserved</p>
+                <p>Copyright&copy; <?php echo Date('Y'); ?> - <?php bloginfo('name'); ?>. All Rights Reserved</p>
             </div>
             <div class="social_icons">
                 <ul class="d-flex">
                     <li class="footer_icons">
-                        <a class="icon_link" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a class="icon_link" href="https://twitter.com/JoelsTransport"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
                     <li class="footer_icons">
-                        <a class="icon_link" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a class="icon_link" href="https://www.instagram.com/ptyltd.joeltransport/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </li>
                     <li class="footer_icons">
-                        <a class="icon_link" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="footer_icons">
-                        <a class="icon_link" href=""><i class="fa fa-twitch" aria-hidden="true"></i></a>
+                        <a class="icon_link" href="https://www.facebook.com/Joel.Transport1965/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
@@ -156,7 +150,6 @@
 
 </footer>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
 <?php wp_footer(); ?>
 
 
