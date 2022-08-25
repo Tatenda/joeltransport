@@ -28,28 +28,70 @@
             </div>
         </div>
         <div class="navigation">
-            <div class="container">
-                <div class="row">
-                    <div class="col-2">
-                        <a class="navbar-brand text-uppercase" href="/">
-                            <img src="https://joeltransport.co.za/wp-content/uploads/2020/07/LOGO-01.png" alt="footer logo" />
-                        </a>
-                    </div>
-                    <div class="col-8">
-                        <?php
-                            wp_nav_menu(array(
-                                "menu" => "primary",
-                                "container" => "div",
-                                "container_class" => "navigation-inner",
-                                "theme_location" => "primary",
-                                'items_wrap' => '<ul id="" class="navbar">%3$s</ul>'
-                            ));
-                        ?>
-                    </div>
-					<div class="col-2">
-                         <a class="btn btn_quote" href="/quote" role="button">Get a qoute</a>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <img src="https://joeltransport.co.za/wp-content/uploads/2020/07/LOGO-01.png" alt="logo" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="/home-moves" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    HOME MOVES
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/home-moves#domestic-moves">Domestic moves</a></li>
+                                    <li><a class="dropdown-item" href="/home-moves#international-removals">International removals</a></li>
+                                    <li><a class="dropdown-item" href="/home-moves#packing-services">Packing services</a></li>
+
+                                    <li><a class="dropdown-item" href="/home-moves#packing-material">Packing material</a></li>
+                                    <li><a class="dropdown-item" href="/home-moves#storage">Storage</a></li>
+                                    <li><a class="dropdown-item" href="/home-moves#insurance">Insurance</a></li>
+                                    <li><a class="dropdown-item">SPECIALIZED SERVICES</a></li>
+                                    <li><a class="dropdown-item" href="/home-moves#pets">Pets</a></li>
+                                    <li><a class="dropdown-item" href="/home-moves#vehicle-transport">Vehicle transport</a></li>
+                                    <li><a class="dropdown-item" href="/home-moves#fine-art">Fine Art</a></li>
+                                    <li><a class="dropdown-item" href="/home-moves#dangerous-goods">Dangerous goods</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="/office-removals" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    OFFICE REMOVALS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="/resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    RESOURCES
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-quote" href="/quote">Get a quote</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>

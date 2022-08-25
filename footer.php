@@ -1,6 +1,4 @@
-<?php if (!is_front_page()) : ?>
 
-<?php endif; ?>
 </div><!-- /.row -->
 
 </div><!-- /.container -->
@@ -63,16 +61,16 @@
                     <br />
                     <ul>
                         <li>
-                            <a href="https://joeltransport.mmogomedia.com/resources#faqs">FAQs</a>
+                            <a href="/resources#faqs">FAQs</a>
                         </li>
                         <li>
-                            <a href="https://joeltransport.mmogomedia.com/resources#moving_tips">Moving tips</a>
+                            <a href="/resources#moving_tips">Moving tips</a>
                         </li>
                         <li>
-                            <a href="https://joeltransport.mmogomedia.com/resources#home_checklist">Home moves checklist</a>
+                            <a href="/resources#home_checklist">Home moves checklist</a>
                         </li>
                         <li>
-                            <a href="https://joeltransport.mmogomedia.com/resources#office_checklist">Office moves checklist</a>
+                            <a href="/resources#office_checklist">Office moves checklist</a>
                         </li>
                     </ul>
                 </div>
@@ -110,25 +108,25 @@
         </div>
         <nav class="nav justify-content-center footer_nav pb-3">
             <li class="nav-item">
-                <a class="nav_link active" href="https://joeltransport.mmogomedia.com/about">About</a>
+                <a class="nav_link" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="https://joeltransport.mmogomedia.com/about#community">Community</a>
+                <a class="nav_link" href="/about#community">Community</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="https://joeltransport.mmogomedia.com/about#careers">Careers</a>
+                <a class="nav_link" href="/about#careers">Careers</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="https://joeltransport.mmogomedia.com/contact#contact">Contact</a>
+                <a class="nav_link" href="/contact#contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="https://joeltransport.mmogomedia.com/policies#removal_policy">Removal Policy</a>
+                <a class="nav_link" href="/policies#removal_policy">Removal Policy</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="https://joeltransport.mmogomedia.com/policies#privacy_policy">Privacy Policy</a>
+                <a class="nav_link" href="/policies#privacy_policy">Privacy Policy</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="https://joeltransport.mmogomedia.com/resources#terms">Terms & conditions</a>
+                <a class="nav_link" href="/resources#terms">Terms & conditions</a>
             </li>
         </nav>
         <div class="footer_bottom d-flex">
@@ -154,8 +152,7 @@
 
 </footer>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
-<script defer async src='https://cdn.trustindex.io/loader.js?7ae3bf1884412453e254c10cf3'></script>
+
 <?php wp_footer(); ?>
 
 

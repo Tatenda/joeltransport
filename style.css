@@ -4,7 +4,7 @@ Theme URI: http://joeltransport.co.za
 Author: Mathase Mashau
 Author URI:http://joeltransport.co.za
 Description: Simple Bootstrap Wordpress Theme
-Version: 1.6
+Version: 1.6.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: joeltransport
@@ -15,56 +15,118 @@ this is the recent update 7:08pm
 /*
  * Globals
  */
+ @font-face {
+  font-family: 'futuralight';
+  src: url('./fonts/futura_light_font-webfont.woff2') format('woff2'),
+       url('./fonts/futura_light_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'futuralight_condensed';
+  src: url('./fonts/futura-condensedlight-webfont.woff2') format('woff2'),
+       url('./fonts/futura-condensedlight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'futuramedium';
+  src: url('./fonts/futura-medium-webfont.woff2') format('woff2'),
+       url('./fonts/futura-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: 'arca_majora_3heavy';
+  src: url('./fonts/arcamajora3-heavy-webfont.woff2') format('woff2'),
+       url('./fonts/arcamajora3-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: "arca_majora_3bold";
+  src: url("./fonts/arcamajora3-bold-webfont.woff2") format("woff2"),
+    url("./fonts/arcamajora3-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
+:root {
+  --color-primary: #57c5cc;
+  --color-secondary: #17479e;
+  --color-dark-blue: #162643;
+  --color-accent: #ed2325;
+  --color-white: #fff;
+  --color-black: #00000035;
+
+  --font-size-base: 16px;
+  --font-family-futura: 'futuramedium';
+  --font-majora-arca3: "arca_majora_3bold";
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+    font-family: "futuramedium";
+    color: gray;
+    font-size: var(--font-size-base);
+    padding-top: 70px;
+}
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  font-family: 'arca_majora_3bold';
+  }
+
+/* buttons */
+
+.btn-quote {
+  background-color: var(--color-primary);
+  border-radius: 30px;
+  padding: 16px 36px;
+}
+
+.btn-quote:hover{
+  background: hsla(184, 53%, 75%, 1)
+  var(--color-secondary);
+}
+
  .nav_align{
     justify-content: space-between;
 align-items: center;
 }
+
 .sub-menu{
 display:none;
 }
-.btn_quote {
-background-color: #89d6db;
-color: #2b3a54;
-font-size: 16px;
-padding: 10px 20px;
-}
-#menu-item-54:hover .sub-menu {
-background: #162643;
-position: absolute;
-display: block;
-padding: 20px;
-border-radius: 10px;
-width: 210px;
-}
-#menu-item-43:hover .sub-menu {
-background: #162643;
-position: absolute;
-display: block;
-padding: 20px;
-border-radius: 10px;
-width: 210px;
-}
-#menu-item-58:hover .sub-menu {
-background: #162643;
-position: absolute;
-display: block;
-padding: 20px;
-border-radius: 10px;
-width: 210px;
+
+/* Main Menu */
+.navigation {
+  padding: 0;
+  margin: 0;
 }
 
-.menu-item-54 ul li a {
-color: #fff;
-}
-.menu-item-58 ul li a {
-color: #fff;
-}
-.menu-item-43 ul li a {
-color: #fff;
+.navigation .navbar > div > div > ul > li {
+  padding: 10px 26px;
+  text-align: center;
 }
 
-
-
+.navigation .navbar > div > div > ul > li:last-child {
+  text-align: right !important;
+  width: 200px !important;
+}
 
 .form_section {
 background: #F8F8F8;
@@ -75,21 +137,21 @@ margin-bottom: 120px;
 }
 
 .page_title{
-font-family: 'arca_majora_3bold';
-font-size:32px;
-color:#162643;
+font-family: var(--font-family-arca_majora_3bold);
+font-size: 2em;
+color: var(--color-dark-blue);
 margin-bottom:60px;
-margin-top:220px;
+margin-top: 120px;
 }
+
 .page_sub_title{
-font-family: 'arca_majora_3bold';
+font-family: var(--font-family-arca_majora_3bold);
 font-size:24px;
-color:#162643;
+color: var(--color-dark-blue);
 margin-bottom:30px;
 }
-p{
-font-family: 'futuramedium';
-font-size:16px;
+
+p {
 color:#949494;
 }
 /* home-moves */
@@ -100,9 +162,7 @@ text-align:right;
 .storage_price{
 text-align:left;
 }
-.card_text_starting{
 
-}
 .card_text_starting p{
 font-size:12px;
 color:#999;
@@ -122,7 +182,7 @@ margin-top:-10px;
 font-size:14px;
 color:#ccc;
 }
-.terms_conditions{}
+
 .card_text_price p{
 margin-bottom:-10px;
 
@@ -137,32 +197,6 @@ padding:120px 0;
 width:480px;
 }
 
-
-/* buttons */
-
-
-
-
-
-
-.card_text_schedule{
-
-}
-.card_text_starting{
-
-}
-.card_text_schedule{
-
-}
-.card_text_office{
-
-}
-.card_text_specialized{
-
-}
-.card_text_storage{
-
-}
 .showcase{
 display:none;
 }
@@ -193,50 +227,11 @@ color:hsla(0, 0%, 85%, 1);
 bottom: 20px;
 right: 20px;
 }
+
 .moves_btn{
 text-align:right;
 }
 
-/* updates */
-#menu-item-43 {
-font-size: 16;
-color: #162643;
-}
-
-#menu-item-58 {
-font-size: 16px;
-color: #162643;
-}
-#menu-item-57 {
-font-size: 16px;
-color: #162643;
-}
-#menu-item-56 {
-font-size: 16px;
-color: #162643;
-}
-
-.menu-item .menu-item-type-post_type.menu-item-86:hover{
-padding: 5px 10px;
-font-size 18px;
-border-radius 24px;
-    color: #57c5cc;
-}
-
-
-#menu-item-86 {
-font-size: 16px;
-color: #57c5cc;
-padding: 8px 10px;
-border-radius: 20px;
-
-}
-#menu-item-86:hover {
-font-size: 16px;
-color: #57c5cc;
-   padding: 5px 10px;
-opacity: 70%;
-}
 .main-card {
 width: 100%;
 height: 240px;
@@ -308,15 +303,13 @@ border-radius: 24px;
 height: 240px;
 padding: 1.5rem;
 }
-.navigaion {
-box-shadow: 0px 0px 12px #00000029;
-}
+
 #history-title {
 color: #000;
   font-size: 18px;
   margin-bottom: 18px;
 }
-}
+
 .history_read-more {
 text-align: right;
 }
@@ -337,7 +330,7 @@ padding: 100px;
 font: 18px;
 }
 #service-item-img {
-height: 240px;
+  height: 240px;
 }
 .service-item:hover .item_title {
   background: #17479e;
@@ -350,6 +343,22 @@ color: #fff;
 letter-spacing: -0.28px;
 margin-bottom: 0;
 }
+.services_item {
+  transition: all .2s ease-in-out;
+}
+
+.services_item:hover {
+  transform: scale(1.03);
+}
+
+.services_item img {
+  transition: all .2s ease-in-out;
+}
+
+.services_item img:hover {
+  /* transform: scale(1.03); */
+}
+
 .member_item {
 box-shadow: 0px 0px 12px #00000029;
 border-radius: 24px;
@@ -361,109 +370,8 @@ border-radius: 24px;
   height: 220px;
 }
 
-/* updates end */
-
-
-
-
-
-@font-face {
-font-family: 'futuralight';
-src: url('./fonts/futura_light_font-webfont.woff2') format('woff2'),
-     url('./fonts/futura_light_font-webfont.woff') format('woff');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'futuralight_condensed';
-src: url('./fonts/futura-condensedlight-webfont.woff2') format('woff2'),
-     url('./fonts/futura-condensedlight-webfont.woff') format('woff');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'futuramedium';
-src: url('./fonts/futura-medium-webfont.woff2') format('woff2'),
-     url('./fonts/futura-medium-webfont.woff') format('woff');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'arca_majora_3heavy';
-src: url('./fonts/arcamajora3-heavy-webfont.woff2') format('woff2'),
-     url('./fonts/arcamajora3-heavy-webfont.woff') format('woff');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: "arca_majora_3bold";
-src: url("./fonts/arcamajora3-bold-webfont.woff2") format("woff2"),
-  url("./fonts/arcamajora3-bold-webfont.woff") format("woff");
-font-weight: normal;
-font-style: normal;
-}
-
-
-* {
-box-sizing: border-box;
-}
-
-body {
-font-family: "futuramedium";
-color: gray;
-font-size: 16px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-font-family: 'arca_majora_3bold';
-}
-
-:root {
---color-primary: #57c5cc;
---color-secondary: #17479e;
---color-accent: #ed2325;
---font-family-futura: 'futuramedium';
---font-majora-arca3: "arca_majora_3bold";
---color-white: #fff;
-}
-
 /* updates */
-#menu-item-43 {
-font-size: 16;
-color: #162643;
-}
-#menu-item-58 {
-font-size: 16px;
-color: #162643;
-}
-#menu-item-57 {
-font-size: 16px;
-color: #162643;
-}
-#menu-item-56 {
-font-size: 16px;
-color: #162643;
-}
-#menu-item-86 {
-font-size: 16px;
-color: #57c5cc;
-padding: 8px 10px;
-}
-#menu-item-86:hover {
-font-size: 16px;
-color: #57c5cc;
-padding: 8px 10px;
-opacity: 70%;
-}
+
 .main-card {
 width: 100%;
 height: 240px;
@@ -511,9 +419,7 @@ border-radius: 24px;
 height: 240px;
 padding: 1.5rem;
 }
-.navigaion {
-box-shadow: 0px 0px 12px #00000029;
-}
+
 #history-title {
 font-size: 18px;
 color: #000;
@@ -558,47 +464,6 @@ width: 280px;
 height: 220px;
 }
 
-/* updates end */
-
-.social-nav {
-background: #17479e;
-color: #fff;
-}
-.nav_item {
-display: flex;
-flex-direction: row;
-}
-/* Navigation */
-.navigation {
-background-color: var(--color-white);
-padding: 0.5em 0;
-box-shadow: 0px 0px 10px #00000035;
-}
-
-.navigation ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  color: #162643;
-  justify-content: space-around;
-}
-
-.navigation ul li a {
-  text-decoration: none;
-  font-size: 16px;
-  color: #162643;
-}
-.navigation ul li a:hover{
-  color:#17479E;
-}
-
-.navigation ul li:last-child {
-background-color: var(--color-primary);
-border: 1px solid var(--color-primary);
-}
-
 .showcase .overlay-hero {
 position: absolute;
 top: 0;
@@ -639,10 +504,7 @@ color: #fff;
     font-family: "futuramedium";
     font-size: 14px;
 }
-.btn_quote:hover{
-        background: hsla(184, 53%, 75%, 1)
-        var(--color-secondary);
-}
+
 .card_text ul{
         font-size: 14px;
         color:#fff;
@@ -782,27 +644,7 @@ font-size: 15px;
 width: 200px;
 height: 100px;
 }
-
-/* on click */
-.dropdown-menu.show {
-display: block;
-border-radius: 20px;
-background-color: #787878;
-color: #fff;
-}
-
-.dropdown-item {
-color: #fff !important;
-}
 /* hover  */
-
-.btn_quote {
-background-color: #89d6db;
-color: #2b3a54;
-font-size: 18px;
-padding: 10px 25px;
-border-radius: 24px;
-}
 
 .btn_view {
 color: #17479e;
@@ -821,10 +663,6 @@ border-radius: 24px;
 color: #000;
 }
 
-.nav-item a .active {
-  color: white !important;
-  background-color: #17479e;
-}
 .nav_link a {
   color: #162643 !important;
 }
@@ -985,8 +823,7 @@ display: flex;
 justify-content: space-between;
 margin-bottom: 60px;
 }
-.box_reviews {
-}
+
 .card_reviews {
 padding: 15px;
 box-shadow: darkgrey 1px 4px 4px;
@@ -1000,8 +837,6 @@ margin-bottom: 15px;
 .reviews_rating {
 display: flex;
 margin-bottom: 15px;
-}
-.reviews_comment {
 }
 
 .highlights {
@@ -1056,9 +891,15 @@ vertical-align: middle;
 border-style: none;
 width: 100px;
 }
+
 .footer_nav {
-background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
+
+.footer_nav .nav-item {
+  margin-right: 12px;
+}
+
 .footer a {
   color: #162643;
   text-decoration: none;
@@ -1324,7 +1165,6 @@ justify-content: space-between;
 .home-moves h3 {
 font-size: 32px;
 margin-bottom: 80px;
-margin-top: 130px;
 }
 .btn_home {
 background-color: #e2e2e2;

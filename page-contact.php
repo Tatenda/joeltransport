@@ -6,7 +6,7 @@
 		    <h1 class="page_title">Contact</h1>
         <div class="row">
             <div class="col-md-6">
-            
+
                 <br />
                 <ul>
                     <li>Monday - Friday</li>
@@ -15,23 +15,23 @@
                 <br />
                 <!-- address -->
                 <p>
-                    10 Von tonder street
+                    10 Von Tonder Street
                     <br />
                     Sunderland Ridge
                     <br />
-                    centurion, 0157
+                    Centurion, 0157
                     <br />
                     South Africa
                 </p>
                 <!-- email -->
                 <ul>
                     <li>Email</li>
-                    <li>joeltransport.co.za</li>
+                    <li><a href="mailto:joeltransport.co.za">joeltransport.co.za</a></li>
                 </ul>
                 <!-- phone -->
                 <ul>
                     <li>Phone</li>
-                    <li>+27 67 777 8821</li>
+                    <li><a href="tel:+27 67 777 8821">+27 67 777 8821</a></li>
                 </ul>
                 <ul>
                     <li>Fax</li>

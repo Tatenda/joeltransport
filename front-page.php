@@ -164,7 +164,7 @@
                                     </p>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn btn_front" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class="btn btn-quote" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
                                 </div>
 
                             </div>

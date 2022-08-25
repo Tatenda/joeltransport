@@ -9,20 +9,21 @@
             <div class="col-md-6 ">
                 <div class="home_box">
                     <div class="moves_details">
-                        <h2 class="page_sub_title">Domestic moves</h2>
+                        <h2 id="domestic-moves" class="page_sub_title">Domestic moves</h2>
                     </div>
-						 <div class="domestic_price">
-							 <div class="card_text_price">
-							 <p>Starting at</p>
-							 </div>
-                        	<div class="card_text">
-								<span>R 1,850.00</span>
-							 </div>
-                        	<div  class="card_text_vat">
-								<p>excl. VAT</p>
-							 </div>
-                  	  </div>
+                    <div class="domestic_price">
+                        <div class="card_text_price">
+                            <p>Starting at</p>
+                        </div>
+                        <div class="card_text">
+                            <span>R 1,850.00</span>
+                        </div>
+                        <div  class="card_text_vat">
+                            <p>excl. VAT</p>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="moves">
                     <p>
                         Everyday, Joel Transport offers unique moves and great experience
@@ -31,8 +32,8 @@
                         range of removal services for local moves in South Africa, from
                         packing and loading to transportation and unloading. Start now get
                         your non-binding quotation.
-						<br>
-						<br>
+                    </p>
+					<p>
 						No matter what type of move you’re
                         making Joel Transport is here for you, our services are tailored
                         according to your needs.  There is access restrictions for big
@@ -43,9 +44,10 @@
                     </p>
                 </div>
                 <div class="moves_btn">
-                    <a name="" id="" class="btn btn_quote " href="#" role="button">Get a qoute</a>
+                    <a class="btn btn-quote " href="/quote" role="button">Get a qoute</a>
                 </div>
             </div>
+
             <div class="col-md-6 d_align">
                 <div class="domestic_moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/local.png" alt="" />
@@ -65,7 +67,7 @@
             </div>
             <div class="col-md-6 d_align">
                 <div class="moves_details">
-                    <h2 class="page_sub_title">International moves</h2>
+                    <h2 id="international-moves" class="page_sub_title">International moves</h2>
                     <div class="moves">
                         <p>
                             Joel Transport offers full range of international moving
@@ -74,7 +76,7 @@
                             assign you a personal move assistant to guide you through every
                             step. The services we offer under International move are; Lower
                             Container Load Service, where cargo is collected crated,
-                            consolidated and dispatched in 30 days period. 
+                            consolidated and dispatched in 30 days period.
 							<br>
 							<br>
 							This is a faster
@@ -95,7 +97,7 @@
 <div id="storage" class="storage section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="storage">
                 <div class="storage_price">
 					<h2 class="page_sub_title">
 						Storage
@@ -136,13 +138,13 @@
         </div>
     </div>
 </div>
+
 <!-- call to actioni -->
 <div class="cta">
     <div class="container">
         <div class="row">
             <div class="col-md-6 d_align">
                 <div class="moves_details">
-
                     <div class="moves">
                         <p>
                             At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal work interruption during your office move. We ensure that packing of all documents is done as labelled and furniture is moved with great care.
@@ -152,15 +154,16 @@
             </div>
             <div class="col-md-6 d_align">
                 <div class="cta_buttons">
-                    <div class="cta_buttons">
-                        <a name="" id="" class="btn btn_quote" href="#" role="button">Get a qoute</a>
-                        <a name="" id="" class="btn btn_view" href="#" role="button">Contact us</a>
-                    </div>
+                <div class="cta_buttons">
+                    <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
+                    <a class="btn btn_view" href="/contact" role="button">Contact us</a>
                 </div>
+</div>
             </div>
         </div>
     </div>
 </div>
+
 <!-- packaging -->
 <div id="packing_services" class="packaging section">
     <div class="container">
@@ -242,14 +245,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 d_align">
-
                 <p>
                     At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal work interruption during your office move. We ensure that packing of all documents is done as labelled and furniture is moved with great care.
                 </p>
             </div>
             <div class="col-md-6 d_align">
-                <a name="" id="" class="btn btn_quote" href="#" role="button">Get a qoute</a>
-                <a name="" id="" class="btn btn_view" href="#" role="button">Contact us</a>
+                <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
+                <a class="btn btn_view" href="/contact" role="button">Contact us</a>
             </div>
         </div>
     </div>
