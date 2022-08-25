@@ -11,6 +11,8 @@ Text Domain: joeltransport
 
 
 */
+
+
 /*
  * Globals
  */
@@ -76,7 +78,7 @@ Text Domain: joeltransport
 }
 
 body, html {
-    font-family: "futuramedium";
+    font-family: var(--font-family-futura);
     color: gray;
     font-size: var(--font-size-base);
     padding-top: 70px;
@@ -88,7 +90,7 @@ body, html {
   h4,
   h5,
   h6 {
-  font-family: 'arca_majora_3bold';
+  font-family: var(--font-majora-arca3);
   }
 
 /* buttons */
@@ -100,7 +102,7 @@ body, html {
 }
 
 .btn-quote:hover{
-  background: hsla(184, 53%, 75%, 1)
+  background: #9ddde1
   var(--color-secondary);
 }
 
@@ -574,7 +576,7 @@ letter-spacing: -0.77px;
 color: #162643;
 }
 .reviews_title a {
-font-family: futuramedium;
+font-family: var(--font-family-futura);
 font-size: 16px;
 text-align: right;
 color: #0000008a;
@@ -1067,7 +1069,7 @@ margin: 10px;
 .about h3 {
 margin-bottom: 60px;
 color: #162643;
-  font-family:ArcaMajora;
+  font-family:var(--font-family-arca_majora_3bold);
   font-size:32px;
 
 }
