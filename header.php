@@ -77,7 +77,7 @@
                                     <li><a class="dropdown-item" href="/office-removals#">Vehicle transportation</a></li>
                                     <li><a class="dropdown-item" href="/office-removals#">Dangerous goods</a></li>
                                     <li><a class="dropdown-item" href="/quote">
-                                        <button class="btn btn-quote"Get a quote</button>
+                                    <button class="btn btn-quote">Get a quote</button>
                                     </a></li>
                                 </ul>
                             </li>
@@ -94,7 +94,7 @@
                                     <li><a class="dropdown-item" href="/resources#">Home inventory list</a></li>
                                     <li><a class="dropdown-item" href="/resources#">AMOSA certificate</a></li>
                                     <li><a class="dropdown-item" href="/quote">
-                                        <button class="btn btn-quote"Get a quote</button>
+                                        <button class="btn btn-quote">Get a quote</button>
                                     </a></li>
                                 </ul>
                             </li>
