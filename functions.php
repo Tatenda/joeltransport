@@ -1,21 +1,4 @@
 <?php
-  // Register Nav Walker class_alias
-  require_once('wp_bootstrap_navwalker.php');
-
-  // Theme Support
-  function wpb_theme_setup(){
-    add_theme_support('post-thumbnails');
-
-    // Nav Menus
-    register_nav_menus(array(
-      'primary' => __('Primary Menu')
-    ));
-
-    // Post Formats
-    add_theme_support('post-formats', array('aside', 'gallery'));
-  }
-
-  add_action('after_setup_theme','wpb_theme_setup');
 
 // Excerpt Length Control
 function set_excerpt_length(){
@@ -23,47 +6,6 @@ function set_excerpt_length(){
 }
 
 add_filter('excerpt_length', 'set_excerpt_length');
-
-// Widget Locations
-function wpb_init_widgets($id){
-  register_sidebar(array(
-    'name'  => 'Sidebar',
-    'id'    => 'sidebar',
-    'before_widget' => '<div class="sidebar-module">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h4>',
-    'after_title'   => '</h4>'
-  ));
-
-  register_sidebar(array(
-    'name'  => 'Box1',
-    'id'    => 'box1',
-    'before_widget' => '<div class="box">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
-  ));
-
-  register_sidebar(array(
-    'name'  => 'Box2',
-    'id'    => 'box2',
-    'before_widget' => '<div class="box">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
-  ));
-
-  register_sidebar(array(
-    'name'  => 'Box3',
-    'id'    => 'box3',
-    'before_widget' => '<div class="box">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
-  ));
-}
-
-add_action('widgets_init', 'wpb_init_widgets');
 
 
 function mmogo_register_styles() {
@@ -77,7 +19,6 @@ function mmogo_register_styles() {
 
 add_action('wp_enqueue_scripts', 'mmogo_register_styles');
 
-
 function mmogo_register_scripts() {
   $version = wp_get_theme()->get('Version');
   wp_enqueue_script('boostrap-bundle', "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js", array(), '5.2.0', 'all');
@@ -86,7 +27,13 @@ function mmogo_register_scripts() {
 
 add_action('wp_enqueue_scripts', 'mmogo_register_scripts');
 
-
-// Customizer File
-require get_template_directory(). '/inc/customizer.php';
 add_filter('show_admin_bar', '__return_false');
+
+
+add_action( 'wp_enqueue_scripts', 'remove_block_css', 100 );
+function remove_block_css() {
+  wp_dequeue_style( 'wp-block-library' ); // WordPress core
+  wp_dequeue_style( 'wp-block-library-theme' ); // WordPress core
+  wp_dequeue_style( 'wc-block-style' ); // WooCommerce
+  wp_dequeue_style( 'storefront-gutenberg-blocks' );
+}
