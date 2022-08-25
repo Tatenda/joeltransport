@@ -28,7 +28,8 @@
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn_front btn" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
+
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get a quote</a>
                                 </div>
 
 
@@ -46,7 +47,8 @@
                                 <p>excl. VAT</p>
                             </div>
                             <div class="card_button  text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
+
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves/" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +61,7 @@
                         <div class="overlay">
                             <div class="overlay_text">
                                 <p class="terms_conditions">
-                                    <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+                                    <a href="/terms">T&Cs</a>
                                 </p>
                                 <div class="card_title">
                                     <h4>Standard 2 Bed move</h4>
@@ -73,7 +75,7 @@
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn_front btn" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote" role="button">Get a quote</a>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +91,7 @@
                                 <p>excl. VAT</p>
                             </div>
                             <div class="card_button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -102,7 +104,7 @@
                         <div class="overlay">
                             <div class="overlay_text">
                                 <p class="terms_conditions">
-                                    <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+                                    <a href="/terms">T&Cs</a>
                                 </p>
                                 <div class="card_title">
                                     <h4>Standard 3 bed move</h4>
@@ -116,7 +118,7 @@
                                     </ul>
                                 </div>
                                 <div class="card_button ">
-                                    <a name="" id="#card-back-button" class=" btn btn_front" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class=" btn btn_front" href="/quote" role="button">Get a quote</a>
                                 </div>
                             </div>
                         </div>
@@ -132,10 +134,10 @@
                                 <p>excl. VAT</p>
                             </div>
                             <div class="card_button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +149,7 @@
                     <div class="card shadow card_box">
                         <div class="overlay">
                             <p class="terms_conditions">
-                                <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+                                <a href="/terms">T&Cs</a>
                             </p>
                             <div class="overlay_text">
                                 <div class="card_title">
@@ -162,7 +164,7 @@
                                     </p>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn btn-quote" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class="btn btn-quote" href="/quote" role="button">Get a quote</a>
                                 </div>
 
                             </div>
@@ -179,7 +181,7 @@
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +193,7 @@
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
                             <p class="terms_conditions">
-                                <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+                                <a href="/terms">T&Cs</a>
                             </p>
                             <div class="overlay_text">
                                 <div class="card_title">
@@ -204,7 +206,7 @@
                                     pack, collect and deliver to our storage facility.
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn btn_front" href="https://joeltransport.mmogomedia.com/contact/" role="button">contact us</a>
+                                    <a name="" id="#card-back-button" class="btn btn_front" href="/contact" role="button">contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -221,7 +223,7 @@
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/office-removals/" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/office-removals" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -233,13 +235,13 @@
                     <div class="card shadow card_box">
                         <div class="overlay">
                             <p class="terms_conditions">
-                                <a href="https://joeltransport.mmogomedia.com/policies/">T&Cs</a>
+                                <a href="/policies/">T&Cs</a>
                             </p>
                             <div class="overlay_text">
                                 <h4>Storage</h4>
                             </div>
                             <div class="card_button">
-                                <a name="" id="#card-back-button" class="btn btn_front" href="https://joeltransport.mmogomedia.com/contact/" role="button">contact us</a>
+                                <a name="" id="#card-back-button" class="btn btn_front" href="/contact/" role="button">contact us</a>
                             </div>
                         </div>
                         <div class="card_body">
@@ -259,7 +261,7 @@
                                 <p>excl. VAT</p>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="https://joeltransport.mmogomedia.com/home-moves/" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -290,6 +292,7 @@
                 <div class="owner_img color">
                     <div class="history_img">
                         <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg" alt="owner_img" />
+
                     </div>
                 </div>
             </div>
@@ -322,7 +325,6 @@
             <div class="col-md-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Picture-272.jpg" alt="" />
-
                     <div class="item_title">
                         <p>Domestic move</p>
                     </div>
@@ -330,7 +332,8 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_International_320px-x-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_International_320px-x-320px.jpg"
+                        alt="" />
 
                     <div class="item_title">
                         <p>International move</p>
@@ -339,7 +342,8 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnaill_home_and_office_320px_x_320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnaill_home_and_office_320px_x_320px.jpg"
+                        alt="" />
 
                     <div class="item_title">
                         <p>Home move</p>
@@ -348,7 +352,8 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Office-move-320.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Office-move-320.jpg"
+                        alt="" />
 
                     <div class="item_title">
                         <p>Office removal</p>
@@ -359,7 +364,8 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Specialized services</p>
                     </div>
@@ -367,7 +373,8 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_storage_320px-_-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_storage_320px-_-320px.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Storage move</p>
                     </div>
@@ -375,7 +382,8 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-2_320px-by-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-2_320px-by-320px.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Packing services</p>
                     </div>

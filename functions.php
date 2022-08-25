@@ -72,6 +72,7 @@ function mmogo_register_styles() {
   wp_enqueue_style('boostrap', "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css", array(), '5.2.0', 'all');
   wp_enqueue_style('mmogo-custom-temp', get_template_directory_uri() . "/css/additional.css", array(), $version, 'all');
   wp_enqueue_style('mmogo-custom', get_template_directory_uri() . "/style.css", array(), $version, 'all');
+  wp_enqueue_style('mmmo-styles', get_template_directory_uri() . "/css/extra-styles.css", array(), $version, 'all');
 }
 
 add_action('wp_enqueue_scripts', 'mmogo_register_styles');
