@@ -4,7 +4,6 @@
 <div id="office_removals" class="home-moves">
     <div class="container">
         <h1 class="page_title">Office removals</h1>
-
         <div class="row">
             <div class="col-md-6 ">
                 <div class="home_box">
@@ -43,7 +42,7 @@
                     </p>
                 </div>
                 <div class="moves_btn">
-                    <a name="" id="" class="btn btn_quote " href="#" role="button">Get a qoute</a>
+                    <a class="btn btn-quote " href="/quote" role="button">Get a qoute</a>
                 </div>
             </div>
             <div class="col-md-6 d_align">
@@ -150,8 +149,8 @@
             <div class="col-md-6 d_align">
                 <div class="cta_buttons">
                     <div class="cta_buttons">
-                        <a name="" id="" class="btn btn_quote" href="#" role="button">Get a qoute</a>
-                        <a name="" id="" class="btn btn_view" href="#" role="button">Contact us</a>
+                        <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
+                        <a class="btn btn_view" href="/contact" role="button">Contact us</a>
                     </div>
                 </div>
             </div>
@@ -245,8 +244,8 @@
                 </p>
             </div>
             <div class="col-md-6 d_align">
-                <a name="" id="" class="btn btn_quote" href="#" role="button">Get a qoute</a>
-                <a name="" id="" class="btn btn_view" href="#" role="button">Contact us</a>
+                <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
+                <a class="btn btn_view" href="/contact" role="button">Contact us</a>
             </div>
         </div>
     </div>
@@ -323,6 +322,5 @@
         </div>
     </div>
 </div>
-<!--  -->
-<!--  -->
+
 <?php get_footer(); ?>

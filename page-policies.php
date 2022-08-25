@@ -111,7 +111,7 @@ Account Number: 55291136544<br><br>
 Funds paid to any other banking account will not be accepted as payment by us
                     </p>
             </div>
-          
+
             <div class="tab-pane fade" id="removal_policy" role="tabpanel" aria-labelledby="pills-contact-tab">
                 <h2 class="page_sub_title">Removal policy</h2>
                     <h6>For large or specialized items</h6>

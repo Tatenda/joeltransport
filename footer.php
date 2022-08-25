@@ -1,4 +1,3 @@
-
 </div><!-- /.row -->
 
 </div><!-- /.container -->
@@ -95,12 +94,12 @@
                     </p>
                     <!-- email -->
                     <ul>
-                        <li>Email</li>
+                        <li class="text-bold">Email</li>
                         <li><a href="mailto:joeltransport.co.za">joeltransport.co.za</a></li>
                     </ul>
                     <!-- phone -->
                     <ul>
-                        <li>Phone</li>
+                        <li class="text-bold">Phone</li>
                         <li><a href="tel:27677778821">+27 67 777 8821</a></li>
                     </ul>
                 </div>
@@ -144,7 +143,6 @@
                     <li class="footer_icons">
                         <a class="icon_link" href="https://www.facebook.com/Joel.Transport1965/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -152,7 +150,6 @@
 
 </footer>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-
 <?php wp_footer(); ?>
 
 

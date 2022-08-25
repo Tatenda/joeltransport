@@ -26,12 +26,12 @@
                 <!-- email -->
                 <ul>
                     <li>Email</li>
-                    <li><a href="mailto:joeltransport.co.za">joeltransport.co.za</a></li>
+                    <li><a class="contact-email" href="mailto:joeltransport.co.za">joeltransport.co.za</a></li>
                 </ul>
                 <!-- phone -->
                 <ul>
                     <li>Phone</li>
-                    <li><a href="tel:+27 67 777 8821">+27 67 777 8821</a></li>
+                    <li><a class="contact-tel" href="tel:+27 67 777 8821">+27 67 777 8821</a></li>
                 </ul>
                 <ul>
                     <li>Fax</li>

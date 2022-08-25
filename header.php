@@ -53,11 +53,14 @@
                                     <li><a class="dropdown-item" href="/home-moves#packing-material">Packing material</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#storage">Storage</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#insurance">Insurance</a></li>
-                                    <li><a class="dropdown-item">SPECIALIZED SERVICES</a></li>
+                                    <li><a class="dropdown-item specialized-menu-item">SPECIALIZED SERVICES</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#pets">Pets</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#vehicle-transport">Vehicle transport</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#fine-art">Fine Art</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#dangerous-goods">Dangerous goods</a></li>
+                                    <li><a class="dropdown-item" href="/quote">
+                                        <button class="btn btn-quote"Get a quote</button>
+                                    </a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -65,9 +68,17 @@
                                     OFFICE REMOVALS
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="/office-removals#office-removalse">Office removals</a></li>
+                                    <li><a class="dropdown-item" href="/office-removals#">Packing services</a></li>
+                                    <li><a class="dropdown-item" href="/office-removals#">Packing materials</a></li>
+                                    <li><a class="dropdown-item" href="/office-removals#">Document storage</a></li>
+                                    <li><a class="dropdown-item" href="/office-removals#">Insurance</a></li>
+                                    <li><a class="dropdown-item specialized-menu-item">SPECIALIZED SERVICES</a></li>
+                                    <li><a class="dropdown-item" href="/office-removals#">Vehicle transportation</a></li>
+                                    <li><a class="dropdown-item" href="/office-removals#">Dangerous goods</a></li>
+                                    <li><a class="dropdown-item" href="/quote">
+                                        <button class="btn btn-quote"Get a quote</button>
+                                    </a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -75,9 +86,16 @@
                                     RESOURCES
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="/resources#">Moving Tips</a></li>
+                                    <li><a class="dropdown-item" href="/resources#">Home checklist</a></li>
+                                    <li><a class="dropdown-item" href="/resources#">Office checklist</a></li>
+                                    <li><a class="dropdown-item" href="/resources#">FAQs</a></li>
+                                    <li><a class="dropdown-item specialized-menu-item">Documents</a></li>
+                                    <li><a class="dropdown-item" href="/resources#">Home inventory list</a></li>
+                                    <li><a class="dropdown-item" href="/resources#">AMOSA certificate</a></li>
+                                    <li><a class="dropdown-item" href="/quote">
+                                        <button class="btn btn-quote"Get a quote</button>
+                                    </a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">

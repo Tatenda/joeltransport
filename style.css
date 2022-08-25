@@ -1,4 +1,4 @@
-/* 1:45
+/*
 Theme Name: Joel Trasnport
 Theme URI: http://joeltransport.co.za
 Author: Mathase Mashau
@@ -9,12 +9,12 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: joeltransport
 
-this is the recent update 7:08pm
 
 */
 /*
  * Globals
  */
+
  @font-face {
   font-family: 'futuralight';
   src: url('./fonts/futura_light_font-webfont.woff2') format('woff2'),
@@ -67,6 +67,7 @@ this is the recent update 7:08pm
   --font-size-base: 16px;
   --font-family-futura: 'futuramedium';
   --font-majora-arca3: "arca_majora_3bold";
+  --font-weight-bold: 700;
 }
 
 
@@ -1285,10 +1286,18 @@ padding: 0;
 color: #162643;
 }
 .contact p {
+  font-size: 18px;
 list-style-type: none;
 padding: 0;
 color: #162643;
 }
+
+.contact-email,
+.contact-tel {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+}
+
 .form_section {
 background: #F8F8F8;
 padding: 20px;
@@ -1377,4 +1386,11 @@ margin-right: 10px;
   width: 310px;
   /* margin: auto; */
 }
+}
+
+
+/* UTILS */
+
+.text-bold {
+  font-weight: var(--font-weight-bold);
 }

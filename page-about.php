@@ -6,7 +6,6 @@
 		<h1 class="page_title">about</h1>
         <div class="row">
             <div class="col-md-6">
-                
                 <p>
                     Joel Transport was established in 1965 and has been a household
                     name synonymous with excellent service in the furniture removals

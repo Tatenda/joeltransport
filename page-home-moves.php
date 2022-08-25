@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <!-- 1:21am -->
 <!-- home-moves -->
 <div id="domestic_moves" class="home-moves">
@@ -51,6 +52,7 @@
             <div class="col-md-6 d_align">
                 <div class="domestic_moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/local.png" alt="" />
+
                 </div>
             </div>
         </div>
@@ -88,12 +90,14 @@
                             and safe.
                         </p>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- storage -->
+
 <div id="storage" class="storage section">
     <div class="container">
         <div class="row">
@@ -133,6 +137,7 @@
             <div class="col-md-6 d_align">
                 <div class="moves_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-storage_600px-_-400px.jpg" alt="" />
+
                 </div>
             </div>
         </div>
@@ -154,11 +159,11 @@
             </div>
             <div class="col-md-6 d_align">
                 <div class="cta_buttons">
-                <div class="cta_buttons">
-                    <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
-                    <a class="btn btn_view" href="/contact" role="button">Contact us</a>
+                    <div class="cta_buttons">
+                        <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
+                        <a class="btn btn_view" href="/contact" role="button">Contact us</a>
+                    </div>
                 </div>
-</div>
             </div>
         </div>
     </div>
@@ -266,7 +271,6 @@
             <div class="col-md-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px-1.jpg" alt="" />
-
                     <div class="item_title">
                         <p>Pets</p>
                     </div>
@@ -328,6 +332,5 @@ and trained to move dangerous goods.
         </div>
     </div>
 </div>
-<!--  -->
-<!--  -->
+
 <?php get_footer(); ?>

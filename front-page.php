@@ -2,9 +2,8 @@
     get_header();
     include 'hero.php';
 ?>
-
 <!-- boxes -->
-<div class="showcase"></div>
+
 <section class="boxes">
     <div class="container">
         <div class="row">
@@ -16,6 +15,7 @@
                             <div class="overlay_text">
                                 <p class="terms_conditions">
                                     <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+
                                 </p>
                                 <div class="card_title">
                                     <h4>Standard 1 bed move</h4>
@@ -25,7 +25,6 @@
                                         <li>1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bathroom</li>
                                         <li>Est. contents volume: 1,000-1500 cubic feet/40 items</li>
                                         <li>Move within 50km radius of Centurion</li>
-
                                     </ul>
                                 </div>
                                 <div class="card_button">
@@ -119,7 +118,6 @@
                                 <div class="card_button ">
                                     <a name="" id="#card-back-button" class=" btn btn_front" href="https://joeltransport.mmogomedia.com/quote/" role="button">Get a quote</a>
                                 </div>
-
                             </div>
                         </div>
                         <div class="card_body">
@@ -251,7 +249,6 @@
                                     We offer storage for transit, short & long term periods
                                 </p>
                             </div>
-
                             <div class="card_text">
                                 <p>starting from</p>
                             </div>
@@ -271,7 +268,6 @@
         </div>
     </div>
 </section>
-
 <!-- transport history -->
 <section class="history">
     <div class="container">
