@@ -1,6 +1,6 @@
 <?php
-    get_header();
-    include 'hero.php';
+get_header();
+include 'hero.php';
 ?>
 <!-- boxes -->
 
@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <!-- 1st box -->
-            <div class="col-md-4 mobile_off">
+            <div class="col-md-6 col-lg-4 mobile_off">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
@@ -29,7 +29,8 @@
                                 </div>
                                 <div class="card_button">
 
-                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote/"
+                                        role="button">Get a quote</a>
                                 </div>
 
 
@@ -48,14 +49,15 @@
                             </div>
                             <div class="card_button  text-right">
 
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves/" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill"
+                                    href="/home-moves/" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 2nd box -->
-            <div class="col-md-4 mobile_off">
+            <div class="col-md-6 col-lg-4 mobile_off">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
@@ -75,7 +77,8 @@
                                     </ul>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote"
+                                        role="button">Get a quote</a>
                                 </div>
                             </div>
                         </div>
@@ -91,14 +94,15 @@
                                 <p>excl. VAT</p>
                             </div>
                             <div class="card_button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves"
+                                    role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 3rd box -->
-            <div class="col-md-4 ">
+            <div class="col-md-6 col-lg-4">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
@@ -118,7 +122,8 @@
                                     </ul>
                                 </div>
                                 <div class="card_button ">
-                                    <a name="" id="#card-back-button" class=" btn btn_front" href="/quote" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class=" btn btn_front" href="/quote"
+                                        role="button">Get a quote</a>
                                 </div>
                             </div>
                         </div>
@@ -134,17 +139,19 @@
                                 <p>excl. VAT</p>
                             </div>
                             <div class="card_button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves"
+                                    role="button">view</a>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="#card-back-button btn btn_view rounded-pill"
+                                    href="/home-moves" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 4th card -->
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="box m-2">
                     <div class="card shadow card_box">
                         <div class="overlay">
@@ -164,7 +171,8 @@
                                     </p>
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn btn-quote" href="/quote" role="button">Get a quote</a>
+                                    <a name="" id="#card-back-button" class="btn btn-quote" href="/quote"
+                                        role="button">Get a quote</a>
                                 </div>
 
                             </div>
@@ -181,14 +189,15 @@
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves"
+                                    role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 5th box -->
-            <div class="col-md-4 mobile_off">
+            <div class="col-md-6 col-lg-4 mobile_off">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="overlay">
@@ -206,7 +215,8 @@
                                     pack, collect and deliver to our storage facility.
                                 </div>
                                 <div class="card_button">
-                                    <a name="" id="#card-back-button" class="btn btn_front" href="/contact" role="button">contact us</a>
+                                    <a name="" id="#card-back-button" class="btn btn_front" href="/contact"
+                                        role="button">contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -223,14 +233,15 @@
                             </div>
 
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/office-removals" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill"
+                                    href="/office-removals" role="button">view</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 3rd box -->
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div id="main-card" class="box m-2">
                     <div class="card shadow card_box">
                         <div class="overlay">
@@ -241,7 +252,8 @@
                                 <h4>Storage</h4>
                             </div>
                             <div class="card_button">
-                                <a name="" id="#card-back-button" class="btn btn_front" href="/contact/" role="button">contact us</a>
+                                <a name="" id="#card-back-button" class="btn btn_front" href="/contact/"
+                                    role="button">contact us</a>
                             </div>
                         </div>
                         <div class="card_body">
@@ -261,7 +273,8 @@
                                 <p>excl. VAT</p>
                             </div>
                             <div class="button text-right">
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves" role="button">view</a>
+                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill" href="/home-moves"
+                                    role="button">view</a>
                             </div>
                         </div>
                     </div>
@@ -274,7 +287,7 @@
 <section class="history">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-12 col-md-6">
                 <h6 id="#history-title">Joel Transport history...</h6>
                 <p>
                     Joel Transport has been moving families and offices since 1965
@@ -288,10 +301,11 @@
                     <a name="" id="#history-link" class="btn_history" href="#" role="button">read more</a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-md-4">
                 <div class="owner_img color">
                     <div class="history_img">
-                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg" alt="owner_img" />
+                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg"
+                            alt="owner_img" />
 
                     </div>
                 </div>
@@ -322,7 +336,7 @@
 <section class="services mobile_off">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Picture-272.jpg" alt="" />
                     <div class="item_title">
@@ -330,7 +344,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_International_320px-x-320px.jpg"
                         alt="" />
@@ -340,7 +354,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnaill_home_and_office_320px_x_320px.jpg"
                         alt="" />
@@ -350,7 +364,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-Office-move-320.jpg"
                         alt="" />
@@ -360,9 +374,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
+
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px.jpg"
                         alt="" />
@@ -371,7 +384,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_storage_320px-_-320px.jpg"
                         alt="" />
@@ -380,7 +393,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-2_320px-by-320px.jpg"
                         alt="" />
@@ -389,7 +402,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-material-320.jpg" alt="" />
                     <div class="item_title">
@@ -409,13 +422,13 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/siama.jpg" alt="update" />
                     <p>South African International Movers Association</p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/nbcrfli.jpg" alt="" />
                     <p>
@@ -424,13 +437,13 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/rfa.jpg" alt="" />
                     <p>National Road Freight Association</p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2020/09/AMOSA-LOGO.jpg" alt="" />
                     <p>Accredited Movers Of South Africa</p>
