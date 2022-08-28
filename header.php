@@ -43,9 +43,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <!-- <a class="nav-link active" aria-current="page" href="/">Home</a> -->
                                 <a class="navbar-brand" href="/">
-                                    <img src="./img/home-icon.svg" alt="logo" />
+                                    <img class="img-fluid home-img"
+                                        src="<?php echo get_template_directory_uri(); ?>/img/home-icon.svg"
+                                        alt="logo" />
                                 </a>
                             </li>
                             <li class="nav-item dropdown">

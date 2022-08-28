@@ -137,3 +137,8 @@ ul.faq_list>li>p>span {
     font-size: 2rem;
     color: white !important;
 }
+
+.navbar-nav .nav-item {
+    display: grid;
+    place-items: center;
+}

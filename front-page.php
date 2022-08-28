@@ -11,48 +11,56 @@ include 'hero.php';
             <div class="col-md-6 col-lg-4 mobile_off">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
-                        <div class="overlay">
-                            <div class="overlay_text">
-                                <p class="terms_conditions">
-                                    <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
-
-                                </p>
-                                <div class="card_title">
-                                    <h4>Standard 1 bed move</h4>
+                        <div class="card_body col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4 class="card-title">Standard 1 bed move</h4>
                                 </div>
-                                <div class="card_text">
-                                    <ul>
-                                        <li>1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bathroom</li>
-                                        <li>Est. contents volume: 1,000-1500 cubic feet/40 items</li>
-                                        <li>Move within 50km radius of Centurion</li>
-                                    </ul>
+                                <div class="col-12 mb-5">
+                                    <div class="card_text_price">
+                                        <p>starting from</p>
+                                    </div>
+                                    <div class="card_text">
+                                        <span>R 1,850.00</span>
+                                    </div>
+                                    <div class="card_text_vat">
+                                        <p>excl. VAT</p>
+                                    </div>
                                 </div>
-                                <div class="card_button">
-
-                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote/"
-                                        role="button">Get a quote</a>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6"></div>
+                                        <div class="col-6 card_button text-right">
+                                            <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill"
+                                                href="/home-moves/" role="button">view</a>
+                                        </div>
+                                    </div>
                                 </div>
-
-
                             </div>
                         </div>
-                        <div class="card_body">
-                            <h4 class="card-title">Standard 1 bed move</h4>
-                            <div class="card_text_price">
-                                <p>starting from</p>
+                        <div class="overlay px-3">
+                            <!-- <div class="card_body p-3"> -->
+                            <p class="terms_conditions">
+                                <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+
+                            </p>
+                            <div class="card_title">
+                                <h4>Standard 1 bed move</h4>
                             </div>
                             <div class="card_text">
-                                <span>R 1,850.00</span>
+                                <ul>
+                                    <li>- 1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bathroom</li>
+                                    <li>- Est. contents volume: 1,000-1500 cubic feet/40 items</li>
+                                    <li>- Move within 50km radius of Centurion</li>
+                                </ul>
                             </div>
-                            <div class="card_text_vat">
-                                <p>excl. VAT</p>
+                            <div class="card_button">
+                                <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get
+                                    a quote</a>
                             </div>
-                            <div class="card_button  text-right">
-
-                                <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill"
-                                    href="/home-moves/" role="button">view</a>
-                            </div>
+                            <!-- </div> -->
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -66,14 +74,14 @@ include 'hero.php';
                                     <a href="/terms">T&Cs</a>
                                 </p>
                                 <div class="card_title">
-                                    <h4>Standard 2 Bed move</h4>
+                                    <h4>Standard 2 bed move</h4>
                                 </div>
                                 <div class="card_text">
                                     <ul>
-                                        <li>2 Bedrooms, 1 Lounge, 1 Kitchen, 2 Bathrooms​</li>
-                                        <li>1 Extra Room (Small) or Single Garage (Small)​</li>
-                                        <li>Est. contents volume: 2,000 cubic feet/items</li>
-                                        <li>Move within 50km radius of Centurion</li>
+                                        <li>- 2 Bedrooms, 1 Lounge, 1 Kitchen, 2 Bathrooms​</li>
+                                        <li>- 1 Extra Room (Small) or Single Garage (Small)​</li>
+                                        <li>- Est. contents volume: 2,000 cubic feet/items</li>
+                                        <li>- Move within 50km radius of Centurion</li>
                                     </ul>
                                 </div>
                                 <div class="card_button">
@@ -83,7 +91,7 @@ include 'hero.php';
                             </div>
                         </div>
                         <div class="card_body">
-                            <h4 class="card-title">Standard 2 Bed move</h4>
+                            <h4 class="card-title">Standard 2 bed move</h4>
                             <div class="card_text_price">
                                 <p>starting from</p>
                             </div>
@@ -115,10 +123,10 @@ include 'hero.php';
                                 </div>
                                 <div class="card_text">
                                     <ul>
-                                        <li>3 Bedrooms, 1 Lounge, 1 Kitchen, 2.5 Bath​</li>
-                                        <li>1 Extra Room (Large) and Double Garage​</li>
-                                        <li> Est. contents volume: 3,500 cubic feet / 70 items</li>
-                                        <li>Move within 50km radius of Centurion</li>
+                                        <li>- 3 Bedrooms, 1 Lounge, 1 Kitchen, 2.5 Bath​</li>
+                                        <li>- 1 Extra Room (Large) and Double Garage​</li>
+                                        <li>- Est. contents volume: 3,500 cubic feet / 70 items</li>
+                                        <li>- Move within 50km radius of Centurion</li>
                                     </ul>
                                 </div>
                                 <div class="card_button ">
@@ -128,7 +136,7 @@ include 'hero.php';
                             </div>
                         </div>
                         <div class="card_body">
-                            <h4 class="card-title">3+ bed move</h4>
+                            <h4 class="card-title">Standard 3 bed move</h4>
                             <div class="card_text_price">
                                 <p>starting from</p>
                             </div>
@@ -162,7 +170,7 @@ include 'hero.php';
                                 <div class="card_title">
                                     <h4>Office move</h4>
                                 </div>
-                                <div class="card_text">
+                                <div class="card_text back_text">
                                     <p>
                                         We have decades of experience in moving SMEs,
                                         medium-sized and corporates and public institutions.
@@ -205,14 +213,13 @@ include 'hero.php';
                                 <a href="/terms">T&Cs</a>
                             </p>
                             <div class="overlay_text">
-                                <div class="card_title">
+                                <div class="card-title">
                                     <h4>Specialized move</h4>
                                 </div>
                                 <div class="card_text">
-                                    We safely store customer furniture and belongings in
-                                    crates at our Gauteng facilities, for transit, short and
-                                    long-term periods. Customers may also request us to
-                                    pack, collect and deliver to our storage facility.
+                                    Over the years we have built our moving capabilities to complement our home and
+                                    office moving services to include the moving of Pets, Fine Art, Vehicles and
+                                    selected dangerous goods locally or internationally
                                 </div>
                                 <div class="card_button">
                                     <a name="" id="#card-back-button" class="btn btn_front" href="/contact"
