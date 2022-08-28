@@ -13,10 +13,10 @@
 </head>
 
 <body>
-    <header class="fixed-top">
+    <header class="fixed-top" id="MainSiteHeader">
         <div class="top-menu">
             <div class="container">
-                <ul id="" class="top-menu row">
+                <ul class="top-menu row">
                     <li class="col-2 "><a href="tel://+27 12 666 9055">+27 12 666 9055</a></li>
                     <li class="col-3 "><a href="mailto:sales@joeltransport.co.za">sales@joeltransport.co.za</a></li>
                     <li class=" col-2 offset-5">
