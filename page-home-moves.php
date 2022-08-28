@@ -19,7 +19,7 @@
                         <div class="card_text">
                             <span>R 1,850.00</span>
                         </div>
-                        <div  class="card_text_vat">
+                        <div class="card_text_vat">
                             <p>excl. VAT</p>
                         </div>
                     </div>
@@ -34,8 +34,8 @@
                         packing and loading to transportation and unloading. Start now get
                         your non-binding quotation.
                     </p>
-					<p>
-						No matter what type of move you’re
+                    <p>
+                        No matter what type of move you’re
                         making Joel Transport is here for you, our services are tailored
                         according to your needs.  There is access restrictions for big
                         trucks in your complex or estate? Do not worry, Joel Transport has
@@ -62,12 +62,13 @@
 <div id="international_moves" class="international section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-12 col-lg-6">
                 <div class="international_moves_img">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/international.png" alt="" />
+                    <img class="img-fluid"
+                        src="https://joeltransport.co.za/wp-content/uploads/2022/08/international.png" alt="" />
                 </div>
             </div>
-            <div class="col-md-6 d_align">
+            <div class="col-12 col-lg-6 d_align">
                 <div class="moves_details">
                     <h2 id="international-moves" class="page_sub_title">International moves</h2>
                     <div class="moves">
@@ -79,9 +80,9 @@
                             step. The services we offer under International move are; Lower
                             Container Load Service, where cargo is collected crated,
                             consolidated and dispatched in 30 days period.
-							<br>
-							<br>
-							This is a faster
+                            <br>
+                            <br>
+                            This is a faster
                             convenient solution for our clients. Full Container Load
                             Service, for larger loads of where either 6meters or 12meters
                             high cube container is required. This is faster and the most
@@ -103,20 +104,20 @@
         <div class="row">
             <div class="col-md-6" id="storage">
                 <div class="storage_price">
-					<h2 class="page_sub_title">
-						Storage
-					</h2>
-					 <div class="moves_prices">
-							 <div class="card_text_price">
-							 <p>Starting at</p>
-							 </div>
-                        	<div class="card_text">
-								<span>R 1,850.00</span>
-							 </div>
-                        	<div class="card_text_vat">
-								<p>excl. VAT</p>
-							 </div>
-                  	  </div>
+                    <h2 class="page_sub_title">
+                        Storage
+                    </h2>
+                    <div class="moves_prices">
+                        <div class="card_text_price">
+                            <p>Starting at</p>
+                        </div>
+                        <div class="card_text">
+                            <span>R 1,850.00</span>
+                        </div>
+                        <div class="card_text_vat">
+                            <p>excl. VAT</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="moves">
                     <p>
@@ -136,7 +137,8 @@
             </div>
             <div class="col-md-6 d_align">
                 <div class="moves_img">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-storage_600px-_-400px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-storage_600px-_-400px.jpg"
+                        alt="" />
 
                 </div>
             </div>
@@ -152,7 +154,9 @@
                 <div class="moves_details">
                     <div class="moves">
                         <p>
-                            At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal work interruption during your office move. We ensure that packing of all documents is done as labelled and furniture is moved with great care.
+                            At Joel Transport, we have well-trained reliable experts who offers full service to ensure
+                            minimal work interruption during your office move. We ensure that packing of all documents
+                            is done as labelled and furniture is moved with great care.
                         </p>
                     </div>
                 </div>
@@ -176,7 +180,8 @@
             <div class="col-md-6 d_align">
                 <div class="moves_details">
                     <div class="moves_img">
-                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-service-600-1.jpg" alt="" />
+                        <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-service-600-1.jpg"
+                            alt="" />
                     </div>
                 </div>
             </div>
@@ -215,7 +220,8 @@
             </div>
             <div class="col-md-6 d_align">
                 <div class="moves_img">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-insurance-600-1.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-insurance-600-1.jpg"
+                        alt="" />
                 </div>
             </div>
         </div>
@@ -227,7 +233,8 @@
         <div class="row">
             <div class="col-md-6 d_align">
                 <div class="moves_img">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-material-600-1.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Packing-material-600-1.jpg"
+                        alt="" />
                 </div>
             </div>
             <div class="col-md-6 d_align">
@@ -251,7 +258,9 @@
         <div class="row">
             <div class="col-md-6 d_align">
                 <p>
-                    At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal work interruption during your office move. We ensure that packing of all documents is done as labelled and furniture is moved with great care.
+                    At Joel Transport, we have well-trained reliable experts who offers full service to ensure minimal
+                    work interruption during your office move. We ensure that packing of all documents is done as
+                    labelled and furniture is moved with great care.
                 </p>
             </div>
             <div class="col-md-6 d_align">
@@ -265,12 +274,13 @@
 <div id="specialized" class="specialized section">
     <div class="container">
         <div class="moves_details">
-			<h2 class="page_sub_title">Specialized</h2>
-		</div>
+            <h2 class="page_sub_title">Specialized</h2>
+        </div>
         <div class="row">
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px-1.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px-1.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Pets</p>
                     </div>
@@ -288,7 +298,8 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-vehicle_320px-x-320px-1.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-vehicle_320px-x-320px-1.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Vehicle transporttation</p>
                     </div>
@@ -304,7 +315,8 @@
             </div>
             <div class="col-md-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-9-fine-art_320px-x-320px.jpg" alt="" />
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-9-fine-art_320px-x-320px.jpg"
+                        alt="" />
                     <div class="item_title">
                         <p>Fine art</p>
                     </div>
@@ -325,8 +337,9 @@
                     </div>
                 </div>
                 <p class="specialized_info">
-                   Dangerous goods are categorised as flammable and chemicals, we have fleet and drivers who are fully compliant
-and trained to move dangerous goods.
+                    Dangerous goods are categorised as flammable and chemicals, we have fleet and drivers who are fully
+                    compliant
+                    and trained to move dangerous goods.
                 </p>
             </div>
         </div>
