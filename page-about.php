@@ -43,8 +43,8 @@
                     industry. Our leaders ensure a conducive working environment for everyone, and we aspire to employ
                     the best people. We are passionate about delivering the best experience to our customers.</p> -->
             </div>
-            <div class="col-md-5 d_align">
-                <div class="moves_img">
+            <div class="col-md-5">
+                <div class="about_img">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-home-and-office-600.jpg"
                         alt="" />
                 </div>
@@ -83,13 +83,16 @@
                     <h5>Sphiwe Ngobozana</h5>
                 </div>
                 <p class="bio_text">
-                    Daniel Ngobozana is our Managing Director and has over 15 years' experience in the relocation
-                    sector. He is a passionate Mamelodi Sundowners supporter. He started his career as a Packer and
-                    worked his way up the corporate ladder. He oversees many of the planning and development processes
-                    of the business and strongly believes in creating a conducive environment for his team to excel.
-                    Daniel also oversees the shipment requests. He is passionate about our customers, and he is always
-                    available to solve any customer problem escalated to him. He is often referred to as, "Mr Go Extra
-                    Mile" due to his always-ready-to-help attitude, no matter how short a notice the request may be.
+                Sphiwe Ngobozana is our Director of Operations and has over 15 years' experience in the relocation sector. 
+                Like his brother Daniel, our MD, he started his career as a Packer and worked his way up the 
+                corporate ladder. Unlike his brother, Sphiwe is a passionate supporter of Orlando Pirates, 
+                which sparks interesting debates on Monday mornings. Sphiwe is responsible essentially for 
+                the day-to-day business processes of domestic moves, and ensures processes run efficiently 
+                and ensures his teams complete their work properly and in a timely manner. He walks the 
+                talk – he is seen by our team as someone who they can count on. He is committed to his team’s 
+                happiness and cares about everyone in the company and passionate about our customer 
+                satisfaction. He is just a call away to help you and make your move hassle free.
+
                 </p>
             </div>
             <div class="col-md-4 bio_center">
@@ -125,7 +128,7 @@
                         <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Team_1200px-x-600px.jpg"
                             alt="" />
                     </div>
-                    <p>
+                    <p class="col-md-8">
                         We are committed to a work environment where everyone is treated equally, where everyone is
                         happy and enjoys his or her work.
                     </p>
@@ -164,7 +167,7 @@
     <div class="jobs">
         <div class="container">
             <h6>Job openings</h6>
-            <p>There are currently no jobs available</p>
+            <p>There are currently no jobs openings</p>
         </div>
     </div>
 </section>

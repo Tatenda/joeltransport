@@ -3,7 +3,7 @@
 <!-- home-moves -->
 <div id="office_removals" class="home-moves">
     <div class="container">
-        <h1 class="page_title">Office removals</h1>
+        <h1 class="page_title">office removals</h1>
         <div class="row">
             <div class="col-md-6 ">
                 <div class="home_box">
@@ -38,9 +38,9 @@
                         protection of your goods
                     </p>
                 </div>
-                <div class="moves_btn">
-                    <a class="btn btn-quote " href="/quote" role="button">Get a qoute</a>
-                </div>
+                <!-- <div class="moves_btn">
+                    <a class="btn btn-quote " href="/contact" role="button">Contact us</a>
+                </div> -->
             </div>
             <div class="col-md-6 d_align">
                 <div class="domestic_moves_img">
@@ -135,6 +135,8 @@
 <div class="cta">
     <div class="container">
         <div class="row">
+        <div class="col-md-2 d_align">
+</div>
             <div class="col-md-6 d_align">
                 <div class="moves_details">
 
@@ -147,13 +149,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 d_align">
-                <div class="cta_buttons">
-                    <div class="cta_buttons">
-                        <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
-                        <a class="btn btn_view" href="/contact" role="button">Contact us</a>
-                    </div>
-                </div>
+            
+                <div class="col-md-4 d_align">
+                    
+                        <!-- <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a> -->
+                        <a class="c2a_contact_btn" href="/contact" role="button">Contact us</a>
+                    
+            
             </div>
         </div>
     </div>
@@ -170,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 d_align">
+            <div class="col-md-6">
                 <div class="moves_details">
                     <h2 class="page_sub_title">Packing services</h2>
                     <div class="moves">
@@ -190,7 +192,7 @@
 <div id="office_insurance" class="insurance section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 d_align">
+            <div class="col-md-6">
                 <div class="moves_details">
                     <h2 class="page_sub_title">Insurance</h2>
                     <div class="moves">
@@ -221,7 +223,7 @@
                         alt="" />
                 </div>
             </div>
-            <div class="col-md-6 d_align">
+            <div class="col-md-6">
                 <div class="moves_details">
                     <h2 class="page_sub_title">Packaging material & crates</h2>
                     <div class="moves">
@@ -240,6 +242,8 @@
 <div class="cta">
     <div class="container">
         <div class="row">
+        <div class="col-md-2 d_align">
+</div>
             <div class="col-md-6 d_align">
 
                 <p>
@@ -248,9 +252,9 @@
                     labelled and furniture is moved with great care.
                 </p>
             </div>
-            <div class="col-md-6 d_align">
-                <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a>
-                <a class="btn btn_view" href="/contact" role="button">Contact us</a>
+            <div class="col-md-4 d_align">
+                <!-- <a class="btn btn-quote" href="/quote" role="button">Get a qoute</a> -->
+                <a class="c2a_contact_btn" href="/contact" role="button">Contact us</a>
             </div>
         </div>
     </div>
@@ -262,7 +266,7 @@
             <h2 class="page_sub_title">Specialized</h2>
         </div>
         <div class="row">
-            <div class="col-md-3">
+            <!-- <div class="col-md-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnails_Specialised_320px-x-320px-1.jpg"
                         alt="" />
@@ -281,7 +285,9 @@
                     and will manage all documentation as necessary, whilst also
                     arranging kenneling for your pets if required
                 </p>
-            </div>
+            </div> -->
+            <div class="col-md-2">
+</div>
             <div class="col-md-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-vehicle_320px-x-320px-1.jpg"
@@ -291,15 +297,12 @@
                     </div>
                 </div>
                 <p class="specialized_info">
-
-                    Need to have help to move your cars – Let Joel Transport take care
-                    of this for you – We have a Depot to Depot service, moving cars
-                    from Pretoria, Cape town, Durban, Knysna, Port Elizabeth and East
-                    London – Special trips to and from other centers can be arranged
-
+                    We provide domestic and international Vehicle Moving services, for vehicles that can move using their own power. Moving of non-runner vehicles is significantly more costly, with limited-service options.
                 </p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
+</div>
+            <!-- <div class="col-md-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-9-fine-art_320px-x-320px.jpg"
                         alt="" />
@@ -313,7 +316,7 @@
                     keep the most delicate piece of art protected during the moving
                     process. For peace of mind we avail the most trusted insurance
                     brokers for all-risk cover.. </p>
-            </div>
+            </div> -->
             <div class="col-md-3">
                 <div class="services_item">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-danger-320.jpg" alt="" />
@@ -323,11 +326,11 @@
                     </div>
                 </div>
                 <p class="specialized_info">
-                    Dangerous goods are categorised as flammable and chemicals, we have fleet and drivers who are fully
-                    compliant
-                    and trained to move dangerous goods.
+                Our Dangerous Goods moving service uses highly trained specialist teams. Dangerous goods we move include Paints, Chemicals, Flammable Gases, Flammable Liquids and Solids or Corrosives.
                 </p>
             </div>
+            <div class="col-md-2">
+</div>
         </div>
     </div>
 </div>

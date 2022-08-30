@@ -3,7 +3,7 @@
 <!-- contact -->
 <section class="quote">
     <div class="container">
-        <h3>resources</h3>
+    <h1 class="page_title">resources</h1>
         <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
@@ -25,7 +25,9 @@
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
         </div> -->
 
-        <ul class="nav nav_pill nav-pills mb-3" id="pills-tab" role="tablist">
+        <!-- Hide nav elements below -->
+
+        <!-- <ul class="nav nav_pill nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
                     aria-controls="pills-home" aria-selected="true">Moving tips</a>
@@ -38,7 +40,7 @@
                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
                     aria-controls="pills-contact" aria-selected="false">FAQs</a>
             </li>
-        </ul>
+        </ul> -->
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <h4 class="boldText mt-5">Moving tips</h3>

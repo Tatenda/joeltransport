@@ -19,7 +19,7 @@
                     <h6 class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
                         <br />Its truly
                         stress-free and fun
-                        with us.<br /> Enjoy the move! ​​
+                        with us.<br /><br /> ENJOY THE MOVE! ​​
                     </h6>
                 </div>
             </div>

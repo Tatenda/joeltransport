@@ -43,7 +43,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="navbar-brand" href="/">
+                                <a class="" href="/">
                                     <img class="img-fluid home-img"
                                         src="<?php echo get_template_directory_uri(); ?>/img/home-icon.svg"
                                         alt="logo" />
@@ -66,6 +66,7 @@
                                             material</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#storage">Storage</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#insurance">Insurance</a></li>
+                                    <li><br/></li>
                                     <li><a class="dropdown-item specialized-menu-item">SPECIALIZED SERVICES</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#pets">Pets</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#vehicle-transport">Vehicle
@@ -73,8 +74,8 @@
                                     <li><a class="dropdown-item" href="/home-moves#fine-art">Fine Art</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#dangerous-goods">Dangerous goods</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="/quote">
-                                            <button class="btn btn-quote" Get a quote</button>
+                                    <li><a class="dropdown-item btn-quote" href="/quote">
+                                            Get a quote
                                         </a></li>
                                 </ul>
                             </li>
@@ -90,13 +91,16 @@
                                     <li><a class="dropdown-item" href="/office-removals#">Packing materials</a></li>
                                     <li><a class="dropdown-item" href="/office-removals#">Document storage</a></li>
                                     <li><a class="dropdown-item" href="/office-removals#">Insurance</a></li>
+                                    <li><br/></li>
                                     <li><a class="dropdown-item specialized-menu-item">SPECIALIZED SERVICES</a></li>
                                     <li><a class="dropdown-item" href="/office-removals#">Vehicle transportation</a>
                                     </li>
                                     <li><a class="dropdown-item" href="/office-removals#">Dangerous goods</a></li>
-                                    <li><a class="dropdown-item" href="/quote">
-                                            <button class="btn btn-quote">Get a quote</button>
-                                        </a></li>
+                                    <li>
+                                        <a class="dropdown-item btn-quote" href="/contact">
+                                            Contact us
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -108,13 +112,13 @@
                                     <li><a class="dropdown-item" href="/resources#">Moving Tips</a></li>
                                     <li><a class="dropdown-item" href="/resources#">Home checklist</a></li>
                                     <li><a class="dropdown-item" href="/resources#">Office checklist</a></li>
-                                    <li><a class="dropdown-item" href="/resources#">FAQs</a></li>
-                                    <li><a class="dropdown-item specialized-menu-item">Documents</a></li>
-                                    <li><a class="dropdown-item" href="/resources#">Home inventory list</a></li>
-                                    <li><a class="dropdown-item" href="/resources#">AMOSA certificate</a></li>
-                                    <li><a class="dropdown-item" href="/quote">
-                                            <button class="btn btn-quote">Get a quote</button>
-                                        </a></li>
+                                    <li><a class="dropdown-item" href="/resources#">FAQs</a></li><br>
+                                    <li><a class="dropdown-item specialized-menu-item">DOCUMENTS</a></li>
+                                    <li><a class="dropdown-item" href="https://joeltransport.co.za/wp-content/uploads/2018/05/Inventory_List.xls" target="_blank" >
+                                        <img src="" target="_blank"/>Home inventory list</a></li>
+                                    <li><a class="dropdown-item" href="https://joeltransport.co.za/wp-content/uploads/2020/09/Joel-Transport-Pty-Ltd-AMOSA_Member_Certificate_2020-.pdf" target="_blank">AMOSA certificate</a></li>
+                                    <li></li>
+                                    
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -124,7 +128,7 @@
                                 <a class="nav-link" href="/contact">CONTACT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn btn-quote" href="/quote">Get a quote</a>
+                                <a class="btn-quote" href="/quote" role="button">Get a quote</a>
                             </li>
                         </ul>
                     </div>

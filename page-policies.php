@@ -2,8 +2,8 @@
 <!-- /html goes here -->
 <section class="quote">
     <div class="container">
-        <h1 class="page_title">Policies</h1>
-        <ul class="nav nav_pill nav-pills mb-3" id="pills-tab" role="tablist">
+        <h1 class="page_title">policies</h1>
+        <!-- <ul class="nav nav_pill nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#removal_policy" role="tab" aria-controls="pills-home" aria-selected="true">Removal policies</a>
             </li>
@@ -13,7 +13,7 @@
             <li class="nav-item">
                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#terms" role="tab" aria-controls="pills-contact" aria-selected="false">Terms & conditions</a>
             </li>
-        </ul>
+        </ul> -->
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="removal_policy" role="tabpanel" aria-labelledby="pills-home-tab">
                 <h2 class="page_sub_title">Removal policy</h2>
@@ -112,11 +112,11 @@ Funds paid to any other banking account will not be accepted as payment by us
                     </p>
             </div>
 
-            <div class="tab-pane fade" id="removal_policy" role="tabpanel" aria-labelledby="pills-contact-tab">
-                <h2 class="page_sub_title">Removal policy</h2>
-                    <h6>For large or specialized items</h6>
-                    <p>
-                        Joel Transport is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement. Joel Transport may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from 1-1-2018.
+<div class="tab-pane fade" id="removal_policy" role="tabpanel" aria-labelledby="pills-contact-tab">
+    <h2 class="page_sub_title">Removal policy</h2>
+        <h6>For large or specialized items</h6>
+        <p>
+            Joel Transport is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement. Joel Transport may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from 1-1-2018.
 <br><br>
 What we collect
 We may collect the following information:

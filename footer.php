@@ -7,17 +7,18 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="footer_icon">
-                        <img src="<?php bloginfo('template_directory') ?>/img/JOEL-TRANSPORT-LOGO-APPROVED-NR-1.svg" alt="footer logo" />
+                        <img src="<?php bloginfo('template_directory') ?>/img/jt_logo_monochrome.svg" alt="footer logo" />
+                        <br/><br/>
                         <p>enjoy the move</p>
                     </div>
                 </div>
                 <!-- services -->
-                <div class="col-md-3">
+                <div class="col-md-3 services-footer-links">
                     <h5>Services</h5>
                     <br />
                     <ul>
                         <li>
-                            <a href="https://joeltransport.mmogomedia.com/home-moves">Local Moves</a>
+                            <a href="https://joeltransport.mmogomedia.com/home-moves">Domestic Moves</a>
                         </li>
                         <li>
                             <a href="https://joeltransport.mmogomedia.com/home-moves#international_move">International Moves</a>
@@ -34,8 +35,11 @@
                         <li>
                             <a href="https://joeltransport.mmogomedia.com/home-moves#insurance">Insurance</a>
                         </li>
+                        <br>
                         <li>
-                            <a class="text-uppercase" href="https://joeltransport.mmogomedia.com/home-moves#specialized">Specialized services</a>
+                            <a 
+                             
+                            href="https://joeltransport.mmogomedia.com/home-moves#specialized">Specialized services</a>
                         </li>
                         <li>
                             <a href="https://joeltransport.mmogomedia.com/home-moves#specialized">Pets</a>
@@ -55,7 +59,7 @@
                     </ul>
                 </div>
                 <!-- resources -->
-                <div class="col-md-3">
+                <div class="col-md-3 resources-footer-links">
                     <h5>Resources</h5>
                     <br />
                     <ul>
@@ -81,7 +85,7 @@
                         <li>Monday - Friday</li>
                         <li>8am - 5pm</li>
                     </ul>
-                    <br />
+                   
                     <!-- address -->
                     <p>
                         10 Von Tonder Street
@@ -94,13 +98,17 @@
                     </p>
                     <!-- email -->
                     <ul>
-                        <li class="text-bold">Email</li>
-                        <li><a href="mailto:joeltransport.co.za">joeltransport.co.za</a></li>
+                        <li class="text-bold">email</li>
+                        <li><a href="mailto:joeltransport.co.za">sales@joeltransport.co.za</a></li>
                     </ul>
                     <!-- phone -->
                     <ul>
-                        <li class="text-bold">Phone</li>
-                        <li><a href="tel:27677778821">+27 67 777 8821</a></li>
+                        <li class="text-bold">phone</li>
+                        <li><a href="tel:27677778821">+27 12 666 9055</a></li>
+                    </ul>
+                    <ul>
+                        <li class="text-bold">fax</li>
+                        <li><a href="tel:27677778821">+27 12 666 9186</a></li>
                     </ul>
                 </div>
             </div>
@@ -132,19 +140,7 @@
             <div class="copyright text-center">
                 <p>Copyright&copy; <?php echo Date('Y'); ?> - <?php bloginfo('name'); ?>. All Rights Reserved</p>
             </div>
-            <div class="social_icons">
-                <ul class="d-flex">
-                    <li class="footer_icons">
-                        <a class="icon_link" href="https://twitter.com/JoelsTransport"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="footer_icons">
-                        <a class="icon_link" href="https://www.instagram.com/ptyltd.joeltransport/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="footer_icons">
-                        <a class="icon_link" href="https://www.facebook.com/Joel.Transport1965/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-            </div>
+        
         </div>
     </section>
 
