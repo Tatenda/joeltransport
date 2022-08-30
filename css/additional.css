@@ -122,12 +122,12 @@ p .compliments {
 }
 
 ul.faq_list>li>p {
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 30px !important;
 }
 
 ul.faq_list>li>p>span {
-    font-size: 22px;
+    font-size: 18px;
     display: block;
 }
 
@@ -141,4 +141,9 @@ ul.faq_list>li>p>span {
 .navbar-nav .nav-item {
     display: grid;
     place-items: center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #17479e;
 }

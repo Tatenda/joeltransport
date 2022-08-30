@@ -67,11 +67,9 @@
                 <p class="bio_text">
                     Daniel Ngobozana is our Managing Director and has over 15 years' experience in the relocation
                     sector. He is a passionate Mamelodi Sundowners supporter. He started his career as a Packer and
-                    worked his way up the corporate ladder. He oversees many of the planning and development processes
-                    of the business and strongly believes in creating a conducive environment for his team to excel.
-                    Daniel also oversees the shipment requests. He is passionate about our customers, and he is always
+                    worked his way up the corporate ladder. He is passionate about our customers, and he is always
                     available to solve any customer problem escalated to him. He is often referred to as, "Mr Go Extra
-                    Mile" due to his always-ready-to-help attitude, no matter how short a notice the request may be.
+                    Mile" due to his always-ready-to-help attitude.
                 </p>
             </div>
             <div class="col-md-4 bio_center">
@@ -83,15 +81,11 @@
                     <h5>Sphiwe Ngobozana</h5>
                 </div>
                 <p class="bio_text">
-                Sphiwe Ngobozana is our Director of Operations and has over 15 years' experience in the relocation sector. 
-                Like his brother Daniel, our MD, he started his career as a Packer and worked his way up the 
-                corporate ladder. Unlike his brother, Sphiwe is a passionate supporter of Orlando Pirates, 
-                which sparks interesting debates on Monday mornings. Sphiwe is responsible essentially for 
-                the day-to-day business processes of domestic moves, and ensures processes run efficiently 
-                and ensures his teams complete their work properly and in a timely manner. He walks the 
-                talk – he is seen by our team as someone who they can count on. He is committed to his team’s 
-                happiness and cares about everyone in the company and passionate about our customer 
-                satisfaction. He is just a call away to help you and make your move hassle free.
+                    Sphiwe Ngobozana is our Director of Operations and has over 15 years' experience in the relocation
+                    sector. Like his brother Daniel, our MD, he started his career as a Packer and worked his way up the
+                    corporate ladder. Unlike his brother, Sphiwe is a passionate supporter of Orlando Pirates, which
+                    sparks interesting debates on Monday mornings. Sphiwe walks the talk – our team sees him as someone
+                    they can count on. He is passionate about our customer’s satisfaction.
 
                 </p>
             </div>
@@ -103,14 +97,11 @@
                     <h5>Peter Brauteseth</h5>
                 </div>
                 <p class="bio_text">
-                    Peter Brauteseth is our Business Development Advisor and an ex-Director of the company. He has over
-                    40 years of experience in the relocation sector and has been committed to putting customers first in
-                    everything he does. Peter always goes out of his way to get close to our customers, to find out what
-                    their needs are, and how we can make their lives better with our services. He believes in his team
-                    capability in everything that they do, especially delivering the best customer experience every day.
-                    When asked about his claim of delivering best customer experience consistently, Peter says, "I am
-                    proud of the work we deliver, and Joel Transport has some of the best packing and removal teams in
-                    the country".
+                    Peter Brauteseth is our Business Development Advisor and former GM at Pickfords Removals. He has
+                    over 40 years of experience in the relocation sector. Peter always goes out of his way to get close
+                    to our customers, to find out what their needs are, and how we can make their lives better with our
+                    services. He believes in his team capability in everything that they do, especially delivering the
+                    best customer experience every day
                 </p>
             </div>
 
@@ -149,8 +140,9 @@
         </div>
         <p>
             We are purpose driven, participating in initiatives that alleviate societal challenges, including through
-            Lions International. As part of our contribution to communities in need, as part of a home move, we off FREE
-            removal within Gauteng of unused customer Furniture, Appliances, Clothing & Linen.
+            Lions International. As part of a home move, we offer FREE removal within Gauteng, of unused, but usable
+            customer Furniture, Appliances, Clothing & Linen that are in turn donated to communities in need through
+            Lions International
         </p>
     </div>
 </section>
