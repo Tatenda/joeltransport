@@ -1,4 +1,4 @@
-<div class="slider">
+<div class="slider d-none d-md-block">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active indic"
