@@ -2,13 +2,12 @@
 get_header();
 include 'hero.php';
 ?>
-<!-- boxes -->
 
 <section class="boxes">
     <div class="container">
         <div class="row">
             <!-- 1st box -->
-            <div class="col-md-6 col-lg-4 mobile_off">
+            <div class="col-md-6 col-lg-4 col-12">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="card_body col-12">
@@ -39,23 +38,24 @@ include 'hero.php';
                             </div>
                         </div>
                         <div class="overlay px-4 pt-2">
-                            <!-- <div class="card_body p-3"> -->
+
                             <p class="terms_conditions">
-                                <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+                                <a href="/policies">T&Cs apply</a>
+
                             </p>
-                            <div class="card_title">
-                                <h4 class="overlay_text_head">Standard 1 bed move</h4>
+                            <div class="overlay_title">
+                                <h4>Standard 1 bed move</h4>
                             </div>
-                            <div class="card_text">
+                            <div class="overlay_description_text">
                                 <ul>
-                                    <li>- 1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bathroom</li>
-                                    <li>- Est. contents volume: 1,000-1500 cubic feet/40 items</li>
-                                    <li>- Move within 50km radius of Centurion</li>
+                                    <li>- 1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bath</li>
+                                    <li>- Est. volume: 1,500 cubic feet/40 items</li>
+                                    <li>- 50km radius of Centurion</li>
                                 </ul>
                             </div>
                             <div class="card_button">
-                                <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get
-                                    a quote</a>
+                                <a name="" id="#card-back-button" class="btn btn_front btn" href="/quote"
+                                    role="button">Get a quote</a>
                             </div>
                             <!-- </div> -->
                         </div>
@@ -64,7 +64,7 @@ include 'hero.php';
                 </div>
             </div>
             <!-- 2nd box -->
-            <div class="col-md-6 col-lg-4 mobile_off">
+            <div class="col-md-6 col-lg-4 col-12">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="card_body col-12">
@@ -92,36 +92,38 @@ include 'hero.php';
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="overlay px-4 pt-2">
-                            <!-- <div class="card_body p-3"> -->
-                            <p class="terms_conditions">
-                                <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
-                            </p>
-                            <div class="card_title">
-                                <h4 class="overlay_text_head">Standard 2 bed move</h4>
-                            </div>
-                            <div class="card_text">
-                                <ul>
-                                    <li>- 2 Bedrooms, 1 Lounge, 1 Kitchen, 2 Bathrooms​</li>
-                                    <li>- 1 Extra Room (Small) or Single Garage (Small)​</li>
-                                    <li>- Est. contents volume: 2,000 cubic feet/items</li>
-                                    <li>- Move within 50km radius of Centurion</li>
-                                </ul>
-                            </div>
-                            <div class="card_button">
-                                <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get
-                                    a quote</a>
-                            </div>
-                            <!-- </div> -->
-                        </div>
 
+                            </div>
+                            <div class="overlay px-4 pt-2">
+                                <!-- <div class="card_body p-3"> -->
+                                <p class="terms_conditions">
+                                    <a href="/policies">T&Cs</a>
+                                </p>
+                                <div class="card_title">
+                                    <h4 class="overlay_text_head">Standard 2 bed move</h4>
+                                </div>
+                                <div class="card_text">
+                                    <ul>
+                                        <li>- 2 Bedrooms, 1 Lounge, 1 Kitchen, 2 Bathrooms​</li>
+                                        <li>- 1 Extra Room (Small) or Single Garage (Small)​</li>
+                                        <li>- Est. contents volume: 2,000 cubic feet/items</li>
+                                        <li>- Move within 50km radius of Centurion</li>
+                                    </ul>
+                                </div>
+                                <div class="card_button">
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote/"
+                                        role="button">Get
+                                        a quote</a>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- 3rd box -->
-            <div class="col-md-6 col-lg-4 mobile_off">
+            <div class="col-md-6 col-lg-4 col-12">
                 <div class="box m-2">
                     <div id="main-card" class="card shadow card_box">
                         <div class="card_body col-12">
@@ -149,35 +151,36 @@ include 'hero.php';
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="overlay px-4 pt-2">
-                            <!-- <div class="card_body p-3"> -->
-                            <p class="terms_conditions">
-                                <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
-                            </p>
-                            <div class="card_title">
-                                <h4 class="overlay_text_head">Standard 2 bed move</h4>
-                            </div>
-                            <div class="card_text">
-                                <ul>
-                                    <li>- 2 Bedrooms, 1 Lounge, 1 Kitchen, 2 Bathrooms​</li>
-                                    <li>- 1 Extra Room (Small) or Single Garage (Small)​</li>
-                                    <li>- Est. contents volume: 2,000 cubic feet/items</li>
-                                    <li>- Move within 50km radius of Centurion</li>
-                                </ul>
-                            </div>
-                            <div class="card_button">
-                                <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get
-                                    a quote</a>
-                            </div>
-                            <!-- </div> -->
-                        </div>
 
+                            </div>
+                            <div class="overlay px-4 pt-2">
+                                <!-- <div class="card_body p-3"> -->
+                                <p class="terms_conditions">
+                                    <a href="/policies">T&Cs</a>
+                                </p>
+                                <div class="card_title">
+                                    <h4 class="overlay_text_head">Standard 2 bed move</h4>
+                                </div>
+                                <div class="card_text">
+                                    <ul>
+                                        <li>- 3 bedrooms, 1 lounge, 1 kitchen, 2.5 bath​</li>
+                                        <li>- 1 Extra Room & Double Garage​</li>
+                                        <li>- Est. volume: 3,500 cubic feet/70 items</li>
+                                        <li>- 50km radius of Centurion</li>
+                                    </ul>
+                                </div>
+                                <div class="card_button">
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote/"
+                                        role="button">Get
+                                        a quote</a>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-
             <!-- 4th card -->
             <div class="col-md-6 col-lg-4 mobile_off">
                 <div class="box m-2">
@@ -205,18 +208,18 @@ include 'hero.php';
                         </div>
                         <div class="overlay px-4 pt-2">
                             <p class="terms_conditions">
-                                <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
+                                <a href="/policies">T&Cs</a>
                             </p>
                             <div class="card_title">
                                 <h4 class="overlay_text_head">Office move</h4>
                             </div>
                             <div class="card_text">
-                                <p>
-                                    We have decades of experience in moving SMEs,
-                                    medium-sized and corporates and public institutions.
-                                    Our office moving services include our scheduling,
-                                    insurance, and full packing services
-                                </p>
+
+                                We have decades of experience in moving SMEs,
+                                medium-sized and corporates and public institutions.
+                                Our office moving services include our scheduling,
+                                insurance, and full packing services
+
                             </div>
                             <div class="card_button">
                                 <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get
@@ -251,60 +254,68 @@ include 'hero.php';
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="overlay px-4 pt-2">
-                            <p class="terms_conditions">
-                                <a href="https://joeltransport.mmogomedia.com/terms">T&Cs</a>
-                            </p>
-                            <div class="card_title">
-                                <h4 class="overlay_text_head">Specialized move</h4>
-                            </div>
-                            <div class="card_text">
-                                <p>
-                                    Over the years we have built our moving capabilities to complement our home and
-                                    office moving services to include the moving of Pets, Fine Art, Vehicles and
-                                    selected dangerous goods locally or internationally
+                            <div class="overlay px-4 pt-2">
+                                <p class="terms_conditions">
+                                    <a href="policies">T&Cs</a>
                                 </p>
-                            </div>
-                            <div class="card_button">
-                                <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get
-                                    a quote</a>
+                                <div class="card_title">
+                                    <h4 class="overlay_text_head">Specialized move</h4>
+                                </div>
+                                <div class="card_text">
+
+                                    Over the years we have built our moving capabilities to complement our
+                                    home and
+                                    office moving services to include the moving of Pets, Fine Art, Vehicles
+                                    and
+                                    selected dangerous goods locally or internationally
+
+                                </div>
+                                <div class="card_button">
+                                    <a name="" id="#card-back-button" class="btn_front btn" href="/quote/"
+                                        role="button">Get
+                                        a quote</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- 6th box -->
             </div>
-            <!-- 6th box -->
-
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4 mobile_off">
                 <div id="main-card" class="box m-2">
                     <div class="card shadow card_box">
                         <div class="overlay">
                             <p class="terms_conditions">
-                                <a href="/policies/">T&Cs</a>
+                                <a href="/policies">T&Cs apply</a>
                             </p>
-                            <div class="overlay_text">
+                            <div class="overlay_title">
                                 <h4>Storage</h4>
                             </div>
+                            <div class="overlay_description_text">
+                                We safely store your furniture & belongings in
+                                crates at our Gauteng facilities, for transit, short
+                                and long-term periods. On request we pack,
+                                collect & deliver to our facilities.
+                            </div>
                             <div class="card_button">
-                                <a name="" id="#card-back-button" class="btn btn_front" href="/contact/"
+                                <a name="" id="card-back-button" class="btn btn_front" href="/contact"
                                     role="button">contact us</a>
                             </div>
                         </div>
-                        <div class="card_body">
+                        <div class="card_body col-12">
                             <h4 class="card-title">Storage</h4>
-                            <div class="card_text">
+                            <!-- <div class="card_text">
                                 <p>
                                     We offer storage for transit, short & long term periods
                                 </p>
-                            </div>
-                            <div class="card_text">
+                            </div> -->
+                            <div class="card_text_price">
                                 <p>starting from</p>
                             </div>
                             <div class="card_text">
                                 <span>R 402.50</span>
                             </div>
-                            <div class="card_text">
+                            <div class="card_text_vat">
                                 <p>excl. VAT</p>
                             </div>
                             <div class="button text-right">
@@ -318,10 +329,19 @@ include 'hero.php';
         </div>
     </div>
 </section>
+
+<div class="history__divider d-none d-md-block col-md-12"></div>
 <!-- transport history -->
-<section class="history">
+<section class="history py-5">
     <div class="container">
         <div class="row">
+            <div class="col-12 d-md-none mb-5">
+                <div class="card shadow">
+                    <img class="img-fluid rounded"
+                        src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg"
+                        alt="owner_img" />
+                </div>
+            </div>
             <div class="col-12 col-md-6">
                 <h6 id="#history-title">Joel Transport history...</h6>
                 <p>
@@ -333,10 +353,10 @@ include 'hero.php';
                     every step of the way.
                 </p>
                 <div class="history_read-more text-right">
-                    <a name="" id="#history-link" class="btn_history" href="#" role="button">read more</a>
+                    <a name="" id="#history-link" class="btn_history" href="/about" role="button">read more</a>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="d-none d-md-flex col-md-4">
                 <div class="owner_img color">
                     <div class="history_img">
                         <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/JT_History_Image.jpg"
@@ -347,8 +367,6 @@ include 'hero.php';
             </div>
         </div>
     </div>
-
-
 </section>
 
 <!-- reviews -->
@@ -391,7 +409,7 @@ include 'hero.php';
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnaill_home_and_office_320px_x_320px.jpg"
+                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_Home_320px-x-320px.jpg"
                         alt="" />
 
                     <div class="item_title">
@@ -424,7 +442,7 @@ include 'hero.php';
                     <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_storage_320px-_-320px.jpg"
                         alt="" />
                     <div class="item_title">
-                        <p>Storage move</p>
+                        <p>Storage</p>
                     </div>
                 </div>
             </div>
@@ -449,7 +467,7 @@ include 'hero.php';
     </div>
 </section>
 <!-- membership -->
-<section class="membership">
+<section class="membership d-none d-md-block col-md-12">
     <div class="container">
         <div class="membership_title">
             <h4 id="#section-heading">accreditation & membership</h4>
@@ -457,13 +475,13 @@ include 'hero.php';
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3  mb-4">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/siama.jpg" alt="update" />
                     <p>South African International Movers Association</p>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/nbcrfli.jpg" alt="" />
                     <p>
@@ -472,13 +490,13 @@ include 'hero.php';
                     </p>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2018/05/rfa.jpg" alt="" />
                     <p>National Road Freight Association</p>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="member_item card_box">
                     <img src="https://joeltransport.co.za/wp-content/uploads/2020/09/AMOSA-LOGO.jpg" alt="" />
                     <p>Accredited Movers Of South Africa</p>

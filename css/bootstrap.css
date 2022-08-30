@@ -3411,7 +3411,7 @@ html {
   .btn-link.active,
   .btn-link[disabled],
   fieldset[disabled] .btn-link {
-    background-color: transparent;
+    /* background-color: transparent; */
     -webkit-box-shadow: none;
             box-shadow: none;
   }
@@ -3420,6 +3420,7 @@ html {
   .btn-link:focus,
   .btn-link:active {
     border-color: transparent;
+    color: #3379b754;
   }
   .btn-link:hover,
   .btn-link:focus {

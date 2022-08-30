@@ -4,7 +4,7 @@ Theme URI: http://joeltransport.co.za
 Author: Mathase Mashau
 Author URI:http://joeltransport.co.za
 Description: Simple Bootstrap Wordpress Theme
-Version: 1.6.1
+Version: 1.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: joeltransport
@@ -75,6 +75,7 @@ html {
     color: gray;
     font-size: var(--font-size-base);
     padding-top: 70px;
+    width: 100vw;
 }
 
 h1,
@@ -84,19 +85,37 @@ h4,
 h5,
 h6 {
     font-family: var(--font-majora-arca3);
+    color: var(--color-dark-blue);
 }
 
 
 /* buttons */
 
+.nav-item .btn-quote {
+    margin-left: 40px;
+}
+
 .btn-quote {
     background-color: var(--color-primary);
-    border-radius: 30px;
-    padding: 16px 36px;
+    color: #162643 !important;
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 18px !important;
+    overflow: hidden;
+    text-decoration: none;
+    width: 140px;
 }
 
 .btn-quote:hover {
-    background: #9ddde1 var(--color-secondary);
+    background-color: #57C5CC90 !important;
+    /* border: 2px solid #57C5CC85 !important; */
+    color: #162643 !important;
+}
+
+.dropdown-menu .btn-quote {
+    margin-top: 20px;
+    margin: 0px 10px;
+    width: 90% !important;
 }
 
 .nav_align {
@@ -117,14 +136,15 @@ h6 {
 }
 
 .navigation .navbar>div>div>ul>li {
-    padding: 10px 26px;
+    padding: 10px 15px;
     text-align: center;
 }
 
-.navigation .navbar>div>div>ul>li:last-child {
+
+/* .navigation .navbar>div>div>ul>li:last-child {
     text-align: right !important;
     width: 200px !important;
-}
+} */
 
 .navbar-nav>li>.dropdown-menu {
     background-color: var(--color-dark-blue);
@@ -132,8 +152,9 @@ h6 {
 
 .navbar-nav>li>.dropdown-menu {
     background-color: var(--color-dark-blue);
-    padding: 12px;
+    padding: 24px 16px;
     color: var(--color-white);
+    border-radius: 24px;
 }
 
 .navbar-nav>li>.dropdown-menu li {
@@ -142,6 +163,7 @@ h6 {
 
 .navbar-nav>li>.dropdown-menu>li>a {
     color: var(--color-white);
+    font-size: 18px;
 }
 
 .specialized-menu-item {
@@ -156,7 +178,7 @@ h6 {
 .navbar-nav>li>.dropdown-menu>li:last-child {
     text-align: center;
     color: var(--color-dark-blue);
-    margin: 12px 0 12px;
+    margin: 24px 0 12px;
 }
 
 .form_section {
@@ -169,10 +191,10 @@ h6 {
 
 .page_title {
     font-family: var(--font-family-arca_majora_3bold);
-    font-size: 2em;
+    font-size: 2.2em;
     color: var(--color-dark-blue);
-    margin-bottom: 60px;
-    margin-top: 120px;
+    margin-bottom: 80px;
+    margin-top: 100px;
 }
 
 .page_sub_title {
@@ -235,7 +257,7 @@ p {
 }
 
 .section {
-    padding: 120px 0;
+    padding: 60px 0;
 }
 
 
@@ -363,8 +385,17 @@ p {
     margin-bottom: 18px;
 }
 
-.history_read-more {
+.history_read-more a {
     text-align: right;
+}
+
+.history_read-more a:hover,
+.history_read-more a:link {
+    text-decoration: none;
+}
+
+.history_read-more a:hover {
+    color: #17479e;
 }
 
 #history-link {
@@ -440,11 +471,6 @@ p {
     padding: 1.5rem;
 }
 
-.card_text {
-    margin-top: -10px;
-    margin-bottom: -10px;
-}
-
 #card-start-price {
     font-size: 14px;
     color: #999999;
@@ -517,12 +543,13 @@ p {
 
 #service-item-img {
     height: 240px;
+    width: 240px;
 }
 
 .service-item:hover .item_title {
     background: #17479e;
     color: #fff;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 12px 12px;
 }
 
 .services_item p {
@@ -530,6 +557,7 @@ p {
     color: #fff;
     letter-spacing: -0.28px;
     margin-bottom: 0;
+    font-size: 20px;
 }
 
 .member_item {
@@ -705,7 +733,7 @@ p {
 
 .services {
     padding: 100px 0;
-    background: #ccc;
+    background: #F7FAFB;
 }
 
 .services_item {
@@ -771,8 +799,33 @@ p {
     border-radius: 24px;
 }
 
+.c2a_contact_btn {
+    color: #17479e;
+    background: #fff;
+    border: 2px solid #17479e;
+    text-align: center;
+    padding: 10px 20px;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 24px;
+    font-size: 18px !important;
+    overflow: hidden;
+    width: 130px;
+    text-decoration: none;
+}
+
+.c2a_contact_btn:hover {
+    color: #162643;
+    border: 2px solid #162643;
+}
+
 .btn_history {
     color: #000;
+    text-decoration: none;
+}
+
+.btn_history a:hover {
+    text-decoration: none;
 }
 
 .nav_link a {
@@ -824,7 +877,7 @@ p {
 
 .overlay_text {
     color: white !important;
-    font-size: 12px;
+    font-size: 14px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(0%, 0%);
@@ -832,6 +885,23 @@ p {
     /* padding: 20px; */
     border-radius: 20px;
     /* height: 100%; */
+}
+
+.overlay_title h4 {
+    color: white !important;
+    padding: 0px 24px;
+    margin-top: 24px;
+}
+
+.overlay_description_text {
+    margin-top: -24px;
+    padding: 0px 24px;
+    font-size: 14px;
+    color: white;
+}
+
+.overlay_description_text ul {
+    list-style: none;
 }
 
 
@@ -843,10 +913,12 @@ p {
     vertical-align: middle;
     border-style: none;
     width: 100px;
+    margin-right: 100px;
 }
 
-.navbar-brand .home-img {
-    width: 30px;
+.home-img {
+    width: 20px;
+    margin-right: 20px;
 }
 
 .fa {
@@ -917,6 +989,10 @@ p {
     top: -140px;
 }
 
+.boxes .row {
+    --bs-gutter-y: 1.5rem;
+}
+
 .box h4 {
     color: #17479e;
     margin-bottom: 40px;
@@ -932,8 +1008,12 @@ p {
     border-radius: 20px;
 }
 
+.history__divider {
+    height: 80px;
+}
+
 .history {
-    padding: 80px 0;
+    /* padding: 80px 0; */
     background: #e7ecf5;
 }
 
@@ -958,6 +1038,15 @@ p {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    color: #162643;
+}
+
+.reviews_title a {
+    color: #162643;
+}
+
+.reviews_title a:hover {
+    color: #17479e;
 }
 
 .card_reviews {
@@ -1030,7 +1119,7 @@ p {
 .footer {
     padding: 80px 0 0;
     background: #f4f4f4;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .footer_icon img {
@@ -1040,11 +1129,12 @@ p {
 }
 
 .footer_nav {
+    margin-top: 40px;
     background-color: #f4f4f4;
 }
 
 .footer_nav .nav-item {
-    margin-right: 12px;
+    margin-right: 36px;
 }
 
 .footer a {
@@ -1078,6 +1168,14 @@ p {
     padding: 10px;
     justify-content: center;
     background-color: #162643;
+}
+
+.services-footer-links ul li {
+    padding-bottom: 6px;
+}
+
+.resources-footer-links ul li {
+    padding-bottom: 6px;
 }
 
 .copyright p {
@@ -1235,7 +1333,7 @@ p {
 }
 
 .about_img img {
-    width: 410px;
+    width: 460px;
     border-radius: 24px;
 }
 
@@ -1250,10 +1348,10 @@ p {
 }
 
 .bio_text {
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    /* -webkit-line-clamp: 3; */
     -webkit-box-orient: vertical;
     font-size: 16px;
 }
@@ -1281,6 +1379,7 @@ p {
 
 .team {
     background: #e7ecf5;
+    /* padding-top: 300px; */
     padding-bottom: 60px;
 }
 
@@ -1290,7 +1389,9 @@ p {
 }
 
 .team_box p {
+    margin: auto;
     padding: 30px 0;
+    text-align: center;
 }
 
 .team_img {
@@ -1352,7 +1453,7 @@ p {
 
 .btn_home {
     background-color: #e2e2e2;
-    color: #000;
+    color: #162643;
     border-radius: 24px;
 }
 
@@ -1365,7 +1466,7 @@ p {
 
 .moves_img img {
     width: 460px;
-    height: 460px;
+    /* height: 460px; */
     margin: auto;
     border-radius: 24px;
     text-align: center;
@@ -1394,6 +1495,16 @@ p {
     font-size: 24px;
 }
 
+.about_img {
+    width: 460px;
+    /* height: 133px; */
+    margin: auto;
+    box-shadow: 0px 0px 14px #00000025;
+    border-radius: 24px;
+    text-align: center;
+    /* object-fit: cover; */
+}
+
 .moves_img {
     width: 460px;
     margin: auto;
@@ -1414,10 +1525,10 @@ p {
 }
 
 .specialized_info {
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    /* -webkit-line-clamp: 3; */
     -webkit-box-orient: vertical;
     font-size: 16px;
     margin-top: 40px;
@@ -1428,7 +1539,9 @@ p {
 
 .cta {
     background: #e7ecf5;
-    padding: 60px 0;
+    /* padding: 15px 0; */
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .cta p {

@@ -13,13 +13,16 @@
 </head>
 
 <body>
-    <header class="fixed-top">
+    <header class="fixed-top" id="MainSiteHeader">
         <div class="top-menu">
             <div class="container">
-                <ul id="" class="top-menu row">
-                    <li class="col-2 "><a href="tel://+27 12 666 9055">+27 12 666 9055</a></li>
-                    <li class="col-3 "><a href="mailto:sales@joeltransport.co.za">sales@joeltransport.co.za</a></li>
-                    <li class=" col-2 offset-5">
+                <ul class="top-menu row">
+                    <li class="col-12 d-flex justify-content-center d-md-none"><a
+                            href="mailto:sales@joeltransport.co.za">sales@joeltransport.co.za</a></li>
+                    <li class="d-none d-md-block col-md-2"><a href="tel://+27 12 666 9055">+27 12 666 9055</a></li>
+                    <li class="d-none d-md-block col-md-3 "><a
+                            href="mailto:sales@joeltransport.co.za">sales@joeltransport.co.za</a></li>
+                    <li class="d-none d-md-flex col-md-2 offset-5">
                         <a href="https://twitter.com/JoelsTransport" target="_blank"><i
                                 class="fa-brands fa-twitter"></i></a>
                         <a href="https://www.instagram.com/ptyltd.joeltransport/" target="_blank"><i
@@ -43,7 +46,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="navbar-brand" href="/">
+                                <a class="" href="/">
                                     <img class="img-fluid home-img"
                                         src="<?php echo get_template_directory_uri(); ?>/img/home-icon.svg"
                                         alt="logo" />
@@ -66,6 +69,7 @@
                                             material</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#storage">Storage</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#insurance">Insurance</a></li>
+                                    <li><br /></li>
                                     <li><a class="dropdown-item specialized-menu-item">SPECIALIZED SERVICES</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#pets">Pets</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#vehicle-transport">Vehicle
@@ -73,8 +77,8 @@
                                     <li><a class="dropdown-item" href="/home-moves#fine-art">Fine Art</a></li>
                                     <li><a class="dropdown-item" href="/home-moves#dangerous-goods">Dangerous goods</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="/quote">
-                                            <button class="btn btn-quote" Get a quote</button>
+                                    <li><a class="dropdown-item btn-quote" href="/quote">
+                                            Get a quote
                                         </a></li>
                                 </ul>
                             </li>
@@ -90,13 +94,16 @@
                                     <li><a class="dropdown-item" href="/office-removals#">Packing materials</a></li>
                                     <li><a class="dropdown-item" href="/office-removals#">Document storage</a></li>
                                     <li><a class="dropdown-item" href="/office-removals#">Insurance</a></li>
+                                    <li><br /></li>
                                     <li><a class="dropdown-item specialized-menu-item">SPECIALIZED SERVICES</a></li>
                                     <li><a class="dropdown-item" href="/office-removals#">Vehicle transportation</a>
                                     </li>
                                     <li><a class="dropdown-item" href="/office-removals#">Dangerous goods</a></li>
-                                    <li><a class="dropdown-item" href="/quote">
-                                            <button class="btn btn-quote">Get a quote</button>
-                                        </a></li>
+                                    <li>
+                                        <a class="dropdown-item btn-quote" href="/contact">
+                                            Contact us
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -108,13 +115,17 @@
                                     <li><a class="dropdown-item" href="/resources#">Moving Tips</a></li>
                                     <li><a class="dropdown-item" href="/resources#">Home checklist</a></li>
                                     <li><a class="dropdown-item" href="/resources#">Office checklist</a></li>
-                                    <li><a class="dropdown-item" href="/resources#">FAQs</a></li>
-                                    <li><a class="dropdown-item specialized-menu-item">Documents</a></li>
-                                    <li><a class="dropdown-item" href="/resources#">Home inventory list</a></li>
-                                    <li><a class="dropdown-item" href="/resources#">AMOSA certificate</a></li>
-                                    <li><a class="dropdown-item" href="/quote">
-                                            <button class="btn btn-quote">Get a quote</button>
-                                        </a></li>
+                                    <li><a class="dropdown-item" href="/resources#">FAQs</a></li><br>
+                                    <li><a class="dropdown-item specialized-menu-item">DOCUMENTS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://joeltransport.co.za/wp-content/uploads/2018/05/Inventory_List.xls"
+                                            target="_blank">
+                                            <img src="" target="_blank" />Home inventory list</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://joeltransport.co.za/wp-content/uploads/2020/09/Joel-Transport-Pty-Ltd-AMOSA_Member_Certificate_2020-.pdf"
+                                            target="_blank">AMOSA certificate</a></li>
+                                    <li></li>
+
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -124,7 +135,7 @@
                                 <a class="nav-link" href="/contact">CONTACT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn btn-quote" href="/quote">Get a quote</a>
+                                <a class="btn-quote" href="/quote" role="button">Get a quote</a>
                             </li>
                         </ul>
                     </div>
