@@ -43,10 +43,10 @@ include 'hero.php';
                                 <a href="/policies">T&Cs apply</a>
 
                             </p>
-                            <div class="overlay_title">
-                                <h4>Standard 1 bed move</h4>
+                            <div class="card_title">
+                                <h4 class="overlay_text_head"> Standard 1 bed move</h4>
                             </div>
-                            <div class="overlay_description_text">
+                            <div class="card_text">
                                 <ul>
                                     <li>- 1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bath</li>
                                     <li>- Est. volume: 1,500 cubic feet/40 items</li>
@@ -129,7 +129,7 @@ include 'hero.php';
                         <div class="card_body col-12">
                             <div class="row">
                                 <div class="col-12">
-                                    <h4 class="card-title">Standard 2 bed move</h4>
+                                    <h4 class="card-title">Standard 3 bed move</h4>
                                 </div>
                                 <div class="col-12 mb-5">
                                     <div class="card_text_price">
@@ -159,7 +159,7 @@ include 'hero.php';
                                     <a href="/policies">T&Cs</a>
                                 </p>
                                 <div class="card_title">
-                                    <h4 class="overlay_text_head">Standard 2 bed move</h4>
+                                    <h4 class="overlay_text_head">Standard 3 bed move</h4>
                                 </div>
                                 <div class="card_text">
                                     <ul>
