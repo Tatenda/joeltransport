@@ -27,18 +27,18 @@
 
                 <div class="moves">
                     <p>
-                    Every day, Joel Transport offers unique moves and great experiences that 
-                    make it possible for our customers to feel at ease and have peace of mind. 
-                    Go anywhere with Joel Transport, we offer a full range of removal services 
-                    for local moves in South Africa, from packing and loading to transportation 
-                    and unloading. Start now, get your non-binding quotation.
+                        Every day, Joel Transport offers unique moves and great experiences that
+                        make it possible for our customers to feel at ease and have peace of mind.
+                        Go anywhere with Joel Transport, we offer a full range of removal services
+                        for local moves in South Africa, from packing and loading to transportation
+                        and unloading. Start now, get your non-binding quotation.
                     </p>
                     <p>
-                    No matter what type of move you’re making Joel Transport is here for you, 
-                    our services are tailored according to your needs.  Are there access restrictions 
-                    for big trucks in your complex or estate? Do not worry, Joel Transport has got you, 
-                    we got the right size truck just for you. For peace of mind, insurance of your 
-                    goods is available through our brokers for the safety and protection of your goods.
+                        No matter what type of move you’re making Joel Transport is here for you,
+                        our services are tailored according to your needs. Are there access restrictions
+                        for big trucks in your complex or estate? Do not worry, Joel Transport has got you,
+                        we got the right size truck just for you. For peace of mind, insurance of your
+                        goods is available through our brokers for the safety and protection of your goods.
                     </p>
                 </div>
                 <!-- <div class="moves_btn">
@@ -70,18 +70,19 @@
                     <h2 id="international-moves" class="page_sub_title">International moves</h2>
                     <div class="moves">
                         <p>
-                        Joel Transport offers full range of international moving service, 
-                        from packing, crating, shipping to customs clearance and storage. 
-                        To ensure that your move is smooth and seamless, we assign you a 
-                        personal move assistant to guide you through every step. 
-</p><p>
-                        The services we offer under International moves are: Lower Container 
-                        Load Service – where cargo is collected crated, consolidated and dispatched 
-                        in 30 days period. This is a faster convenient solution for our clients. 
-                        Full Container Load Service – for larger loads of either 6 or 12 cubic 
-                        meter containers are used. This is faster and the most efficient shipping 
-                        method for larger loads. Air Freight Service, this is the most preferred 
-                        method by most customers, it is fast and safe.
+                            Joel Transport offers full range of international moving service,
+                            from packing, crating, shipping to customs clearance and storage.
+                            To ensure that your move is smooth and seamless, we assign you a
+                            personal move assistant to guide you through every step.
+                        </p>
+                        <p>
+                            The services we offer under International moves are: Lower Container
+                            Load Service – where cargo is collected crated, consolidated and dispatched
+                            in 30 days period. This is a faster convenient solution for our clients.
+                            Full Container Load Service – for larger loads of either 6 or 12 cubic
+                            meter containers are used. This is faster and the most efficient shipping
+                            method for larger loads. Air Freight Service, this is the most preferred
+                            method by most customers, it is fast and safe.
                         </p>
                     </div>
 
@@ -97,17 +98,17 @@
         <div class="row">
             <div class="col-md-6" id="storage">
                 <div class="home_box">
-                  <div class="moves_details">
-                    <h2 id="home-storage" class="page_sub_title">
-                        Storage
-                    </h2>
-                 </div>
+                    <div class="moves_details">
+                        <h2 id="home-storage" class="page_sub_title">
+                            Storage
+                        </h2>
+                    </div>
                     <div class="domestic_price">
                         <div class="card_text_price">
                             <p>Starting at</p>
                         </div>
                         <div class="card_text">
-                            <span>R 402.50</span>
+                            <span>R350.00</span>
                         </div>
                         <div class="card_text_vat">
                             <p>excl. VAT</p>
@@ -117,19 +118,19 @@
 
                 <div class="moves">
                     <p>
-                    We provide storage facilities for your personal and household effects. 
-                    We offer short and long-term storage contracts. Loads are stored in Pallets 
-                    within our warehouse.  With storages in Gauteng and partnered facilities 
-                    in Kwazulu Natal, the Eastern and Western Cape, Joel Transport can offer 
-                    its customers secure storage facilities to suit their specific requirements 
-                    in those regions.
+                        We provide storage facilities for your personal and household effects.
+                        We offer short and long-term storage contracts. Loads are stored in Pallets
+                        within our warehouse. With storages in Gauteng and partnered facilities
+                        in Kwazulu Natal, the Eastern and Western Cape, Joel Transport can offer
+                        its customers secure storage facilities to suit their specific requirements
+                        in those regions.
                     </p>
                 </div>
                 <div class="button"></div>
             </div>
             <div class="col-md-6 d_align">
                 <div class="moves_img">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-storage_600px-_-400px.jpg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Home _ Office Storage image-600px x 400px.jpg"
                         alt="" />
 
                 </div>
@@ -142,13 +143,15 @@
 <div class="cta">
     <div class="container">
         <div class="row">
-        <div class="col-md-2 d_align">
-</div>
+            <div class="col-md-2 d_align">
+            </div>
             <div class="col-md-6 d_align">
                 <div class="moves_details">
                     <div class="moves">
                         <p>
-                        At Joel Transport, we have well-trained reliable experts who offer a comprehensive moving full service to ensure minimal stress during your home move. We ensure that packing of documents is done and furniture is moved with great care.
+                            At Joel Transport, we have well-trained reliable experts who offer a comprehensive moving
+                            full service to ensure minimal stress during your home move. We ensure that packing of
+                            documents is done and furniture is moved with great care.
                         </p>
                     </div>
                 </div>
@@ -182,7 +185,10 @@
                     <h2 class="page_sub_title">Packing services</h2>
                     <div class="moves">
                         <p>
-                        We offer a full packing and packaging service. Our expert-trained crew are trained to perfectly pack, including items that need extra protection and wrapping. We are always ready to go that extra-mile to ensure the safety of our customer’s belongings and ensure customer goods arrive safe and sound.
+                            We offer a full packing and packaging service. Our expert-trained crew are trained to
+                            perfectly pack, including items that need extra protection and wrapping. We are always ready
+                            to go that extra-mile to ensure the safety of our customer’s belongings and ensure customer
+                            goods arrive safe and sound.
                         </p>
                     </div>
                 </div>
@@ -199,7 +205,9 @@
                     <h2 class="page_sub_title">Insurance</h2>
                     <div class="moves">
                         <p>
-                        For peace mind, all-risk insurance cover is available to all moving and storage customers. The insurance services is handled by our accredited insurance brokers, speedily and efficiently, just for you.
+                            For peace of mind, all-risk insurance cover is available to all moving and storage
+                            customers. The insurance services are handled by our accredited insurance brokers, speedily
+                            and efficiently, just for you.
                         </p>
                     </div>
                 </div>
@@ -242,11 +250,13 @@
 <div class="cta">
     <div class="container">
         <div class="row">
-        <div class="col-md-2 d_align">
-</div>
+            <div class="col-md-2 d_align">
+            </div>
             <div class="col-md-6 d_align">
                 <p>
-                At Joel Transport, we have well-trained reliable experts who offer a comprehensive moving full service to ensure minimal stress during your home move. We ensure that packing of documents is done and furniture is moved with great care.
+                    At Joel Transport, we have well-trained reliable experts who offer a comprehensive moving full
+                    service to ensure minimal stress during your home move. We ensure that packing of documents is done
+                    and furniture is moved with great care.
                 </p>
             </div>
             <div class="col-md-4 d_align">
@@ -273,7 +283,8 @@
                     </div>
                 </div>
                 <p class="specialized_info">
-                We provide domestic and international Pet Moving Services using our trusted pet removal teams working to the local and international regulations on the movement of pets.
+                    We provide domestic and international Pet Moving Services using our trusted pet removal teams
+                    working to the local and international regulations on the movement of pets.
                 </p>
             </div>
             <div class="col-md-3">
@@ -285,7 +296,9 @@
                     </div>
                 </div>
                 <p class="specialized_info">
-                We provide domestic and international Vehicle Moving services, for vehicles that can move using their own power. Moving of non-runner vehicles is significantly more costly, with limited-service options.
+                    We provide domestic and international Vehicle Moving services, for vehicles that can move using
+                    their own power. Moving of non-runner vehicles is significantly more costly, with limited-service
+                    options.
                 </p>
             </div>
             <div class="col-md-3">
@@ -297,7 +310,8 @@
                     </div>
                 </div>
                 <p class="specialized_info">
-                We move Fine Art pieces domestically and internationally in safely packaged and secure packaging and/or crating to prevent damage. This service is backed up by our insurance service option.
+                    We move Fine Art pieces domestically and internationally in safely packaged and secure packaging
+                    and/or crating to prevent damage. This service is backed up by our insurance service option.
                 </p>
             </div>
             <div class="col-md-3">
@@ -309,7 +323,8 @@
                     </div>
                 </div>
                 <p class="specialized_info">
-                Our Dangerous Goods moving service uses highly trained specialist teams. Dangerous goods we move include Paints, Chemicals, Flammable Gases, Flammable Liquids and Solids or Corrosives.
+                    Our Dangerous Goods moving service uses highly trained specialist teams. Dangerous goods we move
+                    include Paints, Chemicals, Flammable Gases, Flammable Liquids and Solids or Corrosives.
                 </p>
             </div>
             <!-- <div  class="col-md-2"></div> -->

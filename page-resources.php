@@ -11,7 +11,7 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
                     type="button" role="tab" aria-controls="pills-home" aria-selected="false">Home
-                    Move</button>
+                    Checklist</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-office-tab" data-bs-toggle="pill" data-bs-target="#pills-office"
@@ -83,10 +83,114 @@
             </p>
         </div>
         <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            Home Moves
+            <h4 class="boldText mt-5">Home checklist</h4>
+            <p>
+                <span class="boldText">Change of address</span>
+                1. Postal service and SARS<br />
+                2. Driver’s license and ID book<br />
+                3. Voter registration<br />
+                4. Banks and loans<br />
+                5. Investments and credit cards<br />
+                6. Store credit cards and PayPal<br />
+                7. Automated payments<br />
+                8. Place of employment<br />
+                9. Insurance, doctors, and schools<br />
+                10. Friends and family subscriptions and associations<br /><br />
+
+                <span class="boldText">Services to cancel/transfer</span>
+                1. DSTV / SABC<br />
+                2. Internet and telephone<br />
+                3. Water and electricity<br />
+                4. Trash collection and garden service<br />
+                5. Cleaning service and security response<br /><br />
+                <span class="boldText"> Packing & storage</span>
+                1. Purge unused items<br />
+                2. Reserve truck or movers<br />
+                3. Pack infrequently used items ahead of time<br />
+                4. Family “move kit” for first night in new home<br /><br />
+                <span class="boldText">Organise</span>
+                1. Keep personal and finance documents in one box.<br />
+                2. Update medical records<br />
+                3. Notify old / new schools and arrange transfer<br />
+                4. Keep keys, garage openers in a bag for new owners<br />
+                5. Keep a folder with warranties / manuals for new owners<br />
+                6. Plan meals to use with the consumables you have left<br />
+                7. Keep moving receipts<br /><br />
+                <span class="boldText">Moving day</span>
+                1. Arrange help for kids or pets for the day<br />
+                2. Have cash to tip movers<br />
+                3. Final cleaning. Dispose of trash<br />
+                4. Final walk through<br />
+                5. Turn off all electric appliances and geysers<br />
+                6. Close and lock all doors and windows<br />
+            </p>
         </div>
         <div class="tab-pane fade" id="pills-office" role="tabpanel" aria-labelledby="pills-profile-tab">
-            Office Checklist
+            <h4 class="boldText mt-5">Office checklist</h4>
+            <p>
+                <span class="boldText">Removal company</span>
+                Contact a professional removal company at least one month before your relocation.<br />
+                Have a consultant come out and asses your requirements, information that you should have available
+                for the consultant would be:<br />
+                1. Access at both premises for large vehicles. How many floors/ sections are being moved.<br />
+                2. The time frame and duration that your company has available for the relocation. The packing
+                and removal dates that you have in mind.<br />
+                3. Access to lifts/staircases.<br />
+                4. Packing and wrapping requirements.<br />
+                5. Any abnormal items to be transported (safes, zipper cabinets, boardroom tables, reception
+                counters).<br />
+                6. Dismantling and reassembly requirements.<br />
+                7. A clear list of items not being moved (such as rented printers, pot plants, drinking fountains or
+                servers should your IT department be moving them separately).<br />
+                8. Building specific health and safety requirements (such as PPE or other safety items).
+                Your consultant will have a wealth of experience which they will share you to ensure that the timeline
+                and planning for the removal is realistic and efficient!<br /><br />
+
+                <span class="boldText">Change of address and service notification</span>
+                1. Transfer phone lines<br />
+                2. Transfer post box numbers<br />
+                3. Inform SARS<br />
+                4. Inform local post office<br />
+                5. Inform rates office<br />
+                6. Inform customers<br />
+                7. Inform creditors<br />
+                8. Inform associated partner<br />
+                9. Plan signage removal<br />
+                10. Equipment on load/lease<br />
+                11. Photocopy machines<br />
+                12. Fire hydrant contracts<br />
+                13. Vending/Hydration machines<br />
+                14. Cleaning services<br />
+                15. Magazine and newspaper deliveries<br />
+                16. Security companies<br />
+                17. Access control<br />
+                18. Pot plant maintenance<br /><br />
+
+                <span class="boldText">Internal office moving strategies</span>
+
+                While your consultant will assist you in ironing out a lot of the folds around the process of office
+                removals, we have provided you with a couple of strategies and ideas that you can follow to make the
+                process easier:<br />
+                1. Have floor plans of both sites readily available for planning.<br />
+                2. Make use of clearly marked labels and colour coded stickers to distinguish between
+                departments and floors, by marking items to correspond with the clearly marked rooms at the
+                new premises, you will save a lot of time and effort during the relocation.<br />
+                3. Designate a “lost and found” section at the new premises for any items that may arrive
+                unmarked.<br />
+                4. Provide staff with a box allowance and ensure that they are packed up well in advance. Ensure
+                that you leave enough “down time” for dismantling and reassembly.<br />
+                5. Should you have unused documents, consider offsite storage, ask your removal company to
+                assist.<br />
+                6. Pre order packing material.<br />
+                7. Have your removal consultant provide you with packing tips for your employees, this will ensure
+                that boxes are packed correctly.<br />
+                8. Ask the removal company to include an after service remedial team in their quotation, this will
+                allow you to have assistance in moving around any items that may not fit into their new spot as
+                planned after the relocation has taken place!<br /><br />
+
+                Communication is key to a successful office removal, by planning out an effective strategy, you will
+                ensure that your removal takes place as seamlessly as possible.
+            </p>
         </div>
         <div class="tab-pane fade" id="pills-faq" role="tabpanel" aria-labelledby="pills-contact-tab">
             <h4 class="boldText mt-5">FAQs</h4>

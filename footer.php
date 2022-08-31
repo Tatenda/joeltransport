@@ -84,7 +84,7 @@
                     <br />
                     <ul>
                         <li>Monday - Friday</li>
-                        <li>8am - 5pm</li>
+                        <li>8am - 4.30pm</li>
                     </ul>
 
                     <!-- address -->
@@ -128,13 +128,13 @@
                 <a class="nav_link" href="/contact#contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="/policies#removal_policy">Removal Policy</a>
+                <a class="nav_link" href="/policies">Removal Policy</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="/policies#privacy_policy">Privacy Policy</a>
+                <a class="nav_link" href="/policies">Privacy Policy</a>
             </li>
             <li class="nav-item">
-                <a class="nav_link" href="/resources#terms">Terms & conditions</a>
+                <a class="nav_link" href="/policies">Terms & conditions</a>
             </li>
         </nav>
         <div class="col-12 d-md-none">

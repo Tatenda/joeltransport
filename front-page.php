@@ -48,9 +48,9 @@ include 'hero.php';
                             </div>
                             <div class="card_text">
                                 <ul>
-                                    <li>- 1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bath</li>
-                                    <li>- Est. volume: 1,500 cubic feet/40 items</li>
-                                    <li>- 50km radius of Centurion</li>
+                                    <li>- 1 Bedroom, 1 Lounge, 1 Kitchen, 1 Bathroom</li>
+                                    <li>- Est. contents volume: 500 to 700 cubic feet</li>
+                                    <li>- Move within 60km radius of Centurion</li>
                                 </ul>
                             </div>
                             <div class="card_button">
@@ -77,7 +77,7 @@ include 'hero.php';
                                         <p>starting from</p>
                                     </div>
                                     <div class="card_text">
-                                        <span>R 3,500.00</span>
+                                        <span>R 2,400.00</span>
                                     </div>
                                     <div class="card_text_vat">
                                         <p>excl. VAT</p>
@@ -104,10 +104,10 @@ include 'hero.php';
                                 </div>
                                 <div class="card_text">
                                     <ul>
-                                        <li>- 2 Bedrooms, 1 Lounge, 1 Kitchen, 2 Bathrooms​</li>
-                                        <li>- 1 Extra Room (Small) or Single Garage (Small)​</li>
-                                        <li>- Est. contents volume: 2,000 cubic feet/items</li>
-                                        <li>- Move within 50km radius of Centurion</li>
+                                        <li>- 2 bedrooms, 1 lounge, 1 kitchen, 2 bathrooms​</li>
+                                        <li>- 1 extra room or single garage</li>
+                                        <li>- Est. volume: 800 to 1,500 cubic feet</li>
+                                        <li>- 60km radius of Centurion</li>
                                     </ul>
                                 </div>
                                 <div class="card_button">
@@ -136,7 +136,7 @@ include 'hero.php';
                                         <p>starting from</p>
                                     </div>
                                     <div class="card_text">
-                                        <span>R 3,500.00</span>
+                                        <span>R 4,800.00</span>
                                     </div>
                                     <div class="card_text_vat">
                                         <p>excl. VAT</p>
@@ -165,8 +165,8 @@ include 'hero.php';
                                     <ul>
                                         <li>- 3 bedrooms, 1 lounge, 1 kitchen, 2.5 bath​</li>
                                         <li>- 1 Extra Room & Double Garage​</li>
-                                        <li>- Est. volume: 3,500 cubic feet/70 items</li>
-                                        <li>- 50km radius of Centurion</li>
+                                        <li>- Est. volume: 1,600 to 2000 cubic feet</li>
+                                        <li>- 60km radius of Centurion</li>
                                     </ul>
                                 </div>
                                 <div class="card_button">
@@ -177,54 +177,6 @@ include 'hero.php';
                                 <!-- </div> -->
                             </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 4th card -->
-            <div class="col-md-6 col-lg-4 mobile_off">
-                <div class="box m-2">
-                    <div id="main-card" class="card shadow card_box">
-                        <div class="card_body col-12">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 class="card-title">Office move</h4>
-                                </div>
-                                <div class="col-12 mb-5">
-                                    <p>We undertake large or small office moves, across South
-                                        Africa, or internationall
-                                    </p>
-                                </div>
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-6"></div>
-                                        <div class="col-6 card_button text-right">
-                                            <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill"
-                                                href="/home-moves/" role="button">view</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay px-4 pt-2">
-                            <p class="terms_conditions">
-                                <a href="/policies">T&Cs</a>
-                            </p>
-                            <div class="card_title">
-                                <h4 class="overlay_text_head">Office move</h4>
-                            </div>
-                            <div class="card_text">
-
-                                We have decades of experience in moving SMEs,
-                                medium-sized and corporates and public institutions.
-                                Our office moving services include our scheduling,
-                                insurance, and full packing services
-
-                            </div>
-                            <div class="card_button">
-                                <a name="" id="#card-back-button" class="btn_front btn" href="/quote/" role="button">Get
-                                    a quote</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -281,6 +233,54 @@ include 'hero.php';
                 </div>
                 <!-- 6th box -->
             </div>
+            <!-- 4th card -->
+            <div class="col-md-6 col-lg-4 mobile_off">
+                <div class="box m-2">
+                    <div id="main-card" class="card shadow card_box">
+                        <div class="card_body col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4 class="card-title">Office move</h4>
+                                </div>
+                                <div class="col-12 mb-5">
+                                    <p>We undertake large or small office moves, across South
+                                        Africa, or internationall
+                                    </p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6"></div>
+                                        <div class="col-6 card_button text-right">
+                                            <a name="" id="#card-front-buttton" class="btn btn_view rounded-pill"
+                                                href="/home-moves/" role="button">view</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="overlay px-4 pt-2">
+                            <p class="terms_conditions">
+                                <a href="/policies">T&Cs</a>
+                            </p>
+                            <div class="card_title">
+                                <h4 class="overlay_text_head">Office move</h4>
+                            </div>
+                            <div class="card_text">
+
+                                We have decades of experience in moving SMEs,
+                                medium-sized and corporates and public institutions.
+                                Our office moving services include our scheduling,
+                                insurance, and full packing services
+
+                            </div>
+                            <div class="card_button">
+                                <a name="" id="#card-back-button" class="btn_front btn" href="/contact"
+                                    role="button">Contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-6 col-lg-4 mobile_off">
                 <div id="main-card" class="box m-2">
                     <div class="card shadow card_box">
@@ -292,14 +292,13 @@ include 'hero.php';
                                 <h4>Storage</h4>
                             </div>
                             <div class="overlay_description_text">
-                                We safely store your furniture & belongings in
-                                crates at our Gauteng facilities, for transit, short
-                                and long-term periods. On request we pack,
+                                We safely store your furniture & belongings in crates or wooden pallet boxes at our
+                                Gauteng facilities, for transit, short and long-term periods. On request we pack,
                                 collect & deliver to our facilities.
                             </div>
                             <div class="card_button">
                                 <a name="" id="card-back-button" class="btn btn_front" href="/contact"
-                                    role="button">contact us</a>
+                                    role="button">Contact us</a>
                             </div>
                         </div>
                         <div class="card_body col-12">
@@ -313,7 +312,7 @@ include 'hero.php';
                                 <p>starting from</p>
                             </div>
                             <div class="card_text">
-                                <span>R 402.50</span>
+                                <span>R 350.00 per month</span>
                             </div>
                             <div class="card_text_vat">
                                 <p>excl. VAT</p>
@@ -439,7 +438,7 @@ include 'hero.php';
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="services_item">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail_storage_320px-_-320px.jpg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Home _ Office Storage image-600px x 400px.jpg"
                         alt="" />
                     <div class="item_title">
                         <p>Storage</p>

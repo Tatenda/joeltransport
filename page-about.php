@@ -45,8 +45,8 @@
             </div>
             <div class="col-md-5">
                 <div class="about_img">
-                    <img src="https://joeltransport.co.za/wp-content/uploads/2022/08/Thumbnail-home-and-office-600.jpg"
-                        alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/About image-600px x 400px.jpg"
+                        alt="About Image" />
                 </div>
             </div>
         </div>
