@@ -23,100 +23,6 @@
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-removal" role="tabpanel" aria-labelledby="pills-removal-tab">
             <h4 class="boldText mt-5">Removal policies</h4>
-        </div>
-        <div class="tab-pane fade show" id="pills-policies" role="tabpanel" aria-labelledby="pills-policies-tab">
-            <h4 class="boldText mt-5">Privacy policies</h4>
-            <p>
-                Joel Transport is committed to ensuring that your privacy is protected. Should we ask you to provide
-                certain information by which you can be identified when using this website, then you can be assured that
-                it will only be used in accordance with this privacy statement. Joel Transport may change this policy
-                from time to time by updating this page. You should check this page from time to time to ensure that you
-                are happy with any changes. This policy is effective from 1-1-2018.<br /><br />
-
-                <span class="boldText">What we collect</span>
-                We may collect the following information:<br />
-
-                - Name and job title<br />
-                - Contact information including email address<br />
-                - Demographic information such as postcode, preferences and interests<br />
-                - Other information relevant to customer surveys and/or offers<br /><br />
-                <span class="boldText">What we do with the information we gather</span>
-                We require this information to understand your needs and provide you with a better service, and in
-                particular for the following reasons:<br />
-
-                - Internal record keeping.<br />
-                - We may use the information to improve our products and services.<br />
-                - We may periodically send promotional email about new products, special offers or other information
-                which
-                we think you may find interesting using the email address which you have provided.<br />
-                - From time to time, we may also use your information to contact you for market research purposes.
-                We may
-                contact you by email, phone, fax or mail.<br />
-                - We may use the information to customize the website according to your interests.<br />
-                - We may provide your information to our third party partners for marketing or promotional
-                purposes.<br />
-                - We will never sell your information.<br /><br />
-                <span class="boldText">Security</span>
-                We are committed to ensuring that your information is secure. In order to prevent unauthorized
-                access or
-                disclosure we have put in place suitable physical, electronic and managerial procedures to safeguard
-                and
-                secure the information we collect online.<br /><br />
-
-                <span class="boldText">How we use cookies</span>
-                A cookie is a small file which asks permission to be placed on your computer’s hard drive. Once you
-                agree, the file is added and the cookie helps analyze web traffic or lets you know when you visit a
-                particular site. Cookies allow web applications to respond to you as an individual. The web
-                application can tailor its operations to your needs, likes and dislikes by gathering and remembering
-                information
-                about your preferences.<br /><br />
-
-                We use traffic log cookies to identify which pages are being used. This helps us analyze data about
-                web page traffic and improve our website in order to tailor it to customer needs. We only use this
-                information for statistical analysis purposes and then the data is removed from the system.<br /><br />
-
-                Overall, cookies help us provide you with a better website, by enabling us to monitor which pages
-                you find useful and which you do not. A cookie in no way gives us access to your computer or any
-                information about you, other than the data you choose to share with us. <br /><br />
-
-                You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you
-                can usually modify your browser setting to decline cookies if you prefer. This may prevent you from
-                taking full advantage of the website.<br /><br />
-
-                <span class="boldText">Links to other websites</span>
-                Our website may contain links to enable you to visit other websites of interest easily. However,
-                once
-                you have used these links to leave our site, you should note that we do not have any control over
-                that
-                other website. Therefore, we cannot be responsible for the protection and privacy of any information
-                which you provide whilst visiting such sites and such sites are not governed by this privacy
-                statement.
-                You should exercise caution and look at the privacy statement applicable to the website in
-                question.<br /><br />
-
-                <span class="boldText"> Controlling your personal information</span>
-                You may choose to restrict the collection or use of your personal information in the following ways:
-                Whenever you are asked to fill in a form on the website, look for the box that you can click to
-                indicate
-                that you do not want the information to be used by anybody for direct marketing purposes. If you
-                have
-                previously agreed to us using your personal information for direct marketing purposes, you may
-                change
-                your mind at any time by writing to or emailing us at info@joeltransport.co.za. We will not sell,
-                distribute or lease your personal information to third parties unless we have your permission or are
-                required by law. We may use your personal information to send you promotional information about
-                third
-                parties which we think you may find interesting if you tell us that you wish this to happen. You may
-                request details of personal information which we hold about you under the Data Protection Act 1998.
-                A
-                small fee will be payable. If you would like a copy of the information held on you please write to
-                info@joeltransport.co.za. If you believe that any information we are holding on you is incorrect or
-                incomplete, please write to or email us as soon as possible, at the above address. We will promptly
-                correct any information found to be incorrect.
-            </p>
-        </div>
-        <div class="tab-pane fade show" id="pills-terms" role="tabpanel" aria-labelledby="pills-terms-tab">
-            <h4 class="boldText mt-5">Terms & conditions</h4>
             <p>
                 <span class="boldText">Conditions upon which property is removed, packed or warehoused by Joel Transport
                     (Pty) Ltd.</span>
@@ -283,6 +189,112 @@
                 Account Number: 55291136544<br />
                 Funds paid to any other banking account will not be accepted as payment by us.<br />
             </p>
+        </div>
+        <div class="tab-pane fade show" id="pills-policies" role="tabpanel" aria-labelledby="pills-policies-tab">
+            <h4 class="boldText mt-5">Privacy policies</h4>
+            <p>
+                Joel Transport is committed to ensuring that your privacy is protected. Should we ask you to provide
+                certain information by which you can be identified when using this website, then you can be assured that
+                it will only be used in accordance with this privacy statement. Joel Transport may change this policy
+                from time to time by updating this page. You should check this page from time to time to ensure that you
+                are happy with any changes. This policy is effective from 1-1-2018.<br /><br />
+
+                <span class="boldText">What we collect</span>
+                We may collect the following information:<br />
+
+                - Name and job title<br />
+                - Contact information including email address<br />
+                - Demographic information such as postcode, preferences and interests<br />
+                - Other information relevant to customer surveys and/or offers<br /><br />
+                <span class="boldText">What we do with the information we gather</span>
+                We require this information to understand your needs and provide you with a better service, and in
+                particular for the following reasons:<br />
+
+                - Internal record keeping.<br />
+                - We may use the information to improve our products and services.<br />
+                - We may periodically send promotional email about new products, special offers or other information
+                which
+                we think you may find interesting using the email address which you have provided.<br />
+                - From time to time, we may also use your information to contact you for market research purposes.
+                We may
+                contact you by email, phone, fax or mail.<br />
+                - We may use the information to customize the website according to your interests.<br />
+                - We may provide your information to our third party partners for marketing or promotional
+                purposes.<br />
+                - We will never sell your information.<br /><br />
+                <span class="boldText">Security</span>
+                We are committed to ensuring that your information is secure. In order to prevent unauthorized
+                access or
+                disclosure we have put in place suitable physical, electronic and managerial procedures to safeguard
+                and
+                secure the information we collect online.<br /><br />
+
+                <span class="boldText">How we use cookies</span>
+                A cookie is a small file which asks permission to be placed on your computer’s hard drive. Once you
+                agree, the file is added and the cookie helps analyze web traffic or lets you know when you visit a
+                particular site. Cookies allow web applications to respond to you as an individual. The web
+                application can tailor its operations to your needs, likes and dislikes by gathering and remembering
+                information
+                about your preferences.<br /><br />
+
+                We use traffic log cookies to identify which pages are being used. This helps us analyze data about
+                web page traffic and improve our website in order to tailor it to customer needs. We only use this
+                information for statistical analysis purposes and then the data is removed from the system.<br /><br />
+
+                Overall, cookies help us provide you with a better website, by enabling us to monitor which pages
+                you find useful and which you do not. A cookie in no way gives us access to your computer or any
+                information about you, other than the data you choose to share with us. <br /><br />
+
+                You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you
+                can usually modify your browser setting to decline cookies if you prefer. This may prevent you from
+                taking full advantage of the website.<br /><br />
+
+                <span class="boldText">Links to other websites</span>
+                Our website may contain links to enable you to visit other websites of interest easily. However,
+                once
+                you have used these links to leave our site, you should note that we do not have any control over
+                that
+                other website. Therefore, we cannot be responsible for the protection and privacy of any information
+                which you provide whilst visiting such sites and such sites are not governed by this privacy
+                statement.
+                You should exercise caution and look at the privacy statement applicable to the website in
+                question.<br /><br />
+
+                <span class="boldText"> Controlling your personal information</span>
+                You may choose to restrict the collection or use of your personal information in the following ways:
+                Whenever you are asked to fill in a form on the website, look for the box that you can click to
+                indicate
+                that you do not want the information to be used by anybody for direct marketing purposes. If you
+                have
+                previously agreed to us using your personal information for direct marketing purposes, you may
+                change
+                your mind at any time by writing to or emailing us at info@joeltransport.co.za. We will not sell,
+                distribute or lease your personal information to third parties unless we have your permission or are
+                required by law. We may use your personal information to send you promotional information about
+                third
+                parties which we think you may find interesting if you tell us that you wish this to happen. You may
+                request details of personal information which we hold about you under the Data Protection Act 1998.
+                A
+                small fee will be payable. If you would like a copy of the information held on you please write to
+                info@joeltransport.co.za. If you believe that any information we are holding on you is incorrect or
+                incomplete, please write to or email us as soon as possible, at the above address. We will promptly
+                correct any information found to be incorrect.
+            </p>
+        </div>
+        <div class="tab-pane fade show" id="pills-terms" role="tabpanel" aria-labelledby="pills-terms-tab">
+            <h4 class="boldText mt-5">Terms & conditions</h4>
+            <p>Joel Transport endeavors to ensure the accuracy and reliability of the website and the content, materials
+                and products included and available on the website but because of the responsibility of human and
+                mechanical error as well as other factors, to the extent of law, Joel Transport does not, whether
+                expressly, tacitly or implicitly, represent, warrant or in any way guarantee the availability, truth
+                accuracy, completeness or reliability of such information or that it is always up to date.<br /><br />
+
+                The circumstances, and to the extent allowed by law, neither Joel Transport, nor its directors,
+                officers, employees, contractors, agents or representatives are liable in any way for loss or damages as
+                a result of the use of or reliance on information provided on the website. The above wording limits and
+                exclude obligations, liabilities and legal responsibilities of Joel Transport and also limits and
+                excludes your rights and remedies and place various risk, liabilities, obligations and legal
+                responsibilities on you.</p>
         </div>
     </div>
 </div>

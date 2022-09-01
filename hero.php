@@ -1,5 +1,5 @@
 <div class="slider d-none d-md-block">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active indic"
                 aria-current="true" aria-label="Slide 1">
@@ -24,18 +24,18 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/Storage Hero Image-2500px x 800px.jpg"
+                <img src="<?php echo get_template_directory_uri(); ?>/img/Hero image 2_2500px x 800px.jpg"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h6 class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
                         <br />Its truly
                         stress-free and fun
-                        with us.<br /> Enjoy the move! ​​
+                        with us.<br /><br /> ENJOY THE MOVE! ​​
                     </h6>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/Storage Hero Image-2500px x 800px.jpg"
+                <img src="<?php echo get_template_directory_uri(); ?>/img/Hero_image_1_2500px_x_800px.jpg"
                     class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h6 class="hero_text">We have +50 years’ moving, storage and happy customer experiences.
